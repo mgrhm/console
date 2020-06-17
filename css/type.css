@@ -6,30 +6,35 @@ body {
     }
 
 h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
         font-size: 26pt;
         font-weight: 700;
         line-height: 32pt;
     }
 
 h2 {
+        font-family: 'IBM Plex Sans', sans-serif;
         font-size: 22pt;
         font-weight: 700;
         line-height: 28pt;
     }
 
 h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
         font-size: 18pt;
         font-weight: 700;
         line-height: 24pt;
     }
 
 h4 {
+        font-family: 'IBM Plex Sans', sans-serif;
         font-size: 16pt;
         font-weight: 700;
         line-height: 22pt;
     }
 
 h5 {
+        font-family: 'IBM Plex Sans', sans-serif;
         font-size: 14pt;
         font-weight: 700;
         line-height: 20pt;
