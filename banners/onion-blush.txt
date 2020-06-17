@@ -25,5 +25,5 @@
                         Text:        #130303  "Xiketic"
                         Links:       #ff7b00  "Orange Samson"
                         Hover:       #d64045  "English Vermillion"
-                        Highlight:   #9a8f97  "Taupe Gray"
-                        :x
+                        Highlight:   #ffa69e  "Vivid Tangerine"
+                        Subheds:     #9a8f97  "Taupe Gray"
