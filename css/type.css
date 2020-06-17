@@ -2,31 +2,31 @@ body {
         font-size: 14pt;
         font-weight: 400;
         font-family: 'IBM Plex Serif', serif;
-        line-height: 20pt;
+        line-height: 22pt;
     }
 
 h1 {
         font-size: 26pt;
         font-weight: 700;
-        line-height: 30pt;
+        line-height: 32pt;
     }
 
 h2 {
         font-size: 22pt;
         font-weight: 700;
-        line-height: 26pt;
+        line-height: 28pt;
     }
 
 h3 {
         font-size: 18pt;
         font-weight: 700;
-        line-height: 22pt;
+        line-height: 24pt;
     }
 
 h4 {
         font-size: 16pt;
         font-weight: 700;
-        line-height: 20pt;
+        line-height: 22pt;
     }
 
 h5 {
@@ -34,3 +34,15 @@ h5 {
         font-weight: 700;
         line-height: 20pt;
     }
+
+
+p+p {
+        margin-top: -10pt;
+        text-indent: 28pt;
+    }
+
+
+abbr {
+        border-bottom: 1px dotted #9a8f97;
+    }
+
