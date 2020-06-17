@@ -1,0 +1,17 @@
+
+a {
+        color: #ff7b00;                             /* Orange Samson! */
+        font-family: 'IBM Plex Sans',
+                      sans-serif;   /* Add a bigger stack if you want.*/
+        font-weight: 500;            /* Heavier to increase contrast. */
+        text-decoration: none;
+        border-bottom: 2px solid #ff7b00;
+        padding-left: 1pt;      /* Just a tiny bit of breathing room. */
+        padding-right: 1pt;     /* Just a tiny bit of breathing room. */
+    }
+
+a:hover {
+        color: #d64045;
+        border-bottom: 1px solid;
+        background: #ffa69e;    /* I think this looks great.  Do you? */
+    }
