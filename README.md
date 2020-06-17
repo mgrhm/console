@@ -1,7 +1,7 @@
 # Pickled Onion Theme
 
 Pickled Onion is a Hugo theme, built from scratch, for [Onion
-Samson[(https://onionsamson.com).
+Samson](https://onionsamson.com).
 
 It has three primary design goals:
 
