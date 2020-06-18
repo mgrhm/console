@@ -127,7 +127,7 @@ pre {
         font-family: 'IBM Plex Mono',
                       monospace;
         font-weight: 400;
-        /* I shrunk the font a bit and tightened line spacing because 
+        /* I shrunk the font a bit and tightened line spacing because
          * monospaced fonts are super legible.
          */
         font-size: 12pt;
@@ -147,6 +147,27 @@ pre {
         padding-bottom: 12pt;
     }
 
+pre.retro {
+        /* This was meant a bit of a lark, but, now I've done it, I
+         * don't think it looks too bad.  I've just discovered by
+         * testing this that you can roll custom <pre> styles really
+         * easily.  You could, basically, do one for each style of
+         * computer to match that  computer -- Amiga, DOS, etc.  This
+         * one is kind of a generic amber-on-black CRT look.  Alas, I
+         * Orange Samson and it was too dark to capture the feel.
+         */
+        font-family: 'VT323',
+                      monospace;
+        font-size: 18pt;
+        line-height: 18pt;
+        margin-right: 24pt;
+        border: 16pt solid #9a8f97;           /* Heliotrope Grey */
+        color: orange;
+        background: black;
+        padding-right: 12pt;
+        padding-top: 12pt;
+        padding-bottom: 12pt;
+    }
 
 
 
