@@ -102,12 +102,7 @@ blockquote em {
 
 p+p {
         /* This indents subsequent paragraphs by twice font height. */
-        margin-top: -10pt;
-        text-indent: 28pt;
-    }
-
-blockquote+p {
-        /* Indents paragraph following a blockquote. */
+        margin-top: -10pt;   /* Reduces gap between two paragraphs. */
         text-indent: 28pt;
     }
 
@@ -128,11 +123,10 @@ pre {
                       monospace;
         font-weight: 400;
         /* I shrunk the font a bit and tightened line spacing because
-         * monospaced fonts are super legible.
+         * monospaced fonts are super legible at smaller sizes.
          */
         font-size: 12pt;
         line-height: 16pt;
-        margin-right: 24pt;
         border-left: 10pt solid #9a8f97;           /* Heliotrope Grey */
         background: rgba(154, 143, 151, 0.4);
         /* This background colour for the blockquote is 40% opacity of
@@ -142,6 +136,7 @@ pre {
          * this RGB value.  I got this from Stack Overflow here:
          * https://stackoverflow.com/a/5135033
          */
+        margin-right: 24pt;
         padding-right: 12pt;
         padding-top: 12pt;
         padding-bottom: 12pt;
@@ -160,10 +155,10 @@ pre.retro {
                       monospace;
         font-size: 18pt;
         line-height: 18pt;
-        margin-right: 24pt;
         border: 16pt solid #9a8f97;           /* Heliotrope Grey */
         color: orange;
         background: black;
+        margin-right: 24pt;
         padding-right: 12pt;
         padding-top: 12pt;
         padding-bottom: 12pt;
@@ -175,10 +170,10 @@ pre.dos {
         font-size: 14pt;
         line-height: 14pt;
         letter-spacing: 1px;                /* Too smushed otherwise. */
-        margin-right: 24pt;
         border: 16pt solid #9a8f97;           /* Heliotrope Grey */
         color: gray;
         background: black;
+        margin-right: 24pt;
         padding-right: 12pt;
         padding-top: 12pt;
         padding-bottom: 12pt;
@@ -189,10 +184,10 @@ pre.amiga {
                       monospace;
         font-size: 18pt;
         line-height: 18pt;
-        margin-right: 24pt;
         border: 16pt solid #9a8f97;           /* Heliotrope Grey */
         color: white;
         background: blue;
+        margin-right: 24pt;
         padding-right: 12pt;
         padding-top: 12pt;
         padding-bottom: 12pt;
@@ -203,4 +198,3 @@ pre.amiga {
 abbr {
         border-bottom: 1px dotted #9a8f97;
     }
-
