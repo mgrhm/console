@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "TopazNew";
+  src: url("./fonts/Topaznew.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Topaznew.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Topaznew.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Topaznew.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Topaznew.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Topaznew.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Topaznew.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
