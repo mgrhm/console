@@ -6,8 +6,8 @@ a {
         font-weight: 500;            /* Heavier to increase contrast. */
         text-decoration: none;
         border-bottom: 2px solid #ff7b00;
-        padding-left: 1pt;      /* Just a tiny bit of breathing room. */
-        padding-right: 1pt;     /* Just a tiny bit of breathing room. */
+        margin-left: 2pt;       /* Just a tiny bit of breathing room. */
+        margin-right: 2pt;      /* Just a tiny bit of breathing room. */
     }
 
 a:hover {
