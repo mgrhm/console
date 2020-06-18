@@ -26,5 +26,5 @@
                          Text:        #f9e0d9  "Misty Rose"
                          Links:       #ff7b00  "Orange Samson"
                          Hover:       #ffa69e  "Vivid Tangerine"
-                         Highlight:   #9a8f97  "Taupe Gray"
+                         Highlight:   #9a8f97  "Heliotrope Gray"
                          Subheds:     #d64045  "English Vermillion"

@@ -26,4 +26,4 @@
                         Links:       #ff7b00  "Orange Samson"
                         Hover:       #d64045  "English Vermillion"
                         Highlight:   #ffa69e  "Vivid Tangerine"
-                        Subheds:     #9a8f97  "Taupe Gray"
+                        Subheds:     #9a8f97  "Heliotrope Gray"
