@@ -169,7 +169,33 @@ pre.retro {
         padding-bottom: 12pt;
     }
 
+pre.dos {
+        font-family: 'VT323',
+                      monospace;
+        font-size: 18pt;
+        line-height: 18pt;
+        margin-right: 24pt;
+        border: 16pt solid #9a8f97;           /* Heliotrope Grey */
+        color: gray;
+        background: black;
+        padding-right: 12pt;
+        padding-top: 12pt;
+        padding-bottom: 12pt;
+    }
 
+pre.amiga {
+        font-family: 'VT323',
+                      monospace;
+        font-size: 18pt;
+        line-height: 18pt;
+        margin-right: 24pt;
+        border: 16pt solid #9a8f97;           /* Heliotrope Grey */
+        color: white;
+        background: blue;
+        padding-right: 12pt;
+        padding-top: 12pt;
+        padding-bottom: 12pt;
+    }
 
 
 
