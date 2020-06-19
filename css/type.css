@@ -165,7 +165,7 @@ pre.retro {
     }
 
 pre.dos {
-        font-family: 'PxPlusIBMVGA8',
+        font-family: "PxPlusIBMVGA8",
                       monospace;
         font-size: 14pt;
         line-height: 14pt;
@@ -180,7 +180,7 @@ pre.dos {
     }
 
 pre.amiga {
-        font-family: 'VT323',
+        font-family: "Topaz New",
                       monospace;
         font-size: 18pt;
         line-height: 18pt;
