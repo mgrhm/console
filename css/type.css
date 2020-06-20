@@ -168,7 +168,7 @@ pre.dos {
         font-family: "PxPlusIBMVGA8",
                       monospace;
         font-size: 14pt;
-        line-height: 14pt;
+        line-height: 18pt;
         letter-spacing: 1px;                /* Too smushed otherwise. */
         border: 16pt solid #9a8f97;           /* Heliotrope Grey */
         color: gray;
@@ -182,7 +182,7 @@ pre.dos {
 pre.amiga {
         font-family: "Topaz New",
                       monospace;
-        font-size: 18pt;
+        font-size: 14pt;
         line-height: 18pt;
         border: 16pt solid #9a8f97;           /* Heliotrope Grey */
         color: white;
