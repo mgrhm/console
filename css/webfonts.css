@@ -45,6 +45,32 @@
        }
 
    @font-face {
+       font-family: 'IBM Plex Serif';
+       font-style: normal;
+       font-weight: 500;
+       font-display: swap;
+       src: local('IBM Plex Serif Medium'),
+            local('IBMPlexSerif-Medium'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500.woff2) format('woff2'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500.woff)  format('woff'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500.ttf)   format('truetype'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500.eot)   format('embedded-opentype');
+       }
+
+   @font-face {
+       font-family: 'IBM Plex Serif';
+       font-style: italic;
+       font-weight: 500;
+       font-display: swap;
+       src: local('IBM Plex Serif Medium Italic'),
+            local('IBMPlexSerif-MediumItalic'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.woff2) format('woff2'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.woff)  format('woff'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.ttf)   format('truetype'),
+            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.eot)   format('embedded-opentype');
+       }
+
+   @font-face {
        font-family: 'IBM Plex Serif Bold';
        font-style: normal;
        font-weight: 700;
