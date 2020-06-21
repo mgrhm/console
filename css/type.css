@@ -165,7 +165,7 @@ pre.retro {
     }
 
 pre.amiga {
-        font-family: "Amiga Topaz",
+        font-family: 'Amiga Topaz',
                       monospace;
         font-size: 14pt;
         line-height: 18pt;		 /* Too crushed at 14pt. */
@@ -185,7 +185,7 @@ pre.amiga {
     }
 
 pre.dos {
-        font-family: "PxPlusIBMVGA8",
+        font-family: 'PxPlusIBMVGA8',
                       monospace;
         font-size: 14pt;
         line-height: 18pt;
