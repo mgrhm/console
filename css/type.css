@@ -191,8 +191,16 @@ pre.dos {
         line-height: 18pt;
         letter-spacing: 1px;                /* Too smushed otherwise. */
         border: 16pt solid #9a8f97;           /* Heliotrope Grey */
-        color: gray;
-        background: black;
+/*  Colours used for DOS code are taken from this image on Wikipedia:
+ *  https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png
+ *  Unlike the Amiga code, where I changed the text colour to give it a
+ *  bit more inauthentic 'authenticity', I haven't changed the text or
+ *  background colour here: they're both exactly as they are in the
+ *  screenshot I sourced them from.  Maybe, as a DOS refugee, a latent
+ *  sense of nostalgia stopped me from tampering?
+ */
+        color: #a8a8a8;
+        background: #000000;
         margin-right: 24pt;
         padding-right: 12pt;
         padding-top: 12pt;
