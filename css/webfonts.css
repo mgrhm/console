@@ -257,6 +257,33 @@
  *  Specific fonts for specific retro codeblocks.
  */
 
+/*
+ *  Amiga Topaz is the font used for Amiga code blocks.
+ *
+ *  This font was made by Patrick Lauke (redux) in 2012 and is licensed 
+ *  under Creative Commons Attribution-Unported 3.0 License:
+ *  http://creativecommons.org/licenses/by/3.0/
+ *
+ *  It's available to download from Fontstruct here:
+ *  http://fontstruct.com/fontstructions/show/675155
+ *
+ *  This font's license does not extend to any other parts of this website.
+ *
+ *  Webfonts made by koralatov with https://www.font-converter.net/en
+ */
+
+    @font-face {
+        font-family: 'Amiga Topaz';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        src: local('Topaz New'),
+             url('https://onionsamson.com/fonts/systems/amiga.woff2') format('woff2'),
+             url('https://onionsamson.com/fonts/systems/amiga.woff')  format('woff'),
+             url('https://onionsamson.com/fonts/systems/amiga.ttf')   format('truetype'),
+             url('https://onionsamson.com/fonts/systems/amiga.eot')   format('embedded-opentype');
+}
+
 /* 
  *  PxPlusIBMVGA8 is the font used for DOS code blocks.
  *
@@ -284,29 +311,31 @@
              url('https://onionsamson.com/fonts/systems/dos.eot')   format('embedded-opentype');
 }
 
-/*
- *  Amiga Topaz is the font used for Amiga code blocks.
- *
- *  This font was made by Patrick Lauke (redux) in 2012 and is licensed 
- *  under Creative Commons Attribution-Unported 3.0 License:
- *  http://creativecommons.org/licenses/by/3.0/
- *
- *  It's available to download from Fontstruct here:
- *  http://fontstruct.com/fontstructions/show/675155
+/* 
+ *  VT323 is the font used for generic 'retro' code blocks.
+ *  
+ *  This font was made by Peter Hull who says it "was created from the
+ *  glyphs of the DEC VT320 text terminal, which I used in college, and
+ *  for which I have retained an unaccountable nostalgia."       
+ * 
+ *  You can read a little more about this font's creation at its page 
+ *  on Google Fonts: https://fonts.google.com/specimen/VT323#about
+ *  It's also available to download from that page.
+ *  
+ *  This font is licensed under the SIL Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  *
  *  This font's license does not extend to any other parts of this website.
- *
- *  Webfonts made by koralatov with https://www.font-converter.net/en
- */
 
     @font-face {
-        font-family: 'Amiga Topaz';
-        font-weight: normal;
+        font-family: 'VT323';
+        font-weight: 400;
         font-style: normal;
         font-display: swap;
-        src: local('Topaz New'),
-             url('https://onionsamson.com/fonts/systems/amiga.woff2') format('woff2'),
-             url('https://onionsamson.com/fonts/systems/amiga.woff')  format('woff'),
-             url('https://onionsamson.com/fonts/systems/amiga.ttf')   format('truetype'),
-             url('https://onionsamson.com/fonts/systems/amiga.eot')   format('embedded-opentype');
+        src: local('VT323 Regular'),
+             local('VT323-Regular'),
+             url('https://onionsamson.com/fonts/systems/retro.woff2') format('woff2'),
+             url('https://onionsamson.com/fonts/systems/retro.woff')  format('woff'),
+             url('https://onionsamson.com/fonts/systems/retro.ttf')   format('truetype'),
+             url('https://onionsamson.com/fonts/systems/retro.eot')   format('embedded-opentype');
 }
