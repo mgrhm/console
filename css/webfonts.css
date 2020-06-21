@@ -7,8 +7,9 @@
  ╚███╔███╔╝███████╗██████╔╝    ██║     ╚██████╔╝██║ ╚████║   ██║   ███████║
   ╚══╝╚══╝ ╚══════╝╚═════╝     ╚═╝      ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝
 
-    ONIONSAMSON.COM uses IBM Plex Sans, IBM Plex Serif, and IBM Plex Mono.
-      These are all served locally, in accordance with their licenses.
+		 ONIONSAMSON.COM serves all its own webfonts.
+	      These are used in accordance with their licenses.
+               License details are included in this CSS file.
 */
 
 /*  
@@ -16,6 +17,8 @@
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ╚═╗║╣ ╠╦╝║╠╣     
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╚═╝╚═╝╩╚═╩╚ 
  *  IBM Plex Serif: Primary body text font.
+ *  This font is licensed under the SIL Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  */
 
    @font-face {
@@ -102,6 +105,8 @@
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ╚═╗╠═╣║║║╚═╗
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╚═╝╩ ╩╝╚╝╚═╝
  *  IBM Plex Sans: Link and headings font.
+ *  This font is licensed under the SIL Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  */
 
    @font-face {
@@ -188,6 +193,8 @@
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ║║║║ ║║║║║ ║
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╩ ╩╚═╝╝╚╝╚═╝
  *  IBM Plex Mono: Standard monospaced/code font.
+ *  This font is licensed under the SIL Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  */
 
    @font-face {
@@ -251,10 +258,18 @@
  */
 
 /* 
- *  PxPlusIBMVGA8 is the font used for DOS code.
- *  It's from the Oldschool PC Font Resource website, which is here:
+ *  PxPlusIBMVGA8 is the font used for DOS code blocks.
+ *
+ *  This font was made by VileR in 2016 and is licensed under a
+ *  Creative Commons Attribution-ShareAlike 4.0 International License
+ *  https://creativecommons.org/licenses/by-sa/4.0/
+ *
+ *  It's available to download from the Oldschool PC Font Resource here:
  *  https://int10h.org/oldschool-pc-fonts/fontlist/
- *  Webfonts created using https://www.font-converter.net/en
+ *
+ *  This font's license does not extend to any other parts of this website.
+ *
+ *  Webfonts made by koralatov with https://www.font-converter.net/en
  */
 
     @font-face {
@@ -269,16 +284,19 @@
              url('https://onionsamson.com/fonts/systems/dos.eot')   format('embedded-opentype');
 }
 
-/* 
- * Amiga Topaz is the font used for Amiga code.
- * It was made by Patrick Lauke, and is available to download here:
- * http://fontstruct.com/fontstructions/show/675155) by Patrick
- * 
- * It is licensed under a Creative Commons Attribution license:
- * http://creativecommons.org/licenses/by/3.0/  
- * This license does not extend to any other parts of this website.
+/*
+ *  Amiga Topaz is the font used for Amiga code blocks.
  *
- * Webfonts created using https://www.font-converter.net/en
+ *  This font was made by Patrick Lauke (redux) in 2012 and is licensed 
+ *  under Creative Commons Attribution-Unported 3.0 License:
+ *  http://creativecommons.org/licenses/by/3.0/
+ *
+ *  It's available to download from Fontstruct here:
+ *  http://fontstruct.com/fontstructions/show/675155
+ *
+ *  This font's license does not extend to any other parts of this website.
+ *
+ *  Webfonts made by koralatov with https://www.font-converter.net/en
  */
 
     @font-face {
