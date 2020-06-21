@@ -168,10 +168,16 @@ pre.amiga {
         font-family: "Amiga Topaz",
                       monospace;
         font-size: 14pt;
-        line-height: 18pt;
+        line-height: 18pt;		 /* Too crushed at 14pt. */
         border: 16pt solid #9a8f97;           /* Heliotrope Grey */
-        color: white;
-        background: blue;
+/*  Colours used for Amiga code are taken from this image on Wikipedia:
+ *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
+ *  Rather than use true #ffffff white, I chose one of the very slightly
+ *  blended blue/whites from the screenshot for the text colour.  This 
+ *  reduces contrast a little and gives it a more 'authentic' feel.
+ */
+        color: #e5ecf5;
+        background: #0255aa;
         margin-right: 24pt;
         padding-right: 12pt;
         padding-top: 12pt;
