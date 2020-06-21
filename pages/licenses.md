@@ -20,9 +20,12 @@ The following webfonts used on `onionsamson.com` are licensed under the
 [SIL Open Font
 License](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web):
 
-* [IBM Plex Mono](https://www.ibm.com/plex/) by Mike Abbink, IBM, and Bold Monday
-* [IBM Plex Serif](https://www.ibm.com/plex/) by Mike Abbink, IBM, and Bold Monday
-* [IBM Plex Sans](https://www.ibm.com/plex/) by Mike Abbink, IBM, and Bold Monday
+* [IBM Plex Mono](https://www.ibm.com/plex/) by Mike Abbink and Bold
+   Monday for IBM
+* [IBM Plex Serif](https://www.ibm.com/plex/) by Mike Abbink and Bold
+   Monday for IBM
+* [IBM Plex Sans](https://www.ibm.com/plex/) by Mike Abbink and Bold
+   Monday for IBM
 * [Pacifico](https://fonts.google.com/specimen/Pacifico) by Vernon Adams
 * [VT232](https://fonts.google.com/specimen/VT323) by Peter Hull
 
