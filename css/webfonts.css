@@ -16,9 +16,16 @@
  *  ╦╔╗ ╔╦╗  ╔═╗╦  ╔═╗═╗ ╦  ╔═╗╔═╗╦═╗╦╔═╗
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ╚═╗║╣ ╠╦╝║╠╣     
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╚═╝╚═╝╩╚═╩╚ 
- *  IBM Plex Serif: Primary body text font.
- *  This font is licensed under the SIL Open Font License:
+ *  IBM Plex Serif is the font used for body text.     
+ *
+ *  You can read more about this font and its design at IBM's website:
+ *  https://www.ibm.com/plex/
+ *
+ *  This font was made for IBM by Mike Abbink and Bold Monday, and is
+ *  licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+ *
+ *  This font's license does not extend to any other parts of this website.
  */
 
    @font-face {
@@ -104,9 +111,16 @@
  *  ╦╔╗ ╔╦╗  ╔═╗╦  ╔═╗═╗ ╦  ╔═╗╔═╗╔╗╔╔═╗
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ╚═╗╠═╣║║║╚═╗
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╚═╝╩ ╩╝╚╝╚═╝
- *  IBM Plex Sans: Link and headings font.
- *  This font is licensed under the SIL Open Font License:
+ *  IBM Plex Serif is the font used for links and headings.     
+ *
+ *  You can read more about this font and its design at IBM's website:
+ *  https://www.ibm.com/plex/
+ *
+ *  This font was made for IBM by Mike Abbink and Bold Monday, and is
+ *  licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+ *
+ *  This font's license does not extend to any other parts of this website.
  */
 
    @font-face {
@@ -192,9 +206,16 @@
  *  ╦╔╗ ╔╦╗  ╔═╗╦  ╔═╗═╗ ╦  ╔╦╗╔═╗╔╗╔╔═╗
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ║║║║ ║║║║║ ║
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╩ ╩╚═╝╝╚╝╚═╝
- *  IBM Plex Mono: Standard monospaced/code font.
- *  This font is licensed under the SIL Open Font License:
+ *  IBM Plex Mono is the font used for generic code and monospaced text.     
+ *
+ *  You can read more about this font and its design at IBM's website:
+ *  https://www.ibm.com/plex/
+ *
+ *  This font was made for IBM by Mike Abbink and Bold Monday, and is
+ *  licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+ *
+ *  This font's license does not extend to any other parts of this website.
  */
 
    @font-face {
