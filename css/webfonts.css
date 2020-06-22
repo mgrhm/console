@@ -7,16 +7,16 @@
  ╚███╔███╔╝███████╗██████╔╝    ██║     ╚██████╔╝██║ ╚████║   ██║   ███████║
   ╚══╝╚══╝ ╚══════╝╚═════╝     ╚═╝      ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝
 
-		 ONIONSAMSON.COM serves all its own webfonts.
-	      These are used in accordance with their licenses.
-               License details are included in this CSS file.
+                 ONIONSAMSON.COM serves all its own webfonts.
+              These are used in accordance with their licenses.
+                License details are included in this CSS file.
 */
 
-/*  
+/*
  *  ╦╔╗ ╔╦╗  ╔═╗╦  ╔═╗═╗ ╦  ╔═╗╔═╗╦═╗╦╔═╗
- *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ╚═╗║╣ ╠╦╝║╠╣     
- *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╚═╝╚═╝╩╚═╩╚ 
- *  IBM Plex Serif is the font used for body text.     
+ *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ╚═╗║╣ ╠╦╝║╠╣
+ *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╚═╝╚═╝╩╚═╩╚
+ *  IBM Plex Serif is the font used for body text.
  *
  *  You can read more about this font and its design at IBM's website:
  *  https://www.ibm.com/plex/
@@ -111,7 +111,7 @@
  *  ╦╔╗ ╔╦╗  ╔═╗╦  ╔═╗═╗ ╦  ╔═╗╔═╗╔╗╔╔═╗
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ╚═╗╠═╣║║║╚═╗
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╚═╝╩ ╩╝╚╝╚═╝
- *  IBM Plex Serif is the font used for links and headings.     
+ *  IBM Plex Serif is the font used for links and headings.
  *
  *  You can read more about this font and its design at IBM's website:
  *  https://www.ibm.com/plex/
@@ -202,11 +202,11 @@
        }
 
 
-/*  
+/*
  *  ╦╔╗ ╔╦╗  ╔═╗╦  ╔═╗═╗ ╦  ╔╦╗╔═╗╔╗╔╔═╗
  *  ║╠╩╗║║║  ╠═╝║  ║╣ ╔╩╦╝  ║║║║ ║║║║║ ║
  *  ╩╚═╝╩ ╩  ╩  ╩═╝╚═╝╩ ╚═  ╩ ╩╚═╝╝╚╝╚═╝
- *  IBM Plex Mono is the font used for generic code and monospaced text.     
+ *  IBM Plex Mono is the font used for generic code and monospaced text.
  *
  *  You can read more about this font and its design at IBM's website:
  *  https://www.ibm.com/plex/
@@ -281,7 +281,7 @@
 /*
  *  Amiga Topaz is the font used for Amiga code blocks.
  *
- *  This font was made by Patrick Lauke (redux) in 2012 and is licensed 
+ *  This font was made by Patrick Lauke (redux) in 2012 and is licensed
  *  under Creative Commons Attribution-Unported 3.0 License:
  *  http://creativecommons.org/licenses/by/3.0/
  *
@@ -305,7 +305,7 @@
              url('https://onionsamson.com/fonts/systems/amiga.eot')   format('embedded-opentype');
 }
 
-/* 
+/*
  *  PxPlusIBMVGA8 is the font used for DOS code blocks.
  *
  *  This font was made by VileR in 2016 and is licensed under a
@@ -332,17 +332,17 @@
              url('https://onionsamson.com/fonts/systems/dos.eot')   format('embedded-opentype');
 }
 
-/* 
+/*
  *  VT323 is the font used for generic 'retro' code blocks.
- *  
+ *
  *  This font was made by Peter Hull who says it "was created from the
  *  glyphs of the DEC VT320 text terminal, which I used in college, and
- *  for which I have retained an unaccountable nostalgia."       
- * 
- *  You can read a little more about this font's creation at its page 
+ *  for which I have retained an unaccountable nostalgia."
+ *
+ *  You can read a little more about this font's creation at its page
  *  on Google Fonts: https://fonts.google.com/specimen/VT323#about
  *  It's also available to download from that page.
- *  
+ *
  *  This font is licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  *

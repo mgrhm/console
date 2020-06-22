@@ -101,8 +101,8 @@ blockquote em {
  */
 
 p+p {
-        /* This indents subsequent paragraphs by twice font height. */
-        margin-top: -10pt;   /* Reduces gap between two paragraphs. */
+          /* This indents subsequent paragraphs by twice font height. */
+        margin-top: -10pt;     /* Reduces gap between two paragraphs. */
         text-indent: 28pt;
     }
 
@@ -155,7 +155,7 @@ pre.retro {
                       monospace;
         font-size: 18pt;
         line-height: 18pt;
-        border: 16pt solid #9a8f97;           /* Heliotrope Grey */
+        border: 16pt solid #9a8f97;                /* Heliotrope Grey */
         color: orange;
         background: black;
         margin-right: 24pt;
@@ -168,12 +168,12 @@ pre.amiga {
         font-family: 'Amiga Topaz',
                       monospace;
         font-size: 14pt;
-        line-height: 18pt;		 /* Too crushed at 14pt. */
-        border: 16pt solid #9a8f97;           /* Heliotrope Grey */
+        line-height: 18pt;                    /* Too crushed at 14pt. */
+        border: 16pt solid #9a8f97;                /* Heliotrope Grey */
 /*  Colours used for Amiga code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
  *  Rather than use true #ffffff white, I chose one of the very slightly
- *  blended blue/whites from the screenshot for the text colour.  This 
+ *  blended blue/whites from the screenshot for the text colour.  This
  *  reduces contrast a little and gives it a more 'authentic' feel.
  */
         color: #e5ecf5;
@@ -190,7 +190,7 @@ pre.dos {
         font-size: 14pt;
         line-height: 18pt;
         letter-spacing: 1px;                /* Too smushed otherwise. */
-        border: 16pt solid #9a8f97;           /* Heliotrope Grey */
+        border: 16pt solid #9a8f97;                /* Heliotrope Grey */
 /*  Colours used for DOS code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png
  *  Unlike the Amiga code, where I changed the text colour to give it a
