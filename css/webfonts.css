@@ -25,85 +25,85 @@
  *  licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  *
- *  This font's license does not extend to any other parts of this website.
+ *  This license does not extend to any other parts of this website.
  */
 
-   @font-face {
-       font-family: 'IBM Plex Serif';
-       font-style: normal;
-       font-weight: 400;
-       font-display: swap;
-       src: local('IBM Plex Serif'),
-            local('IBMPlexSerif'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('IBM Plex Serif'),
+             local('IBMPlexSerif'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Serif';
-       font-style: italic;
-       font-weight: 400;
-       font-display: swap;
-       src: local('IBM Plex Serif Italic'),
-            local('IBMPlexSerif-Italic'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Serif';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: local('IBM Plex Serif Italic'),
+             local('IBMPlexSerif-Italic'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/400-italic.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Serif';
-       font-style: normal;
-       font-weight: 500;
-       font-display: swap;
-       src: local('IBM Plex Serif Medium'),
-            local('IBMPlexSerif-Medium'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Serif';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: local('IBM Plex Serif Medium'),
+             local('IBMPlexSerif-Medium'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Serif';
-       font-style: italic;
-       font-weight: 500;
-       font-display: swap;
-       src: local('IBM Plex Serif Medium Italic'),
-            local('IBMPlexSerif-MediumItalic'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Serif';
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: local('IBM Plex Serif Medium Italic'),
+             local('IBMPlexSerif-MediumItalic'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/500-italic.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Serif Bold';
-       font-style: normal;
-       font-weight: 700;
-       font-display: swap;
-       src: local('IBM Plex Serif Bold'),
-            local('IBMPlexSerif-Bold'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Serif Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local('IBM Plex Serif Bold'),
+             local('IBMPlexSerif-Bold'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Serif Bold Italic';
-       font-style: italic;
-       font-weight: 700;
-       font-display: swap;
-       src: local('IBM Plex Serif Bold Italic'),
-            local('IBMPlexSerif-BoldItalic'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Serif Bold Italic';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: local('IBM Plex Serif Bold Italic'),
+             local('IBMPlexSerif-BoldItalic'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-serif/700-italic.eot)   format('embedded-opentype');
        }
 
 
@@ -120,85 +120,85 @@
  *  licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  *
- *  This font's license does not extend to any other parts of this website.
+ *  This license does not extend to any other parts of this website.
  */
 
-   @font-face {
-       font-family: 'IBM Plex Sans';
-       font-style: normal;
-       font-weight: 400;
-       font-display: swap;
-       src: local('IBM Plex Sans'),
-            local('IBMPlexSans'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('IBM Plex Sans'),
+             local('IBMPlexSans'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Sans';
-       font-style: italic;
-       font-weight: 400;
-       font-display: swap;
-       src: local('IBM Plex Sans Italic'),
-            local('IBMPlexSans-Italic'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: local('IBM Plex Sans Italic'),
+             local('IBMPlexSans-Italic'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/400-italic.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Sans';
-       font-style: normal;
-       font-weight: 500;
-       font-display: swap;
-       src: local('IBM Plex Sans Medium'),
-            local('IBMPlexSans-Medium'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: local('IBM Plex Sans Medium'),
+             local('IBMPlexSans-Medium'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Sans';
-       font-style: italic;
-       font-weight: 500;
-       font-display: swap;
-       src: local('IBM Plex Sans Medium Italic'),
-            local('IBMPlexSans-MediumItalic'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Sans';
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: local('IBM Plex Sans Medium Italic'),
+             local('IBMPlexSans-MediumItalic'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/500-italic.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Sans Bold';
-       font-style: normal;
-       font-weight: 700;
-       font-display: swap;
-       src: local('IBM Plex Sans Bold'),
-            local('IBMPlexSans-Bold'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Sans Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local('IBM Plex Sans Bold'),
+             local('IBMPlexSans-Bold'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Sans Bold Italic';
-       font-style: italic;
-       font-weight: 700;
-       font-display: swap;
-       src: local('IBM Plex Sans Bold Italic'),
-            local('IBMPlexSans-BoldItalic'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Sans Bold Italic';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: local('IBM Plex Sans Bold Italic'),
+             local('IBMPlexSans-BoldItalic'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-sans/700-italic.eot)   format('embedded-opentype');
        }
 
 
@@ -215,59 +215,59 @@
  *  licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  *
- *  This font's license does not extend to any other parts of this website.
+ *  This license does not extend to any other parts of this website.
  */
 
-   @font-face {
-       font-family: 'IBM Plex Mono';
-       font-style: normal;
-       font-weight: 400;
-       font-display: swap;
-       src: local('IBM Plex Mono'),
-            local('IBMPlexMono'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('IBM Plex Mono'),
+             local('IBMPlexMono'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Mono';
-       font-style: italic;
-       font-weight: 400;
-       font-display: swap;
-       src: local('IBM Plex Mono Italic'),
-            local('IBMPlexMono-Italic'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Mono';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: local('IBM Plex Mono Italic'),
+             local('IBMPlexMono-Italic'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/400-italic.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Mono Bold';
-       font-style: normal;
-       font-weight: 700;
-       font-display: swap;
-       src: local('IBM Plex Mono Bold'),
-            local('IBMPlexMono-Bold'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Mono Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local('IBM Plex Mono Bold'),
+             local('IBMPlexMono-Bold'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700.eot)   format('embedded-opentype');
        }
 
-   @font-face {
-       font-family: 'IBM Plex Mono Bold Italic';
-       font-style: italic;
-       font-weight: 700;
-       font-display: swap;
-       src: local('IBM Plex Mono Bold Italic'),
-            local('IBMPlexMono-BoldItalic'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.woff2) format('woff2'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.woff)  format('woff'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.ttf)   format('truetype'),
-            url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.eot)   format('embedded-opentype');
+    @font-face {
+        font-family: 'IBM Plex Mono Bold Italic';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: local('IBM Plex Mono Bold Italic'),
+             local('IBMPlexMono-BoldItalic'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.woff2) format('woff2'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.woff)  format('woff'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.ttf)   format('truetype'),
+             url(https://onionsamson.com/fonts/ibm-plex-mono/700-italic.eot)   format('embedded-opentype');
        }
 
 
@@ -288,7 +288,7 @@
  *  It's available to download from Fontstruct here:
  *  http://fontstruct.com/fontstructions/show/675155
  *
- *  This font's license does not extend to any other parts of this website.
+ *  This license does not extend to any other parts of this website.
  *
  *  Webfonts made by koralatov with https://www.font-converter.net/en
  */
@@ -315,7 +315,7 @@
  *  It's available to download from the Oldschool PC Font Resource here:
  *  https://int10h.org/oldschool-pc-fonts/fontlist/
  *
- *  This font's license does not extend to any other parts of this website.
+ *  This license does not extend to any other parts of this website.
  *
  *  Webfonts made by koralatov with https://www.font-converter.net/en
  */
@@ -346,7 +346,8 @@
  *  This font is licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
  *
- *  This font's license does not extend to any other parts of this website.
+ *  This license does not extend to any other parts of this website.
+ */
 
     @font-face {
         font-family: 'VT323';
