@@ -11,7 +11,9 @@ a {
 a:hover {
         color: #130303;                            /* Xiketic text... */
         background: #ff7b00;        /* ...on an Orange Samson ground. */
-        transition: background-color 0.5s linear;    /* Sexy fade in. */
+        transition-duration: 0.5s;
+        transition-property: background-color;
+        transition-timing-function: linear;
     }
 
 a.site_title_text {
@@ -20,7 +22,9 @@ a.site_title_text {
         font-size: 69pt;
         color: #130303;                                   /* Xiketic. */
         border-bottom: none;             /* Get rid of the underline. */
-        transition: color 0.5s linear;               /* Sexy fade in. */
+        transition-duration: 0.5s;
+        transition-property: color;
+        transition-timing-function: linear;
     }
 
 a.site_title_text:hover {
