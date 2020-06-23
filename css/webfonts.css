@@ -326,7 +326,7 @@
         font-weight: normal;
         font-style: normal;
         font-display: swap;
-        src: local('Topaz New'),
+        src: local('Amiga Topaz'),
              url('https://onionsamson.com/fonts/systems/amiga.woff2') format('woff2'),
              url('https://onionsamson.com/fonts/systems/amiga.woff')  format('woff'),
              url('https://onionsamson.com/fonts/systems/amiga.ttf')   format('truetype'),
