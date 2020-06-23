@@ -9,9 +9,9 @@ a {
     }
 
 a:hover {
-        color: #d64045;                        /* English Vermillion. */
-        border-bottom: 1px solid;      /* Slightly thinner underline. */
-        background: #ffa69e;    /* I think this looks great.  Do you? */
+        color: #130303;                            /* Xiketic text... */
+        background: #ff7b00;        /* ...on an Orange Samson ground. */
+        transition: background-color 0.5s linear;    /* Sexy fade in. */
     }
 
 a.site_title_text {
@@ -20,6 +20,7 @@ a.site_title_text {
         font-size: 69pt;
         color: #130303;                                   /* Xiketic. */
         border-bottom: none;             /* Get rid of the underline. */
+        transition: color 0.5s linear;               /* Sexy fade in. */
     }
 
 a.site_title_text:hover {
