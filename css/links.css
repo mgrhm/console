@@ -31,3 +31,17 @@ a.site_title_text:hover {
         color: #ff7b00;             /* Change hover to Orange Samson. */
         background: none;   /* And remove background colour on hover. */
     }
+
+a.site_title_emoji {
+        font-size: 24pt;
+        color: #130303;                                   /* Xiketic. */
+        border-bottom: none;             /* Get rid of the underline. */
+        transition-duration: 0.5s;
+        transition-property: color;
+        transition-timing-function: linear;
+    }
+
+a.site_title_emoji:hover {
+        color: #ff7b00;             /* Change hover to Orange Samson. */
+        background: none;   /* And remove background colour on hover. */
+    }
