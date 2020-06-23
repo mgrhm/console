@@ -2,3 +2,18 @@ html {
         background: #fef9f5;
         color: #130303;
     }
+
+
+/*
+ *  Change text-selection colour to "Vivid Tangerine" from Onion Blush.
+ *  This probably doesn't work in Internet Explorer, but that's okay.
+ *  Source: https: //www.w3schools.com/cssref/sel_selection.asp
+ */
+
+::selection {
+        background: #ffa69e;        /* Vivid Tangerine. */
+    }
+
+::-moz-selection {
+        background: #ffa69e;        /* Firefox compatibility */
+    }
