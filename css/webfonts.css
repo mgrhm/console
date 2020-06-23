@@ -297,6 +297,7 @@
              url('https://onionsamson.com/fonts/pacifico/regular.woff')  format('woff'),
              url('https://onionsamson.com/fonts/pacifico/regular.ttf')   format('truetype'),
              url('https://onionsamson.com/fonts/pacifico/regular.eot')   format('embedded-opentype');
+         }
 
 
 /*
@@ -327,6 +328,7 @@
         font-style: normal;
         font-display: swap;
         src: local('Amiga Topaz'),
+        src: local('Amiga-Topaz'),
              url('https://onionsamson.com/fonts/systems/amiga.woff2') format('woff2'),
              url('https://onionsamson.com/fonts/systems/amiga.woff')  format('woff'),
              url('https://onionsamson.com/fonts/systems/amiga.ttf')   format('truetype'),
