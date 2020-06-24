@@ -1,9 +1,10 @@
 body {
-  font-size: 14pt;
-  font-weight: 500;
-  font-family: "IBM Plex Serif", serif;
-  line-height: 22pt;
-}
+        font-size: 14pt;
+        font-weight: 500;
+        font-family: 'IBM Plex Serif', serif;
+        line-height: 22pt;
+    }
+
 
 /*
  * ╦ ╦╔═╗╔═╗╔╦╗╦╔╗╔╔═╗╔═╗
@@ -12,17 +13,12 @@ body {
  * Styling for heading elements <h1>, <h2>, and so on.
  */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* Since they all use the same font and weight, not need to
+h1, h2, h3, h4, h5, h6 {
+        /* Since they all use the same font and weight, not need to
          * repeat in every single instance. */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 700;
-}
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+    }
 
 /* An explanation of the rationale behind the sizing and line-heights
  * used for the headings:
@@ -41,29 +37,30 @@ h6 {
  */
 
 h1 {
-  font-size: 28pt;
-  line-height: 34pt;
-}
+        font-size: 28pt;
+        line-height: 34pt;
+    }
 
 h2 {
-  font-size: 24pt;
-  line-height: 30pt;
-}
+        font-size: 24pt;
+        line-height: 30pt;
+    }
 
 h3 {
-  font-size: 20pt;
-  line-height: 26pt;
-}
+        font-size: 20pt;
+        line-height: 26pt;
+    }
 
 h4 {
-  font-size: 16pt;
-  line-height: 22pt;
-}
+        font-size: 16pt;
+        line-height: 22pt;
+    }
 
 h5 {
-  font-size: 14pt;
-  line-height: 20pt;
-}
+        font-size: 14pt;
+        line-height: 20pt;
+    }
+
 
 /*
  * ╔╗ ╦  ╔═╗╔═╗╦╔═╔═╗ ╦ ╦╔═╗╔╦╗╔═╗╔═╗
@@ -73,27 +70,28 @@ h5 {
  */
 
 blockquote {
-  font-style: italic;
-  padding-left: 24pt;
-  margin-right: 48pt;
-  border-left: 10pt solid #9a8f97; /* Heliotrope Grey */
-  background: rgba(154, 143, 151, 0.4);
-  /* This background colour for the blockquote is 40% opacity of
+        font-style: italic;
+        padding-left: 24pt;
+        margin-right: 48pt;
+        border-left: 10pt solid #9a8f97;           /* Heliotrope Grey */
+        background: rgba(154, 143, 151, 0.4);
+        /* This background colour for the blockquote is 40% opacity of
          * the border colour "Heliotrope Grey" #9a8f97.  There's no way
          * to do this with a 40% filter on the HEX value, so if we make
          * a change to the border colour, we'll need to manually update
          * this RGB value.  I got this from Stack Overflow here:
          * https://stackoverflow.com/a/5135033
          */
-  padding-right: 12pt;
-  padding-top: 2pt;
-  padding-bottom: 2pt;
-}
+        padding-right: 12pt;
+        padding-top: 2pt;
+        padding-bottom: 2pt;
+    }
 
 blockquote em {
-  /* This makes an <em> inside a blockquote into roman. */
-  font-style: normal;
-}
+        /* This makes an <em> inside a blockquote into roman. */
+        font-style: normal;
+    }
+
 
 /*
  * ╔═╗╔═╗╦═╗╔═╗╔═╗╦═╗╔═╗╔═╗╦ ╦╔═╗
@@ -102,11 +100,12 @@ blockquote em {
  * Styling to control <p> elements, especially stacked.
  */
 
-p + p {
-  /* This indents subsequent paragraphs by twice font height. */
-  margin-top: -10pt; /* Reduces gap between two paragraphs. */
-  text-indent: 28pt;
-}
+p+p {
+          /* This indents subsequent paragraphs by twice font height. */
+        margin-top: -10pt;     /* Reduces gap between two paragraphs. */
+        text-indent: 28pt;
+    }
+
 
 /*
  * ╔═╗╔═╗╔╦╗╔═╗
@@ -116,34 +115,35 @@ p + p {
  */
 
 pre {
-  /* This styling is a tigher version of the styling used for
+        /* This styling is a tigher version of the styling used for
          * blockquotes.  I think maybe we should differentiate them
          * somehow, but I'm not sure how?
          */
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
-  /* I shrunk the font a bit and tightened line spacing because
+        font-family: 'IBM Plex Mono',
+                      monospace;
+        font-weight: 400;
+        /* I shrunk the font a bit and tightened line spacing because
          * monospaced fonts are super legible at smaller sizes.
          */
-  font-size: 12pt;
-  line-height: 16pt;
-  border-left: 10pt solid #9a8f97; /* Heliotrope Grey */
-  background: rgba(154, 143, 151, 0.4);
-  /* This background colour for the blockquote is 40% opacity of
+        font-size: 12pt;
+        line-height: 16pt;
+        border-left: 10pt solid #9a8f97;           /* Heliotrope Grey */
+        background: rgba(154, 143, 151, 0.4);
+        /* This background colour for the blockquote is 40% opacity of
          * the border colour "Heliotrope Grey" #9a8f97.  There's no way
          * to do this with a 40% filter on the HEX value, so if we make
          * a change to the border colour, we'll need to manually update
          * this RGB value.  I got this from Stack Overflow here:
          * https://stackoverflow.com/a/5135033
          */
-  margin-right: 24pt;
-  padding-right: 12pt;
-  padding-top: 12pt;
-  padding-bottom: 12pt;
-}
+        margin-right: 24pt;
+        padding-right: 12pt;
+        padding-top: 12pt;
+        padding-bottom: 12pt;
+    }
 
 pre.retro {
-  /* This was meant a bit of a lark, but, now I've done it, I
+        /* This was meant a bit of a lark, but, now I've done it, I
          * don't think it looks too bad.  I've just discovered by
          * testing this that you can roll custom <pre> styles really
          * easily.  You could, basically, do one for each style of
@@ -151,36 +151,39 @@ pre.retro {
          * one is kind of a generic amber-on-black CRT look.  Alas, I
          * Orange Samson and it was too dark to capture the feel.
          */
-  font-family: "VT323", monospace;
-  font-size: 18pt;
-  line-height: 18pt;
-  border: 16pt solid #9a8f97; /* Heliotrope Grey */
-  color: orange;
-  background: black;
-}
+        font-family: 'VT323',
+                      monospace;
+        font-size: 18pt;
+        line-height: 18pt;
+        border: 16pt solid #9a8f97;                /* Heliotrope Grey */
+        color: orange;
+        background: black;
+    }
 
 pre.amiga {
-  font-family: "Amiga Topaz", monospace;
-  font-size: 14pt;
-  line-height: 18pt; /* Too crushed at 14pt. */
-  border: 16pt solid #9a8f97; /* Heliotrope Grey */
-  /*  Colours used for Amiga code are taken from this image on Wikipedia:
+        font-family: 'Amiga Topaz',
+                      monospace;
+        font-size: 14pt;
+        line-height: 18pt;                    /* Too crushed at 14pt. */
+        border: 16pt solid #9a8f97;                /* Heliotrope Grey */
+/*  Colours used for Amiga code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
  *  Rather than use true #ffffff white, I chose one of the very slightly
  *  blended blue/whites from the screenshot for the text colour.  This
  *  reduces contrast a little and gives it a more 'authentic' feel.
  */
-  color: #e5ecf5;
-  background: #0255aa;
-}
+        color: #e5ecf5;
+        background: #0255aa;
+    }
 
 pre.dos {
-  font-family: "PxPlusIBMVGA8", monospace;
-  font-size: 14pt;
-  line-height: 18pt;
-  letter-spacing: 1px; /* Too smushed otherwise. */
-  border: 16pt solid #9a8f97; /* Heliotrope Grey */
-  /*  Colours used for DOS code are taken from this image on Wikipedia:
+        font-family: 'PxPlusIBMVGA8',
+                      monospace;
+        font-size: 14pt;
+        line-height: 18pt;
+        letter-spacing: 1px;                /* Too smushed otherwise. */
+        border: 16pt solid #9a8f97;                /* Heliotrope Grey */
+/*  Colours used for DOS code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png
  *  Unlike the Amiga code, where I changed the text colour to give it a
  *  bit more inauthentic 'authenticity', I haven't changed the text or
@@ -188,10 +191,12 @@ pre.dos {
  *  screenshot I sourced them from.  Maybe, as a DOS refugee, a latent
  *  sense of nostalgia stopped me from tampering?
  */
-  color: #a8a8a8;
-  background: #000000;
-}
+        color: #a8a8a8;
+        background: #000000;
+    }
+
+
 
 abbr {
-  border-bottom: 1px dotted #9a8f97;
-}
+        border-bottom: 1px dotted #9a8f97;
+    }
