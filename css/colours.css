@@ -1,7 +1,14 @@
 html {
-        background: #fef9f5;
-        color: #130303;
+        background: #fef9f5;                        /* Lavender Blush */
+        color: #130303;                                    /* Xiketic */
     }
+
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        html {
+                background: #130303;                       /* Xiketic */
+                color: #fef9f5;                     /* Lavender Blush */
+            }
+        }
 
 
 /*
@@ -11,9 +18,9 @@ html {
  */
 
 ::selection {
-        background: #ffa69e;        /* Vivid Tangerine. */
+        background: #ffa69e;                       /* Vivid Tangerine */
     }
 
-::-moz-selection {
-        background: #ffa69e;        /* Firefox compatibility */
+::-moz-selection {                           /* Firefox compatibility */
+        background: #ffa69e;                       /* Vivid Tangerine */
     }
