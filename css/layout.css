@@ -5,11 +5,21 @@ html {
 
 .header {
         text-align: center;
-        padding-top: 24pt;
+        margin-left: -24pt;             /* Extends divider past text. */
+        margin-right: -24pt;            /* Extends divider past text. */
         padding-bottom: 10pt;
-        margin-right: -24pt;
-        margin-left: -24pt;
-        border-bottom: 2px solid #9a8f97;           /* Heliotrope Gray */
+        padding-top: 24pt;
+        border-bottom: 2px solid #9a8f97;          /* Heliotrope Gray */
+    }
+
+.footer {
+        text-align: center;
+        margin-left: -24pt;             /* Extends divider past text. */
+        margin-right: -24pt;            /* Extends divider past text. */
+        margin-top: 24pt;
+        padding-bottom: 24pt;
+        padding-top: 12pt;
+        border-top: 2px solid #9a8f97;             /* Heliotrope Gray */
     }
 
 .onion-search {
