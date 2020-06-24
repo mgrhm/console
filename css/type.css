@@ -158,10 +158,6 @@ pre.retro {
         border: 16pt solid #9a8f97;                /* Heliotrope Grey */
         color: orange;
         background: black;
-        margin-right: 24pt;
-        padding-right: 12pt;
-        padding-top: 12pt;
-        padding-bottom: 12pt;
     }
 
 pre.amiga {
@@ -178,10 +174,6 @@ pre.amiga {
  */
         color: #e5ecf5;
         background: #0255aa;
-        margin-right: 24pt;
-        padding-right: 12pt;
-        padding-top: 12pt;
-        padding-bottom: 12pt;
     }
 
 pre.dos {
@@ -201,10 +193,6 @@ pre.dos {
  */
         color: #a8a8a8;
         background: #000000;
-        margin-right: 24pt;
-        padding-right: 12pt;
-        padding-top: 12pt;
-        padding-bottom: 12pt;
     }
 
 
