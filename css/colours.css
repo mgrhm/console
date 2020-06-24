@@ -1,15 +1,16 @@
 html {
-        background: #fef9f5;                        /* Lavender Blush */
-        color: 	#684a6b;                                    /* BRITISH STANDARD 4800 Regal violet / Regalia */
-    }
+  background: #fef9f5; /* Lavender Blush */
+  color: #684a6b; /* BRITISH STANDARD 4800 Regal violet / Regalia */
+}
 
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
-        html {
-                background: 	#684a6b;                       /* BRITISH STANDARD 4800 Regal violet / Regalia */
-                color: #fef9f5;                     /* Lavender Blush */
-            }
-        }
+@media (prefers-color-scheme: dark) {
+  /* Code for Dark Mode. */
 
+  html {
+    background: #684a6b; /* BRITISH STANDARD 4800 Regal violet / Regalia */
+    color: #fef9f5; /* Lavender Blush */
+  }
+}
 
 /*
  *  Change text-selection colour to "Vivid Tangerine" from Onion Blush.
@@ -18,9 +19,10 @@ html {
  */
 
 ::selection {
-        background: #ffa69e;                       /* Vivid Tangerine */
-    }
+  background: #ffa69e; /* Vivid Tangerine */
+}
 
-::-moz-selection {                           /* Firefox compatibility */
-        background: #ffa69e;                       /* Vivid Tangerine */
-    }
+::-moz-selection {
+  /* Firefox compatibility */
+  background: #ffa69e; /* Vivid Tangerine */
+}
