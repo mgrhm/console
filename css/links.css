@@ -1,67 +1,65 @@
 a {
-    color: #ff7b00;                             /* Orange Samson! */
+    color: #ff7b00;                              /* Orange Samson! */
     font-family: 'IBM Plex Sans',
-                  sans-serif;   /* Add a bigger stack if you want.*/
-    text-decoration: none;         /* This removes underlining... */
-    border-bottom: 2px solid #ff7b00;  /* ...this does it better. */
-    margin-left: 2pt;       /* Just a tiny bit of breathing room. */
-    margin-right: 2pt;      /* Just a tiny bit of breathing room. */
+                  sans-serif;    /* Add a bigger stack if you want.*/
+    text-decoration: none;          /* This removes underlining... */
+    border-bottom: 2px solid #ff7b00;   /* ...this does it better. */
+    padding-left: 2pt;       /* Just a tiny bit of breathing room. */
+    padding-right: 2pt;      /* Just a tiny bit of breathing room. */
 }
 
 a:hover {
-    color: #313533;                               /* Onyx text... */
-    background: #ff7b00;        /* ...on an Orange Samson ground. */
+    color: #313533;                                /* Onyx text... */
+    background: #ff7b00;         /* ...on an Orange Samson ground. */
     transition-duration: 0.5s;
     transition-property: background-color;
     transition-timing-function: linear;
 }
 
 a.site_title_text {
-    font-family: 'Pacifico',   /* Let's make Onion Sans for this. */
-                  cursive;          /* There's a generic cursive! */
+    font-family: 'Pacifico',    /* Let's make Onion Sans for this. */
+                  cursive;           /* There's a generic cursive! */
     font-size: 69pt;
-    color: #313533;                                   /* Onyx. */
-    border-bottom: none;             /* Get rid of the underline. */
+    color: #313533;                                       /* Onyx. */
+    border-bottom: none;              /* Get rid of the underline. */
     transition-duration: 0.5s;
     transition-property: color;
     transition-timing-function: linear;
 }
 
 a.site_title_text:hover {
-    color: #ff7b00;             /* Change hover to Orange Samson. */
-    background: none;   /* And remove background colour on hover. */
+    color: #ff7b00;              /* Change hover to Orange Samson. */
+    background: none;    /* And remove background colour on hover. */
 }
 
 a.site_title_emoji {
     font-size: 24pt;
-    color: #313533;                                      /* Onyx. */
-    border-bottom: none;             /* Get rid of the underline. */
+    color: #313533;                                       /* Onyx. */
+    border-bottom: none;              /* Get rid of the underline. */
     transition-duration: 0.5s;
     transition-property: color;
     transition-timing-function: linear;
 }
 
 a.site_title_emoji:hover {
-    color: #ff7b00;             /* Change hover to Orange Samson. */
-    background: none;   /* And remove background colour on hover. */
+    color: #ff7b00;              /* Change hover to Orange Samson. */
+    background: none;    /* And remove background colour on hover. */
 }
-
-
 
 a.onion-dollars::after {
     content: " £ ";
     border-radius: 25px;                        /* Makes it round. */
     border: 1px black solid;
-    background: gold;                           /* GOLD COINS! */
+    background: gold;                               /* GOLD COINS! */
     color: black;
-    margin-left: 4pt;       /* Just a tiny bit of breathing room. */
+    margin-left: 4pt;        /* Just a tiny bit of breathing room. */
     padding-left: 2pt;
     padding-right: 2pt;      /* Just a tiny bit of breathing room. */
 }
 
 a.mario-dollars::after {
     content: url(coin.png);
-    margin-left: 2pt;       /* Just a tiny bit of breathing room. */
+    margin-left: 2pt;        /* Just a tiny bit of breathing room. */
     padding-left: 2pt;
-    padding-right: 2pt;      /* Just a tiny bit of breathing room. */
+    padding-right: 0pt;      /* Just a tiny bit of breathing room. */
 }
