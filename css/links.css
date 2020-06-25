@@ -58,3 +58,10 @@ a.onion-dollars::after {
     padding-left: 2pt;
     padding-right: 2pt;      /* Just a tiny bit of breathing room. */
 }
+
+a.mario-dollars::after {
+    content: url(coin.png);
+    margin-left: 2pt;       /* Just a tiny bit of breathing room. */
+    padding-left: 2pt;
+    padding-right: 2pt;      /* Just a tiny bit of breathing room. */
+}
