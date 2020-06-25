@@ -6,7 +6,8 @@ html {
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         html {
             background: #313533;                /* Onyx */
-            color: #fef9f5;                     /* Lavender Blush */
+         /* color: #fef9f5;                     /* Lavender Blush */ */
+            color: #f9e0d9;                     /* Misty Rose */
             }
         }
 
