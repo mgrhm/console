@@ -63,3 +63,10 @@ a.mario-dollars::after {
     padding-left: 2pt;
     padding-right: 0pt;      /* Just a tiny bit of breathing room. */
 }
+
+a.yoshi-dollars::after {
+    content: url(yoshi.png);
+    margin-left: 2pt;        /* Just a tiny bit of breathing room. */
+    padding-left: 2pt;
+    padding-right: 0pt;      /* Just a tiny bit of breathing room. */
+}
