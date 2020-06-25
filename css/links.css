@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-    color: #130303;                            /* Xiketic text... */
+    color: #313533;                               /* Onyx text... */
     background: #ff7b00;        /* ...on an Orange Samson ground. */
     transition-duration: 0.5s;
     transition-property: background-color;
@@ -20,7 +20,7 @@ a.site_title_text {
     font-family: 'Pacifico',   /* Let's make Onion Sans for this. */
                   cursive;          /* There's a generic cursive! */
     font-size: 69pt;
-    color: #130303;                                   /* Xiketic. */
+    color: #313533;                                   /* Onyx. */
     border-bottom: none;             /* Get rid of the underline. */
     transition-duration: 0.5s;
     transition-property: color;
@@ -34,7 +34,7 @@ a.site_title_text:hover {
 
 a.site_title_emoji {
     font-size: 24pt;
-    color: #130303;                                   /* Xiketic. */
+    color: #313533;                                      /* Onyx. */
     border-bottom: none;             /* Get rid of the underline. */
     transition-duration: 0.5s;
     transition-property: color;

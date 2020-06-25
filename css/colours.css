@@ -1,19 +1,11 @@
 html {
     background: #fef9f5;                        /* Lavender Blush */
-<<<<<<< Updated upstream
-    color: #684a6b;   /* BRITISH STANDARD 4800 Regal violet / Regalia */
-=======
     color: #313533;                             /* Onyx */
->>>>>>> Stashed changes
 }
 
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         html {
-<<<<<<< Updated upstream
-            background: #684a6b;
-=======
             background: #313533;                /* Onyx */
->>>>>>> Stashed changes
             color: #fef9f5;                     /* Lavender Blush */
             }
         }
