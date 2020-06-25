@@ -255,5 +255,6 @@ pre.dos {
 
 
 abbr {
+    text-decoration: none;
     border-bottom: 1px dotted #9a8f97;
 }
