@@ -1,11 +1,19 @@
 html {
     background: #fef9f5;                        /* Lavender Blush */
+<<<<<<< Updated upstream
     color: #684a6b;   /* BRITISH STANDARD 4800 Regal violet / Regalia */
+=======
+    color: #313533;                             /* Onyx */
+>>>>>>> Stashed changes
 }
 
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         html {
+<<<<<<< Updated upstream
             background: #684a6b;
+=======
+            background: #313533;                /* Onyx */
+>>>>>>> Stashed changes
             color: #fef9f5;                     /* Lavender Blush */
             }
         }
@@ -24,3 +32,16 @@ html {
 ::-moz-selection {                           /* Firefox compatibility */
     background: #ffa69e;                       /* Vivid Tangerine */
 }
+
+
+/*Candidates
+#272A29 "Charleston Green"
+#313533 "Onyx"
+#343F3E "Outer Space Crayola"
+#330033 purple
+#2e294e "Space Cadet"
+#383d3b dark olive
+#2d1e2f dark purple
+#2f0601 dark sienna
+#240029 russian violet
+*/
