@@ -70,3 +70,10 @@ a.yoshi-dollars::after {
     padding-left: 2pt;
     padding-right: 0pt;      /* Just a tiny bit of breathing room. */
 }
+
+a.home-link::before{
+    content: url(pipe.png);
+    margin-left: 2pt;        /* Just a tiny bit of breathing room. */
+    padding-left: 2pt;
+    padding-right: 0pt;      /* Just a tiny bit of breathing room. */
+}
