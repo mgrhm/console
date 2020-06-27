@@ -33,7 +33,7 @@ License](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web):
 
 The following webfont used on `onionsamson.com` is licensed under a
 [Creative Commons Attribution-Unported 3.0
-License](http://creativecommons.org/licenses/by/3.0/)
+License](http://creativecommons.org/licenses/by/3.0/):
 
 * [Amiga Topaz](http://fontstruct.com/fontstructions/show/675155) by
    Patrick Lauke (redux)
