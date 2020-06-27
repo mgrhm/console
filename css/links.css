@@ -47,33 +47,19 @@ a.site_title_emoji:hover {
 }
 
 a.onion-dollars::after {
-    content: " £ ";
-    border-radius: 25px;                        /* Makes it round. */
-    border: 1px black solid;
-    background: gold;                               /* GOLD COINS! */
-    color: black;
-    margin-left: 4pt;        /* Just a tiny bit of breathing room. */
-    padding-left: 2pt;
-    padding-right: 2pt;      /* Just a tiny bit of breathing room. */
+    content: url(yoshi.png);
+    margin: 0;               /* Tightens this up nicely. */
+    padding: 0;              /* Tightens this up nicely. */
 }
 
 a.mario-dollars::after {
     content: url(coin.png);
-    margin-left: 2pt;        /* Just a tiny bit of breathing room. */
-    padding-left: 2pt;
-    padding-right: 0pt;      /* Just a tiny bit of breathing room. */
-}
-
-a.yoshi-dollars::after {
-    content: url(yoshi.png);
-    margin-left: 2pt;        /* Just a tiny bit of breathing room. */
-    padding-left: 2pt;
-    padding-right: 0pt;      /* Just a tiny bit of breathing room. */
+    margin: 0;               /* Tightens this up nicely. */
+    padding: 0;              /* Tightens this up nicely. */
 }
 
 a.home-link::before{
     content: url(pipe.png);
-    margin-left: 2pt;        /* Just a tiny bit of breathing room. */
-    padding-left: 2pt;
-    padding-right: 0pt;      /* Just a tiny bit of breathing room. */
+    margin: 0;               /* Tightens this up nicely. */
+    padding: 0;              /* Tightens this up nicely. */
 }
