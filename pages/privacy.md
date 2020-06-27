@@ -10,6 +10,14 @@ any data about its visitors.  All assets used on this site – text,
 images, fonts, and any other files – are hosted by and served by
 `onionsamson.com`.
 
+The comment system used on this site is
+[Staticman](https://staticman.net).  Any comments that you leave are
+passed through this software to Github as a commit, which is then
+published on this website.  The Github repo used is not publicly
+viewable, but the comment you leave will be.  We don't ask for email
+addresses, and you don't have to use your real name when leaving a
+comment.
+
 If you have any questions about this privacy policy, or any other
 questions about data collected, please contact me [by
 email](mailto:privacy@onionsamson.com?subject="Questions About Privacy
