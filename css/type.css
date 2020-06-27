@@ -179,6 +179,7 @@ pre.retro {
     font-size: 18pt;
     line-height: 18pt;
     border: 16pt solid #9a8f97;                /* Heliotrope Grey */
+    padding-left: 12pt;
     color: orange;
     background: black;
 }
@@ -206,6 +207,7 @@ pre.amiga {
     font-size: 14pt;
     line-height: 18pt;                    /* Too crushed at 14pt. */
     border: 16pt solid #9a8f97;                /* Heliotrope Grey */
+    padding-left: 12pt;
 /*  Colours used for Amiga code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
  *  Rather than use true #ffffff white, I chose one of the very slightly
@@ -241,6 +243,7 @@ pre.dos {
     font-size:    14pt;
     line-height:  18pt;
     border:       16pt solid #9a8f97;              /* Heliotrope Grey */
+    padding-left: 12pt;
 /*  Colours used for DOS code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png
  *  Unlike the Amiga code, where I changed the text colour to give it a
