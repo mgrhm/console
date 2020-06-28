@@ -60,19 +60,19 @@ a.site_title_emoji:hover {
 }
 
 a.onion-dollars::after {
-    content: url(yoshi.png);
+    content: url(https://onionsamson.com/elements/yoshi.png);
     margin: 0;               /* Tightens this up nicely. */
     padding: 0;              /* Tightens this up nicely. */
 }
 
 a.mario-dollars::after {
-    content: url(coin.png);
+    content: url(https://onionsamson.com/elements/coin.png);
     margin: 0;               /* Tightens this up nicely. */
     padding: 0;              /* Tightens this up nicely. */
 }
 
 a.home-link::before{
-    content: url(pipe.png);
+    content: url(https://onionsamson.com/elements/pipe.png);
     margin: 0;               /* Tightens this up nicely. */
     padding: 0;              /* Tightens this up nicely. */
 }
