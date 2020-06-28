@@ -118,6 +118,7 @@ code {
     font-family: 'IBM Plex Mono',
                   monospace;
     font-weight: 500;
+    font-variant-ligatures: none;  /* Ligatures can ruin code. */
     border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the inline code is 40% opacity of the
@@ -143,6 +144,7 @@ pre {
  */
     font-size: 12pt;
     line-height: 16pt;
+    font-variant-ligatures: none;  /* Ligatures can ruin code. */
     border-left: 10pt solid #9a8f97;           /* Heliotrope Grey */
     border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
