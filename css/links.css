@@ -16,9 +16,10 @@ a {
 a:hover {
     color: #313533;                                /* Onyx text... */
     background: #ff7b00;         /* ...on an Orange Samson ground. */
+    border-radius: 5px;
     transition-duration: 0.5s;
     transition-property: background-color;
-    transition-timing-function: linear;
+    transition-timing-function: ease;
 }
 
 a.site_title_text {
