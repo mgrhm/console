@@ -23,7 +23,7 @@ a:hover {
     }
 
 a.site_title_text {
-    font-family: 'Pacifico',    /* Let's make Onion Sans for this. */
+    font-family: 'OnionSams',
                   cursive;           /* There's a generic cursive! */
     font-size: 69pt;
     color: #313533;                                       /* Onyx. */
