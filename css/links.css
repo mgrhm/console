@@ -65,12 +65,6 @@ a.onion-dollars::after {
     padding: 0;              /* Tightens this up nicely. */
 }
 
-a.mario-dollars::after {
-    content: url(https://onionsamson.com/elements/coin.png);
-    margin: 0;               /* Tightens this up nicely. */
-    padding: 0;              /* Tightens this up nicely. */
-}
-
 a.home-link::before{
     content: url(https://onionsamson.com/elements/pipe.png);
     margin: 0;               /* Tightens this up nicely. */
