@@ -280,17 +280,27 @@ IAIN = COOL is a logical fallacy!!
 IMMEDIATE SHUTDOWN AND DELETION OF C:\ COMMENCING!
 </pre>
 
-    <pre class="amiga">
-I am an Amiga!!!
+<pre class="amiga">
+; If you add your own autovector interrupt handlers by changing the VBR
+; directly, please remember to test it on a4000/060!
 
-/* This background colour for the blockquote is 40% opacity of
- * the border colour "Heliotrope Grey" #9a8f97.  There's no way
- * to do this with a 40% filter on the HEX value, so if we make
- * a change to the border colour, we'll need to manually update
- * this RGB value.  I got this from Stack Overflow here:
- * https://stackoverflow.com/a/5135033
- */
-}
+	include	lvo/dos_lib.i
+	include	lvo/exec_lib.i
+	include	lvo/graphics_lib.i
+	include	hardware/custom.i
+	include	hardware/dmabits.i
+	include	hardware/intbits.i
+	include	dos/dosextens.i
+	include	exec/execbase.i
+	include	graphics/gfxbase.i
+	include	devices/audio.i
+
+	IFND	STARTUP_ALLOCAUDIO
+STARTUP_ALLOCAUDIO	EQU	0
+	ENDC
+	IFND	STARTUP_ALLOCBLITTER
+STARTUP_ALLOCBLITTER	EQU	1
+	ENDC
 </pre>
 
 
