@@ -51,3 +51,9 @@ html {
         border-bottom: 0;
     }
 
+
+video {
+    border: 20px orange;
+    border-style: ridge;
+    border-radius: 10px;
+}

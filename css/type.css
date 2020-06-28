@@ -143,6 +143,7 @@ pre {
     font-size: 12pt;
     line-height: 16pt;
     border-left: 10pt solid #9a8f97;           /* Heliotrope Grey */
+    border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the blockquote is 40% opacity of the
  *  border colour "Heliotrope Grey" #9a8f97.  There's no way to do this
