@@ -446,3 +446,30 @@
          url('https://onionsamson.com/fonts/systems/retro.ttf')   format('truetype'),
          url('https://onionsamson.com/fonts/systems/retro.eot')   format('embedded-opentype');
 }
+
+/*
+ *  November is the font used for generic green 'retro' code blocks.
+ *
+ *  This font was made by Tepid Monkey, and is available here:
+ *  https://www.1001fonts.com/november-font.html
+ *
+ *  Its license releases the font for use "freely for commercial and
+ *  non-commercial purposes".  A full copy of its license can be found
+ *  in the zip file available at 1001 Fonts.
+ *
+ *  This license does not extend to any other parts of this website.
+ *
+ *  Webfonts made by koralatov with https://www.font-converter.net/en
+ */
+
+@font-face {
+    font-family: 'November';
+    font-weight:  400;
+    font-style:   normal;
+    font-display: swap;
+    src: local('November'),
+         url('https://onionsamson.com/fonts/systems/november.woff2') format('woff2'),
+         url('https://onionsamson.com/fonts/systems/november.woff')  format('woff'),
+         url('https://onionsamson.com/fonts/systems/november.ttf')   format('truetype'),
+         url('https://onionsamson.com/fonts/systems/november.eot')   format('embedded-opentype');
+}

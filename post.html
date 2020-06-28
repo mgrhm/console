@@ -273,6 +273,25 @@ fi
 dd if=$BOS of=$RF0IMAGE bs=512 seek=960
 </pre>
 
+<pre class="retro-green">
+#!/bin/sh
+
+RF0IMAGE=rf0.dsk
+KERNEL=build/loadfile
+BOS=boot/bos
+
+if [ ! -f $KERNEL ]
+then echo "You must build the kernel, $KERNEL, before you can install"
+     echo "the bootstrap."
+     exit 1
+fi
+
+# Install bos 32KW below the top of the rf0 image
+#
+dd if=$BOS of=$RF0IMAGE bs=512 seek=960
+</pre>
+
+
 <pre class="dos">
 C:\>iaincool.bat
 

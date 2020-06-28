@@ -162,16 +162,6 @@ pre {
 }
 
 code.retro {
-    font-family:  'VT323',
-                   monospace;
-    font-size:     18pt;         /* Needs enlarged or it's too small. */
-    color:         #ffbf00;
-    background:    #242424;
-    padding-right: 4pt;            /* Adds a little 'breathing room'. */
-    padding-left:  4pt;            /* Adds a little 'breathing room'. */
-}
-
-pre.retro {
 /*  This isn't intended to emulate a specific system so much as evoke a
  *  kind of generic 'retro' aesthetic.  The font used, VT323, made by
  *  Peter Hull, "was created from the glyphs of the DEC VT320 text
@@ -185,13 +175,50 @@ pre.retro {
  *  Alas, I tested Orange Samson and it was too dark to capture the
  *  slightly overdriven feel of a vintage CRT.
  */
+    font-family:  'VT323',
+                   monospace;
+    font-size:     18pt;         /* Needs enlarged or it's too small. */
+    color:         #ffbf00;
+    background:    #242424;
+    padding-right: 4pt;            /* Adds a little 'breathing room'. */
+    padding-left:  4pt;            /* Adds a little 'breathing room'. */
+}
 
+pre.retro {
     font-family: 'VT323',
                   monospace;
-    font-size: 18pt;
-    line-height: 18pt;
-    color: #ffbf00;
-    background: #242424;
+    font-size:    18pt;
+    line-height:  18pt;
+    color:        #ffbf00;
+    background:   #242424;
+}
+
+code.retro-green {
+/*  Like the amber retro style, isn't intended to emulate a specific
+ *  system so much as suggest a 'Fallout'-esque 'retro' aesthetic.  It
+ *  uses a different, slightly chunkier font called "November" to add a
+ *  little difference between it and the standard retro style.
+ *
+ *  The colour scheme is the same "Eerie Black" background with a ,
+ *  slightly muted, nearly turquoise green called "Medium Aquamarine".
+ *  It lacks the 'pop' of a real green-on-black CRT, but suggests a
+ *  certain age to the machine instead.
+ */
+    font-family:  'November',
+                   monospace;
+    font-size:     14pt;
+    color:         #87e6b8;
+    background:    #242424;
+    padding-right: 4pt;            /* Adds a little 'breathing room'. */
+    padding-left:  4pt;            /* Adds a little 'breathing room'. */
+}
+
+pre.retro-green {
+    font-family:  'November',
+                   monospace;
+    font-size:     14pt;
+    color:         #87e6b8;
+    background:    #242424;
 }
 
 code.amiga {
