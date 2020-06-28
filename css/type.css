@@ -163,27 +163,33 @@ code.retro {
     font-family:  'VT323',
                    monospace;
     font-size:     18pt;         /* Needs enlarged or it's too small. */
-    color:         orange;
-    background:    black;
+    color:         #ffbf00;
+    background:    #242424;
     padding-right: 4pt;            /* Adds a little 'breathing room'. */
     padding-left:  4pt;            /* Adds a little 'breathing room'. */
 }
 
 pre.retro {
-/*  This was meant a bit of a lark, but, now I've done it, I don't think
- *  it looks too bad.  I've just discovered by testing this that you can
- *  roll custom <pre> styles really easily.  You could, basically, do
- *  one for each style of computer to match that  computer -- Amiga,
- *  DOS, etc.  This one is kind of a generic amber-on-black CRT look.
- *  Alas, I Orange Samson and it was too dark to capture the feel.
+/*  This isn't intended to emulate a specific system so much as evoke a
+ *  kind of generic 'retro' aesthetic.  The font used, VT323, made by
+ *  Peter Hull, "was created from the glyphs of the DEC VT320 text
+ *  terminal, which I used in college, and for which I have retained an
+ *  unaccountable nostalgia."
+ *
+ *  The colour scheme is a slightly off-black background with a warm,
+ *  slightly electric amber text; COOLORS.CO calls these "Eerie Black"
+ *  and "Amber", respectively.  Hope appropriate!
+ *
+ *  Alas, I tested Orange Samson and it was too dark to capture the
+ *  slightly overdriven feel of a vintage CRT.
  */
+
     font-family: 'VT323',
                   monospace;
     font-size: 18pt;
     line-height: 18pt;
-    border: 16pt solid #9a8f97;                /* Heliotrope Grey */
-    color: orange;
-    background: black;
+    color: #ffbf00;
+    background: #242424;
 }
 
 code.amiga {
@@ -208,7 +214,6 @@ pre.amiga {
                   monospace;
     font-size: 14pt;
     line-height: 18pt;                    /* Too crushed at 14pt. */
-    border: 16pt solid #9a8f97;                /* Heliotrope Grey */
 /*  Colours used for Amiga code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
  *  Rather than use true #ffffff white, I chose one of the very slightly
@@ -243,7 +248,6 @@ pre.dos {
                   monospace;
     font-size:    14pt;
     line-height:  18pt;
-    border:       16pt solid #9a8f97;              /* Heliotrope Grey */
 /*  Colours used for DOS code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png
  *  Unlike the Amiga code, where I changed the text colour to give it a
