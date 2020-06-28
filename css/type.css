@@ -118,6 +118,7 @@ code {
     font-family: 'IBM Plex Mono',
                   monospace;
     font-weight: 500;
+    border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the inline code is 40% opacity of the
  *  colour "Heliotrope Grey" #9a8f97.  There's no way to do this with a
