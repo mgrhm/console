@@ -344,11 +344,11 @@
  */
 
 @font-face {
-    font-family: 'OnionSams';
+    font-family: 'OnionSams-Regular';
     font-weight:  400;
     font-style:   normal;
     font-display: swap;
-    src: local('OnionSams'),
+    src: local('OnionSams-Regular'),
          url('https://onionsamson.com/fonts/onionsams/regular.woff2') format('woff2'),
          url('https://onionsamson.com/fonts/onionsams/regular.woff')  format('woff'),
          url('https://onionsamson.com/fonts/onionsams/regular.ttf')   format('truetype'),
