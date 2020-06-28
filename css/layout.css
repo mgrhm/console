@@ -29,8 +29,10 @@ html {
                       serif;
         color: #313533;                     /* Onyx */
         background-color: #f9e0d9;          /* Misty Rose */
+        border: 2px solid #313533;          /* Onyx */
         border-radius: 5px;
-        border: 2px solid #313533;
+        padding-left: 5px;         /* So query text doesn't hit edge. */
+        padding-right: 5px;        /* So query text doesn't hit edge. */
         display: block;                     /* Do we need this again? */
         margin-left: auto;                  /* Do we need this again? */
         margin-right: auto;                 /* Do we need this again? */
@@ -41,7 +43,7 @@ html {
                 background: #313533;                /* Onyx */
                 border: 2px solid #f9e0d9;          /* Misty Rose */
             }
-	}
+   }
 
 .emoji-header {
     font-family: 'IBM Plex Sans';
