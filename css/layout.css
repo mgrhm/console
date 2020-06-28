@@ -22,6 +22,25 @@ html {
     margin-right: auto;
 }
 
+    .onion-search input {
+        font-size: 12pt;
+        font-weight: 500;
+        font-family: 'IBM Plex Mono',
+                      serif;
+        color: #313533;                     /* Onyx */
+        background-color: #f9e0d9;          /* Misty Rose */
+        border-radius: 5px;
+        border: 2px solid #313533;
+        display: block;                     /* Do we need this again? */
+        margin-left: auto;                  /* Do we need this again? */
+        margin-right: auto;                 /* Do we need this again? */
+    }
+        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+        html {
+            color: #f9e0d9;                     /* Misty Rose */
+            background: #9a8f97;                /* Onyx */
+            }
+
 .emoji-header {
     font-family: 'IBM Plex Sans';
     font-weight: 700;
