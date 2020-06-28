@@ -87,12 +87,6 @@ blockquote {
     padding-bottom: 2pt;
     }
 
-blockquote.inverted {
-    border-left: 10pt solid #d6cecf;
-    background: #9a8f97;
-    color: #fef9f5;                     /* Lavender Blush */
-    }
-
 blockquote em {
 /* This makes an <em> inside a blockquote into roman. */
     font-style: normal;
