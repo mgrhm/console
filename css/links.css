@@ -7,11 +7,6 @@ a {
     padding-left: 2pt;       /* Just a tiny bit of breathing room. */
     padding-right: 2pt;      /* Just a tiny bit of breathing room. */
 }
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
-        a {
-            color: #f9e0d9;                     /* Misty Rose */
-            }
-        }
 
 a:hover {
     color: #313533;                                /* Onyx text... */
@@ -21,6 +16,11 @@ a:hover {
     transition-property: background-color;
     transition-timing-function: ease;
 }
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        a:hover {
+            color: #f9e0d9;                     /* Misty Rose */
+        }
+    }
 
 a.site_title_text {
     font-family: 'Pacifico',    /* Let's make Onion Sans for this. */
