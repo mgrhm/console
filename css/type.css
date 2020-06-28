@@ -100,12 +100,28 @@ blockquote em {
  *  Styling to control <p> elements, especially stacked.
  */
 
-p+p {
+p + p {
 /* This indents subsequent paragraphs by twice font height. */
     margin-top: -10pt;     /* Reduces gap between two paragraphs. */
     text-indent: 28pt;
 }
 
+
+/*  ╦  ╦╔═╗╔╦╗╔═╗
+ *  ║  ║╚═╗ ║ ╚═╗
+ *  ╩═╝╩╚═╝ ╩ ╚═╝
+ *  Styling for lists.
+ */
+
+ol {
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+
+ul {
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
 
 /*
  *  ╔═╗╔═╗╔╦╗╔═╗
