@@ -32,6 +32,9 @@ html {
     .emoji-header a {
         border-bottom: none;     /* Removes bottom border from emoji. */
         color: #313533;       /* Changes font = and + to text colour. */
+        padding-left: 8pt;
+        padding-right: 8pt;
+        border-radius: 5px;
     }
 
     .emoji-header img {
