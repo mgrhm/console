@@ -36,10 +36,12 @@ html {
         margin-right: auto;                 /* Do we need this again? */
     }
         @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
-        html {
-            color: #f9e0d9;                     /* Misty Rose */
-            background: #9a8f97;                /* Onyx */
+            .onion-search input {
+                color: #f9e0d9;                     /* Misty Rose */
+                background: #313533;                /* Onyx */
+                border: 2px solid #f9e0d9;          /* Misty Rose */
             }
+	}
 
 .emoji-header {
     font-family: 'IBM Plex Sans';
