@@ -97,6 +97,12 @@ html {
     padding-bottom: 12pt;
     margin-bottom: 28pt;        /* Keep a nice gap after the infobox. */
 }
+        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+            .infobox {
+                color: #fef9f5;
+                background: #9a8f97;            /* Heliotrope Grey */
+                border-left: 10pt solid #ff7b00; /* Orange Samson! */
+            }
 
     .infobox + p {
     /* This code avoids indenting the first line of any paragraph that
