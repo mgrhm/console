@@ -92,9 +92,12 @@ a.home-link::before{
 
     .post-metadata {
         font-family: 'IBM Plex Sans';
-                    sans-serif;
+                      sans-serif;
+        /* Shrink font for metadata. */
         font-size: 12pt;
         color: white;
+        /* A black text shadow makes the white text legible against the 
+         * black and white image beneath. */
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
         padding-top: 6pt;
         padding-bottom: 6pt;
@@ -103,11 +106,28 @@ a.home-link::before{
     }
     
     a.category-link {
+    /* Just a lazy clone of the code for tag link for the time being.
+     * We should probably try to improve this... somehow.  I'm drawing
+     * a bit of a blank just now.
+     */
+        color: #313533;                             /* Onyx */
+        /* You need to specify exactly no shadow to remove it. */
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        background: #ff7b00;
+        /* This border is a cheat to stop it moving on hover. */
+        border: 2px solid #ff7b00;
+        border-radius: 5px;
+        border-bottom: none;
+        padding-left: 3pt;
+        padding-right: 3pt;
     }
+        a.category-link:hover {
+            background: #f9e0d9;                    /* Misty Rose */
+            border: 2px solid #f9e0d9;              /* Misty Rose */
+        }
     
     a.tag-link {
         color: #313533;                             /* Onyx */
-        font-weight: 700;
         /* You need to specify exactly no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
         background: #ff7b00;
@@ -132,7 +152,6 @@ a.home-link::before{
         font-family: 'IBM Plex Mono',
                       monospace;
         color: #313533;                             /* Onyx */
-        font-weight: 700;
         /* You need to specify exactly no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
         background: #ff7b00;
