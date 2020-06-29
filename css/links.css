@@ -70,3 +70,89 @@ a.home-link::before{
     margin: 0;               /* Tightens this up nicely. */
     padding: 0;              /* Tightens this up nicely. */
 }
+
+
+
+.post-header {
+    background-image: url("https://onionsamson.com/featured/sor_title.png");
+    background-size: cover; /* Stretch to fit */
+    padding-top: 144px;
+    padding-left: 12pt;
+    padding-right: 12pt;
+}
+    .post-header h1 {
+        color: white;
+        margin-bottom: 5pt;
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+    }
+        .post-header h1 a {
+            color: white;
+            border: 0;
+        }
+
+    .post-metadata {
+        font-family: 'IBM Plex Sans';
+                    sans-serif;
+        font-size: 12pt;
+        color: white;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+        padding-top: 6pt;
+        padding-bottom: 6pt;
+        padding-left: 12pt;
+        padding-right: 12pt;
+    }
+    
+    a.category-link {
+    }
+    
+    a.tag-link {
+        color: #313533;                             /* Onyx */
+        font-weight: 700;
+        /* You need to specify exactly no shadow to remove it. */
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        background: #ff7b00;
+        /* This border is a cheat to stop it moving on hover. */
+        border: 2px solid #ff7b00;
+        border-radius: 5px;
+        border-bottom: none;
+        margin-right: 4pt;          /* Space them out a little. */
+        padding-left: 3pt;
+        padding-right: 3pt;
+    
+    }
+        a.tag-link:hover {
+            background: #f9e0d9;                    /* Misty Rose */
+            border: 2px solid #f9e0d9;              /* Misty Rose */
+        }
+        a.tag-link::before {
+            content: url(feather.png);
+        }
+
+    a.permalink-link {
+        font-family: 'IBM Plex Mono',
+                      monospace;
+        color: #313533;                             /* Onyx */
+        font-weight: 700;
+        /* You need to specify exactly no shadow to remove it. */
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        background: #ff7b00;
+        /* This border is a cheat to stop it moving on hover. */
+        border: 2px solid #ff7b00;
+        border-radius: 5px;
+        margin-right: 3pt;
+        padding-left: 3pt;
+        padding-right: 3pt;
+    }
+        a.permalink-link:hover {
+            background: #f9e0d9;                    /* Misty Rose */
+            border: 2px solid #f9e0d9;              /* Misty Rose */
+        }
+        a.permalink-link::before {
+            content: url(key.png);
+        }
+    
+a.external-link::after {
+    content: url(sign.png);
+    margin: 0;               /* Tightens this up nicely. */
+    padding: 0;              /* Tightens this up nicely. */
+}
