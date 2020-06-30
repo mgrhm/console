@@ -100,6 +100,7 @@ html {
                 background: #9a8f97;               /* Heliotrope Grey */
                 border-left: 10pt solid #ff7b00;    /* Orange Samson! */
             }
+        }
 
     .infobox + p {
     /* This code avoids indenting the first line of any paragraph that
@@ -137,8 +138,6 @@ html {
     }
 
 video {
-    border: 20px orange;
-    border-style: ridge;
-    border-radius: 10px
-}
+    border: 20px ridge  orange;
+    border-radius: 20px;
 }
