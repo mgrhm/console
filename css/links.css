@@ -1,16 +1,16 @@
 a {
-    color: #ff7b00;                              /* Orange Samson! */
+    color: #ff7b00;                                 /* Orange Samson! */
     font-family: 'IBM Plex Sans',
-                  sans-serif;    /* Add a bigger stack if you want.*/
-    text-decoration: none;          /* This removes underlining... */
-    border-bottom: 2px solid #ff7b00;   /* ...this does it better. */
-    padding-left: 2pt;       /* Just a tiny bit of breathing room. */
-    padding-right: 2pt;      /* Just a tiny bit of breathing room. */
+                  sans-serif;
+    text-decoration: none;             /* This removes underlining... */
+    border-bottom: 2px solid #ff7b00;      /* ...this does it better. */
+    padding-left: 2pt;          /* Just a tiny bit of breathing room. */
+    padding-right: 2pt;         /* Just a tiny bit of breathing room. */
 }
 
 a:hover {
-    color: #313533;                                /* Onyx text... */
-    background: #ff7b00;         /* ...on an Orange Samson ground. */
+    color: #313533;                                   /* Onyx text... */
+    background: #ff7b00;            /* ...on an Orange Samson ground. */
     border-radius: 5px;
     transition-duration: 0.5s;
     transition-property: background-color;
@@ -18,45 +18,45 @@ a:hover {
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         a:hover {
-            color: #f9e0d9;                     /* Misty Rose */
+            color: #f9e0d9;                             /* Misty Rose */
         }
     }
 
 a.site_title_text {
     font-family: 'OnionSams-Regular',
-                  cursive;           /* There's a generic cursive! */
+                  cursive;              /* There's a generic cursive! */
     font-size: 69pt;
-    color: #313533;                                       /* Onyx. */
-    border-bottom: none;              /* Get rid of the underline. */
+    color: #313533;                                          /* Onyx. */
+    border-bottom: none;                 /* Get rid of the underline. */
     transition-duration: 0.5s;
     transition-property: color;
     transition-timing-function: linear;
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         a.site_title_text {
-            color: #f9e0d9;                     /* Misty Rose */
+            color: #f9e0d9;                             /* Misty Rose */
             }
         }
 
 a.site_title_text:hover {
-    color: #ff7b00;              /* Change hover to Orange Samson. */
-    background: none;    /* And remove background colour on hover. */
+    color: #ff7b00;                 /* Change hover to Orange Samson. */
+    background: none;       /* And remove background colour on hover. */
 }
 
 a.site_title_emoji {
     font-size: 24pt;
-    color: #313533;                                       /* Onyx. */
-    border-bottom: none;              /* Get rid of the underline. */
+    color: #313533;                                          /* Onyx. */
+    border-bottom: none;                 /* Get rid of the underline. */
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         a.site_title_emoji {
-            color: #f9e0d9;                     /* Misty Rose */
+            color: #f9e0d9;                             /* Misty Rose */
             }
         }
 
 a.site_title_emoji:hover {
-    color: #ff7b00;              /* Change hover to Orange Samson. */
-    background: none;    /* And remove background colour on hover. */
+    color: #ff7b00;                 /* Change hover to Orange Samson. */
+    background: none;       /* And remove background colour on hover. */
 }
 
 a.onion-dollars::after {
@@ -94,7 +94,15 @@ a.home-link::before{
     padding: 0;                           /* Tightens this up nicely. */
 }
     a.home-link:hover::before {
-    /*  And this is the pipe’s hover effect: an illuminated entrance. */
+    /*  And this is the pipe’s hover effect: an glowing, illuminated
+     *  entrance to the pipe.  It replaces the pipe with an identically
+     *  sized animated PNG (APNG) file that appears to shimmer.  It's a
+     *  subtle effect and not very noticeable unless you're zoomed in on
+     *  the icon.  This *does not* work in any version of Internet
+     *  Explorer or the pre-Chromium versions of Microsoft Edge.  It
+     *  does fall back gracefully to the original PNG image in those, so
+     *  there's no ugly failure state with this.  Win-win!
+     */
         content: url(https://onionsamson.com/elements/pipe-shine.png);
     }
 
@@ -107,7 +115,7 @@ a.home-link::before{
     /* Linear black gradient for metadata legibility */
     background: -moz-linear-gradient(
       top,
-      rgba(0, 0, 0, 0) 0%,          
+      rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, .75) 100%
       ); /* FF3.6-15 */
     background: -webkit-linear-gradient(
@@ -130,7 +138,7 @@ a.home-link::before{
         /* A black text shadow makes the white text legible against the
          * black-and-white image beneath.
          */
-        text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);           
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
     }
         .post-header h1 a {
             color: white;   /* Header title link should be white too. */
@@ -138,19 +146,19 @@ a.home-link::before{
         }
 
     .post-metadata {
-        /* This code styles the post's metadata that sits on top of the
-         * header image.  To visually reinforce that this information is
-         * secondary to the body text, it's smaller.  To differentiate
-         * further, it's in Plex Sans.
-         */
+    /*  This code styles the post's metadata that sits on top of the
+     *  header image.  To visually reinforce that this information is
+     *  secondary to the body text, it's smaller.  To differentiate
+     *  further, it's in Plex Sans.
+     */
         font-family: 'IBM Plex Sans',
                       sans-serif;
         font-size: 12pt;
         color: white;       /* As with title, this text is white too. */
-        /* A black text shadow makes the white text legible against the
-         * black-and-white image beneath.  This has a tighter shadow
-         * than the post title to increase legibility.
-         */
+    /*  A black text shadow makes the white text legible against the
+     *  black-and-white image beneath.  This has a tighter shadow
+     *  than the post title to increase legibility.
+     */
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
         padding-top: 6pt;
         padding-bottom: 6pt;
@@ -159,11 +167,11 @@ a.home-link::before{
     }
 
     a.category-link {
-        /* Just a lazy clone of the code for tag link for the time
-         * being.  We should probably try to improve this... somehow.
-         * I'm drawing a bit of a blank just now.
-         */
-        color: #313533;                             /* Onyx */
+    /*  Just a lazy clone of the code for tag link for the time being.
+     *  We should probably try to improve this... somehow.  I'm drawing
+     *  a bit of a blank just now.
+     */
+        color: #313533;                                       /* Onyx */
         /* You need to specify exactly no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
         background: #ff7b00;
@@ -180,11 +188,10 @@ a.home-link::before{
         }
 
     a.tag-link {
-        /* This link style is for tags.  It adds a Cape Feather icon
-         * before link text itself.  This link style needs to be
-         * explicitly used by adding the code 'class="tag-link"' to the
-         * <a> tag.
-         */
+    /*  This link style is for tags.  It adds a Cape Feather icon before
+     *  link text itself.  This link style needs to be explicitly used
+     *  by adding the code 'class="tag-link"' to the <a> tag.
+     */
         color: #313533;                                       /* Onyx */
         /* You need to explicitly specify no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
@@ -197,13 +204,12 @@ a.home-link::before{
         padding-left: 3pt;
         padding-right: 3pt;
 
-    }
-        a.tag-link:hover {
-            /* To increase legibility on hover against the dark
-             * background, these hover with a Misty Rose background
-             * colour.  It inherits the transition effect of the main
-             * links and has an interesting slow border transition.
-             */
+    } a.tag-link:hover {
+      /*  To increase legibility on hover against the dark background,
+       *  these hover with a Misty Rose background colour.  It inherits
+       *  the transition effect of the main links and has an interesting
+       *  slow border transition.
+       */
             background: #f9e0d9;                        /* Misty Rose */
             border: 2px solid #f9e0d9;                  /* Misty Rose */
         }
@@ -212,11 +218,11 @@ a.home-link::before{
         }
 
     a.permalink-link {
-        /* This class is badly/confusingly named, so we should probably
-         * clear it up by giving it a better name.  It's used to style
-         * the full permalink in the metadata section in monospaced, and
-         * append a key icon before the link itself.
-         */
+    /*  This class is badly/confusingly named, so we should probably
+     *  clear it up by giving it a better name.  It's used to style the
+     *  full permalink in the metadata section in monospaced, and preend
+     *  a key icon before the link itself.
+     */
         font-family: 'IBM Plex Mono',
                       monospace;
         color: #313533;                             /* Onyx */
@@ -231,11 +237,11 @@ a.home-link::before{
         padding-right: 3pt;
     }
         a.permalink-link:hover {
-            /* To increase legibility on hover against the dark
-             * background, these hover with a Misty Rose background
-             * colour.  It inherits the transition effect of the main
-             * links and has an interesting slow border transition.
-             */
+        /*  To increase legibility on hover against the dark background,
+         *  these hover with a Misty Rose background colour.  It
+         *  inherits the transition effect of the main links and has an
+         *  interesting slow border transition.
+         */
             background: #f9e0d9;                        /* Misty Rose */
             border: 2px solid #f9e0d9;                  /* Misty Rose */
         }
@@ -244,10 +250,12 @@ a.home-link::before{
         }
 
 a.external-link::after {
-    /* This is kind of a lark -- I meant it for the header to make it
-     * clear that the "Twitter" link takes you to another website.  What
-     * do you think?
-     */
+
+/*  This link class pops a little sign with an arrow pointing toward the
+ *  right immediately after a link that uses the "external-link" class.
+ *  It is, as the name suggests, intended to signify a link that takes
+ *  you away from onionsamson.com.
+ */
     content: url(https://onionsamson.com/elements/sign.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
