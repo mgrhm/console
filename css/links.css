@@ -175,7 +175,7 @@ a.home-link::before{
             border: 2px solid #f9e0d9;                  /* Misty Rose */
         }
         a.tag-link::before {
-            content: url(feather.png);
+            content: url(https://onionsamson.com/elements/feather.png);
         }
 
     a.permalink-link {
@@ -207,7 +207,7 @@ a.home-link::before{
             border: 2px solid #f9e0d9;                  /* Misty Rose */
         }
         a.permalink-link::before {
-            content: url(key.png);
+            content: url(https://onionsamson.com/elements/key.png);
         }
 
 a.external-link::after {
@@ -215,7 +215,7 @@ a.external-link::after {
      * clear that the "Twitter" link takes you to another website.  What
      * do you think?
      */
-    content: url(sign.png);
-    margin: 0;               /* Tightens this up nicely. */
-    padding: 0;              /* Tightens this up nicely. */
+    content: url(https://onionsamson.com/elements/sign.png);
+    margin:  0;                           /* Tightens this up nicely. */
+    padding: 0;                           /* Tightens this up nicely. */
 }
