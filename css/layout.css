@@ -139,5 +139,6 @@ html {
 video {
     border: 20px orange;
     border-style: ridge;
-    border-radius: 10px;
+    border-radius: 10px
+}
 }
