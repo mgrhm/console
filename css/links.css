@@ -60,15 +60,26 @@ a.site_title_emoji:hover {
 }
 
 a.onion-dollars::after {
+    /* This is the code for affiliate links.  It appends the Yoshi coin
+     * image after the link.  Spacing between the coin and the link text
+     * is set by the image's transparent pixels.  This link style needs
+     * to be explicitly used by adding the code 'class="onion-dollars"'
+     * to the <a> tag.
+     */
     content: url(https://onionsamson.com/elements/yoshi.png);
-    margin: 0;               /* Tightens this up nicely. */
-    padding: 0;              /* Tightens this up nicely. */
+    margin:  0;                           /* Tightens this up nicely. */
+    padding: 0;                           /* Tightens this up nicely. */
 }
 
 a.home-link::before{
+    /* This is a one-off style for the 'Home' link at the bottom of the
+     * page.  It adds a custom orange warp-pipe before the text.  As
+     * with the Yoshi dollar, spacing is handled by transparent pixels
+     * in the image itself.  It's invoked using the "home-link" class.
+     */
     content: url(https://onionsamson.com/elements/pipe.png);
-    margin: 0;               /* Tightens this up nicely. */
-    padding: 0;              /* Tightens this up nicely. */
+    margin:  0;                           /* Tightens this up nicely. */
+    padding: 0;                           /* Tightens this up nicely. */
 }
 
 
@@ -83,33 +94,42 @@ a.home-link::before{
     .post-header h1 {
         color: white;
         margin-bottom: 5pt;
+        /* A black text shadow makes the white text legible against the
+         * black-and-white image beneath.
+         */
         text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
     }
         .post-header h1 a {
-            color: white;
-            border: 0;
+            color: white;   /* Header title link should be white too. */
+            border: 0;         /* And it shouldn't have an underline. */
         }
 
     .post-metadata {
+        /* This code styles the post's metadata that sits on top of the
+         * header image.  To visually reinforce that this information is
+         * secondary to the body text, it's smaller.  To differentiate
+         * further, it's in Plex Sans.
+         */
         font-family: 'IBM Plex Sans';
                       sans-serif;
-        /* Shrink font for metadata. */
         font-size: 12pt;
-        color: white;
-        /* A black text shadow makes the white text legible against the 
-         * black and white image beneath. */
+        color: white;       /* As with title, this text is white too. */
+        /* A black text shadow makes the white text legible against the
+         * black-and-white image beneath.  This has a tighter shadow
+         * than the post title to increase legibility.
+         */
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
         padding-top: 6pt;
         padding-bottom: 6pt;
         padding-left: 12pt;
         padding-right: 12pt;
     }
-    
+
     a.category-link {
-    /* Just a lazy clone of the code for tag link for the time being.
-     * We should probably try to improve this... somehow.  I'm drawing
-     * a bit of a blank just now.
-     */
+        /* Just a lazy clone of the code for tag link for the time
+         * being.  We should probably try to improve this... somehow.
+         * I'm drawing a bit of a blank just now.
+         */
         color: #313533;                             /* Onyx */
         /* You need to specify exactly no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
@@ -122,40 +142,55 @@ a.home-link::before{
         padding-right: 3pt;
     }
         a.category-link:hover {
-            background: #f9e0d9;                    /* Misty Rose */
-            border: 2px solid #f9e0d9;              /* Misty Rose */
+            background: #f9e0d9;                        /* Misty Rose */
+            border: 2px solid #f9e0d9;                  /* Misty Rose */
         }
-    
+
     a.tag-link {
-        color: #313533;                             /* Onyx */
-        /* You need to specify exactly no shadow to remove it. */
+        /* This link style is for tags.  It adds a Cape Feather icon
+         * before link text itself.  This link style needs to be
+         * explicitly used by adding the code 'class="tag-link"' to the
+         * <a> tag.
+         */
+        color: #313533;                                       /* Onyx */
+        /* You need to explicitly specify no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
         background: #ff7b00;
-        /* This border is a cheat to stop it moving on hover. */
+        /* This border is a cheat to stop it squirming on hover. */
         border: 2px solid #ff7b00;
         border-radius: 5px;
         border-bottom: none;
-        margin-right: 4pt;          /* Space them out a little. */
+        margin-left: 4pt;                 /* Space them out a little. */
         padding-left: 3pt;
         padding-right: 3pt;
-    
+
     }
         a.tag-link:hover {
-            background: #f9e0d9;                    /* Misty Rose */
-            border: 2px solid #f9e0d9;              /* Misty Rose */
+            /* To increase legibility on hover against the dark
+             * background, these hover with a Misty Rose background
+             * colour.  It inherits the transition effect of the main
+             * links and has an interesting slow border transition.
+             */
+            background: #f9e0d9;                        /* Misty Rose */
+            border: 2px solid #f9e0d9;                  /* Misty Rose */
         }
         a.tag-link::before {
             content: url(feather.png);
         }
 
     a.permalink-link {
+        /* This class is badly/confusingly named, so we should probably
+         * clear it up by giving it a better name.  It's used to style
+         * the full permalink in the metadata section in monospaced, and
+         * append a key icon before the link itself.
+         */
         font-family: 'IBM Plex Mono',
                       monospace;
         color: #313533;                             /* Onyx */
-        /* You need to specify exactly no shadow to remove it. */
+        /* You need to explicitly specify no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
         background: #ff7b00;
-        /* This border is a cheat to stop it moving on hover. */
+        /* This border is a cheat to stop it squirming on hover. */
         border: 2px solid #ff7b00;
         border-radius: 5px;
         margin-right: 3pt;
@@ -163,14 +198,23 @@ a.home-link::before{
         padding-right: 3pt;
     }
         a.permalink-link:hover {
-            background: #f9e0d9;                    /* Misty Rose */
-            border: 2px solid #f9e0d9;              /* Misty Rose */
+            /* To increase legibility on hover against the dark
+             * background, these hover with a Misty Rose background
+             * colour.  It inherits the transition effect of the main
+             * links and has an interesting slow border transition.
+             */
+            background: #f9e0d9;                        /* Misty Rose */
+            border: 2px solid #f9e0d9;                  /* Misty Rose */
         }
         a.permalink-link::before {
             content: url(key.png);
         }
-    
+
 a.external-link::after {
+    /* This is kind of a lark -- I meant it for the header to make it
+     * clear that the "Twitter" link takes you to another website.  What
+     * do you think?
+     */
     content: url(sign.png);
     margin: 0;               /* Tightens this up nicely. */
     padding: 0;              /* Tightens this up nicely. */
