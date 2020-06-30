@@ -97,7 +97,7 @@ html {
         @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
             .infobox {
                 color: #fef9f5;
-                background: #9a8f97;               /* Heliotrope Grey */
+                background: rgba(154, 143, 151, 0.4);
                 border-left: 10pt solid #ff7b00;    /* Orange Samson! */
             }
         }
