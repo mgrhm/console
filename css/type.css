@@ -74,7 +74,7 @@ blockquote {
     font-style: italic;
     padding-left: 24pt;
     margin-right: 48pt;
-    border-left: 10pt solid #9a8f97;           /* Heliotrope Grey */
+    border-left: 10pt solid #9a8f97;               /* Heliotrope Grey */
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the blockquote is 40% opacity of the
  *  border colour "Heliotrope Grey" #9a8f97.  There's no way to do this
@@ -86,11 +86,16 @@ blockquote {
     padding-top: 2pt;
     padding-bottom: 2pt;
     }
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        blockquote {
+            color: #fef9f5;
+            }
+        }
 
-blockquote em {
-/* This makes an <em> inside a blockquote into roman. */
-    font-style: normal;
-}
+    blockquote em {
+    /* This makes an <em> inside a blockquote into roman. */
+        font-style: normal;
+    }
 
 
 /*
@@ -102,12 +107,13 @@ blockquote em {
 
 p + p {
 /* This indents subsequent paragraphs by twice font height. */
-    margin-top: -10pt;     /* Reduces gap between two paragraphs. */
+    margin-top: -10pt;         /* Reduces gap between two paragraphs. */
     text-indent: 28pt;
 }
 
 
-/*  ╦  ╦╔═╗╔╦╗╔═╗
+/*
+ *  ╦  ╦╔═╗╔╦╗╔═╗
  *  ║  ║╚═╗ ║ ╚═╗
  *  ╩═╝╩╚═╝ ╩ ╚═╝
  *  Styling for lists.
