@@ -83,17 +83,20 @@ a.onion-dollars::after {
     }
 
 a.home-link::before{
-    /* This is a one-off style for the 'Home' link at the bottom of the
-     * page.  It adds a custom orange warp-pipe before the text.  As
-     * with the Yoshi dollar, spacing is handled by transparent pixels
-     * in the image itself.  It's invoked using the "home-link" class.
-     */
+/*  This is a one-off style for the 'Home' link at the bottom of the
+ *  page.  It adds a custom orange warp-pipe before the text.  As with
+ *  the Onion dollar, spacing is handled by transparent pixels in the
+ *  image itself.  The customer hover state is handled by the subsequent
+ *  CSS.  It's invoked using the "home-link" class.
+ */
     content: url(https://onionsamson.com/elements/pipe.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
-
-
+    a.home-link:hover::before {
+    /*  And this is the pipe’s hover effect: an illuminated entrance. */
+        content: url(https://onionsamson.com/elements/pipe-shine.png);
+    }
 
 .post-header-wrapper {
     background-image: url("https://onionsamson.com/featured/sor_title.png");
