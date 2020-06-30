@@ -110,7 +110,7 @@ a.home-link::before{
          * secondary to the body text, it's smaller.  To differentiate
          * further, it's in Plex Sans.
          */
-        font-family: 'IBM Plex Sans';
+        font-family: 'IBM Plex Sans',
                       sans-serif;
         font-size: 12pt;
         color: white;       /* As with title, this text is white too. */

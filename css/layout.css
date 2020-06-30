@@ -5,11 +5,11 @@ html {
 
 .header {
     text-align: center;
-    margin-left: -24pt;             /* Extends divider past text. */
-    margin-right: -24pt;            /* Extends divider past text. */
+    margin-left: -24pt;                 /* Extends divider past text. */
+    margin-right: -24pt;                /* Extends divider past text. */
     padding-bottom: 10pt;
     padding-top: 24pt;
-    border-bottom: 2px solid #9a8f97;          /* Heliotrope Gray */
+    border-bottom: 2px solid #9a8f97;              /* Heliotrope Gray */
 }
 
     .header a {
@@ -27,9 +27,9 @@ html {
         font-weight: 500;
         font-family: 'IBM Plex Mono',
                       serif;
-        color: #313533;                     /* Onyx */
-        background-color: #f9e0d9;          /* Misty Rose */
-        border: 2px solid #313533;          /* Onyx */
+        color: #313533;                                       /* Onyx */
+        background-color: #f9e0d9;                      /* Misty Rose */
+        border: 2px solid #313533;                            /* Onyx */
         border-radius: 5px;
         padding-left: 5px;         /* So query text doesn't hit edge. */
         padding-right: 5px;        /* So query text doesn't hit edge. */
@@ -39,9 +39,9 @@ html {
     }
         @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
             .onion-search input {
-                color: #f9e0d9;                     /* Misty Rose */
-                background: #313533;                /* Onyx */
-                border: 2px solid #f9e0d9;          /* Misty Rose */
+                color: #f9e0d9;                         /* Misty Rose */
+                background: #313533;                          /* Onyx */
+                border: 2px solid #f9e0d9;              /* Misty Rose */
             }
    }
 
@@ -67,14 +67,14 @@ html {
 
 .footer {
     font-family: 'IBM Plex Sans',
-                  sans-serif;    /* Add a bigger stack if you want.*/
+                  sans-serif;
     text-align: center;
-    margin-left: -24pt;             /* Extends divider past text. */
-    margin-right: -24pt;            /* Extends divider past text. */
+    margin-left: -24pt;                 /* Extends divider past text. */
+    margin-right: -24pt;                /* Extends divider past text. */
     margin-top: 24pt;
     padding-bottom: 24pt;
     padding-top: 12pt;
-    border-top: 2px solid #9a8f97;             /* Heliotrope Gray */
+    border-top: 2px solid #9a8f97;                 /* Heliotrope Gray */
 }
 
     .footer a {
@@ -89,19 +89,16 @@ html {
  */
     font-style: italic;
     background: #f9e0d9;
-    border-left: 10pt solid #9a8f97;           /* Heliotrope Grey */
+    border-left: 10pt solid #9a8f97;               /* Heliotrope Grey */
     border-radius: 5px;
-    padding-left: 12pt;
-    padding-right: 12pt;
-    padding-top: 12pt;
-    padding-bottom: 12pt;
+    padding: 12pt;                 /* 12pt padding on all four sides. */
     margin-bottom: 28pt;        /* Keep a nice gap after the infobox. */
 }
         @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
             .infobox {
                 color: #fef9f5;
-                background: #9a8f97;            /* Heliotrope Grey */
-                border-left: 10pt solid #ff7b00; /* Orange Samson! */
+                background: #9a8f97;               /* Heliotrope Grey */
+                border-left: 10pt solid #ff7b00;    /* Orange Samson! */
             }
 
     .infobox + p {
@@ -136,7 +133,7 @@ html {
     }
 
     .infobox code {
-        background: none;   /* No background colour on infobox code. */
+        background: none;    /* No background colour on infobox code. */
     }
 
 video {
