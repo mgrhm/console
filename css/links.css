@@ -60,16 +60,27 @@ a.site_title_emoji:hover {
 }
 
 a.onion-dollars::after {
-    /* This is the code for affiliate links.  It appends the Onion coin
-     * image after the link.  Spacing between the coin and the link text
-     * is set by the image's transparent pixels.  This link style needs
-     * to be explicitly used by adding the code 'class="onion-dollars"'
-     * to the <a> tag.
-     */
-    content: url(https://onionsamson.com/elements/onioncoin.png);
+/*  This is the code for affiliate links.  It appends the Onion coin
+ *  image after the link.  Spacing between the coin and the link text
+ *  is set by the image's transparent pixels.  This link style needs
+ *  to be explicitly used by adding the code 'class="onion-dollars"'
+ *  to the <a> tag.
+ */
+    content: url(https://onionsamson.com/elements/onion-coin.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
+    a.onion-dollars:hover::before {
+    /*  Hover effect for affiliate links.  It replaces the coin with an
+     *  identically sized animated PNG (APNG) file that shimmers like
+     *  the Yoshi Coin in 'Super Mario World'; it uses exactly the same
+     *  colour sequence.  This *does not* work in any version of
+     *  Internet Explorer or the pre-Chromium versions of Microsoft
+     *  Edge.  It does fall back gracefully to the original PNG image in
+     *  those, so there's no ugly failure state with this.  Win-win!
+     */
+        content: url(https://onionsamson.com/elements/onion-coin-shimmer.png);
+    }
 
 a.home-link::before{
     /* This is a one-off style for the 'Home' link at the bottom of the
