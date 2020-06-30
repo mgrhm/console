@@ -82,10 +82,10 @@ html {
     }
 
 .infobox {
-/* This is a special paragraph class that produces a Misty Rose-coloured
- * paragraph with a Heliotrope border on the left.  It's similar to a
- * blockquote, but used for authorial and editorial notes rather than
- * actual blockquotes.
+/*  This is a special paragraph class that produces a Misty Rose
+ *  coloured paragraph with a Heliotrope border on the left.  It's
+ *  similar to a blockquote, but used for authorial and editorial notes
+ *  rather than actual blockquotes.
  */
     font-style: italic;
     background: #f9e0d9;
@@ -103,21 +103,21 @@ html {
         }
 
     .infobox + p {
-    /* This code avoids indenting the first line of any paragraph that
-     * immediately follows an infobox element.  Without it, it's treated
-     * by the browser as a normal p + p and indents the first line.
+    /*  This code avoids indenting the first line of any paragraph that
+     *  immediately follows an infobox.  Without it, it's treated by the
+     *  browser as a normal p + p and indents the first line.
      */
         text-indent: 0;
     }
 
     p + .infobox {
-    /* This code is for an infobox that comes *after* a standard
-     * paragraph.  It serves two purposes: it removes the indent on the
-     * first line of the infobox (nullifying the usual p+p rule); and
-     * it ensures sufficient space between the bottom of the paragraph
-     * and top of the infobox.  The value is 20pt rather than the 28pt
-     * following an infobox because this gives a more even appearance of
-     * spacing.
+    /*  This code is for an infobox that comes *after* a standard
+     *  paragraph.  It serves two purposes: it removes the indent on the
+     *  first line of the infobox (nullifying the usual p+p rule); and
+     *  it ensures sufficient space between the bottom of the paragraph
+     *  and top of the infobox.  The value is 20pt rather than the 28pt
+     *  following an infobox because this gives a more even appearance
+     *  of spacing.
      */
         text-indent: 0;
         margin-top: 20pt;
@@ -133,11 +133,17 @@ html {
         font-weight: 700;
     }
 
+    .infobox em {
+    /* This makes an <em> inside an infobox into roman. */
+        font-style: normal;
+    }
+
     .infobox code {
         background: none;    /* No background colour on infobox code. */
     }
 
 video {
-    border: 20px ridge  orange;
+    border: 20px ridge #ff7b00;                     /* Orange Samson! */
     border-radius: 20px;
 }
+
