@@ -84,20 +84,39 @@ a.home-link::before{
 
 
 
-.post-header {
+.post-header-wrapper {
     background-image: url("https://onionsamson.com/featured/sor_title.png");
     background-size: cover; /* Stretch to fit */
     padding-top: 144px;
-    padding-left: 12pt;
-    padding-right: 12pt;
+}
+.post-header {
+    /* Linear black gradient for metadata legibility */
+    background: -moz-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0) 0%,          
+      rgba(0, 0, 0, .75) 100%
+      ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, .75) 100%
+      ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, .75) 100%
+      ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#c6000000', GradientType=0); /* IE6-9 */
 }
     .post-header h1 {
         color: white;
         margin-bottom: 5pt;
+        padding-left: 22px;
+        padding-right: 22px;
         /* A black text shadow makes the white text legible against the
          * black-and-white image beneath.
          */
-        text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);           
     }
         .post-header h1 a {
             color: white;   /* Header title link should be white too. */
@@ -121,8 +140,8 @@ a.home-link::before{
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
         padding-top: 6pt;
         padding-bottom: 6pt;
-        padding-left: 12pt;
-        padding-right: 12pt;
+        padding-left: 44px;
+        padding-right: 44px;
     }
 
     a.category-link {

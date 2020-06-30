@@ -80,7 +80,24 @@ html {
     .footer a {
         border-bottom: 0;
     }
-
+.post-header {
+    background: -moz-linear-gradient(
+        top,
+        rgba(0, 0, 0, 0) 0%,          
+        rgba(0, 0, 0, .75) 100%
+      ); /* FF3.6-15 */
+      background: -webkit-linear-gradient(
+        top,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, .75) 100%
+      ); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, .75) 100%
+      ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#c6000000', GradientType=0); /* IE6-9 */
+    }
 .infobox {
 /* This is a special paragraph class that produces a Misty Rose-coloured
  * paragraph with a Heliotrope border on the left.  It's similar to a
