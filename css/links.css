@@ -60,13 +60,13 @@ a.site_title_emoji:hover {
 }
 
 a.onion-dollars::after {
-    /* This is the code for affiliate links.  It appends the Yoshi coin
+    /* This is the code for affiliate links.  It appends the Onion coin
      * image after the link.  Spacing between the coin and the link text
      * is set by the image's transparent pixels.  This link style needs
      * to be explicitly used by adding the code 'class="onion-dollars"'
      * to the <a> tag.
      */
-    content: url(https://onionsamson.com/elements/yoshi.png);
+    content: url(https://onionsamson.com/elements/onioncoin.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
