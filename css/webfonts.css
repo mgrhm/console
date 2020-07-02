@@ -13,44 +13,15 @@
 */
 
 /*
- *  ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╔═╗
- *  ╠═╝╠═╣║  ║╠╣ ║║  ║ ║
- *  ╩  ╩ ╩╚═╝╩╚  ╩╚═╝╚═╝
- *  Pacifico is font used the site's logotype.
- *
- *  This font was made by Vernon Adams in 2014.  It was subsequently
- *  expanded by Jacques Le Bailly, Botjo Nikoltchev, and Ani Petrova.
- *
- *  It is licensed under the SIL Open Font License:
- *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
- *
- *  This license does not extend to any other parts of this website.
- */
-
-@font-face {
-    font-family: 'Pacifico';
-    font-weight:  400;
-    font-style:   normal;
-    font-display: swap;
-    src: local('Pacifico Regular'),
-         local('Pacifico-Regular'),
-         url('https://onionsamson.com/fonts/pacifico/regular.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/pacifico/regular.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/pacifico/regular.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/pacifico/regular.eot')   format('embedded-opentype');
-         }
-
-
-/*
  *  ╔═╗╔╗╔╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╔═╗
  *  ║ ║║║║║║ ║║║║  ╚═╗╠═╣║║║╚═╗
  *  ╚═╝╝╚╝╩╚═╝╝╚╝  ╚═╝╩ ╩╩ ╩╚═╝
  *  Onion Sams is font used for the site's logotype.
  *
- *  This is a very limited character-set derivation of the font Pacifico,
+ *  This is a limited character-set derivation of the font Pacifico,
  *  which was made by Vernon Adams in 2011.  This derivation was made by
- *  koralatov using Birdfont Non-Commercial and converted into webfont
- *  format using https://www.font-converter.net/en
+ *  koralatov using FontLab VI and converted into webfont format using
+ *  https://www.font-converter.net/en
  *
  *  OnionSams is licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
@@ -77,11 +48,10 @@
  *  ╚═╝╝╚╝╩╚═╝╝╚╝   ╚╝ ╩ ╩╩ ╩╩
  *  Onion Vamp is font used for the site's logotype in dark mode.
  *
- *
- *  This is a very limited character-set derivation of the font Vampiro
- *  One, which was made by Riccardo De Franceschi for Sorkin Type Co.
- *  This derivation was made by koralatov using FontLab VI and converted
- *  into webfont format using https://www.font-converter.net/en
+ *  This is a limited character-set derivation of the font Vampiro One,
+ *  which was made by Riccardo De Franceschi for Sorkin Type Co.  This
+ *  derivation was made by koralatov using FontLab VI and converted into
+ *  webfont format using https://www.font-converter.net/en
  *
  *  Onion Vamp is licensed under the SIL Open Font License:
  *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
@@ -101,33 +71,6 @@
          url('https://onionsamson.com/fonts/onionvamp/regular.eot')   format('embedded-opentype');
          }
 
-
-/*
- *  ╦  ╦╔═╗╔╦╗╔═╗╦╦═╗╔═╗  ╔═╗╔╗╔╔═╗
- *  ╚╗╔╝╠═╣║║║╠═╝║╠╦╝║ ║  ║ ║║║║║╣
- *   ╚╝ ╩ ╩╩ ╩╩  ╩╩╚═╚═╝  ╚═╝╝╚╝╚═╝
- *  Vampiro One is font used the site's logotype in dark mode.
- *
- *  This font was made by Riccardo De Franceschi for Sorkin Type.
- *
- *  It is licensed under the SIL Open Font License:
- *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
- *
- *  This license does not extend to any other parts of this website.
- */
-
-@font-face {
-    font-family: 'Vampiro One';
-    font-weight:  400;
-    font-style:   normal;
-    font-display: swap;
-    src: local('Vampiro One Regular'),
-         local('VampiroOne-Regular'),
-         url('https://onionsamson.com/fonts/vampiro-one/400.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/vampiro-one/400.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/vampiro-one/400.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/vampiro-one/400.eot')   format('embedded-opentype');
-         }
 
 /*
  *  ╦═╗╔═╗╔╦╗╦═╗╔═╗  ╔═╗╦ ╦╔═╗╔╦╗╔═╗╔╦╗╔═╗
