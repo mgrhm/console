@@ -72,6 +72,38 @@
 
 
 /*
+ *  ╔═╗╔╗╔╦╔═╗╔╗╔  ╦  ╦╔═╗╔╦╗╔═╗
+ *  ║ ║║║║║║ ║║║║  ╚╗╔╝╠═╣║║║╠═╝
+ *  ╚═╝╝╚╝╩╚═╝╝╚╝   ╚╝ ╩ ╩╩ ╩╩
+ *  Onion Vamp is font used for the site's logotype in dark mode.
+ *
+ *
+ *  This is a very limited character-set derivation of the font Vampiro
+ *  One, which was made by Riccardo De Franceschi for Sorkin Type Co.
+ *  This derivation was made by koralatov using Birdfont Non-Commercial
+ *  and converted into webfont format using
+ *  https://www.font-converter.net/en
+ *
+ *  Onion Vamp is licensed under the SIL Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+ *
+ *  This license does not extend to any other parts of this website.
+ */
+
+@font-face {
+    font-family: 'OnionVamp';
+    font-weight:  400;
+    font-style:   normal;
+    font-display: swap;
+    src: local('OnionVamp'),
+         url('https://onionsamson.com/fonts/onionvamp/regular.woff2') format('woff2'),
+         url('https://onionsamson.com/fonts/onionvamp/regular.woff')  format('woff'),
+         url('https://onionsamson.com/fonts/onionvamp/regular.ttf')   format('truetype'),
+         url('https://onionsamson.com/fonts/onionvamp/regular.eot')   format('embedded-opentype');
+         }
+
+
+/*
  *  ╦  ╦╔═╗╔╦╗╔═╗╦╦═╗╔═╗  ╔═╗╔╗╔╔═╗
  *  ╚╗╔╝╠═╣║║║╠═╝║╠╦╝║ ║  ║ ║║║║║╣
  *   ╚╝ ╩ ╩╩ ╩╩  ╩╩╚═╚═╝  ╚═╝╝╚╝╚═╝

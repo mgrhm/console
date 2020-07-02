@@ -34,7 +34,7 @@ a.site_title_text {
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         a.site_title_text {
-            font-family: 'Vampiro One',
+            font-family: 'OnionVamp',
                           cursive;
             color: #f9e0d9;                             /* Misty Rose */
             }
