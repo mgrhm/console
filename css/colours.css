@@ -1,28 +1,24 @@
 html {
-    background: #fef9f5;                        /* Lavender Blush */
-    color: #313533;                             /* Onyx */
+    background: #fef9f5;                            /* Lavender Blush */
+    color: #313533;                                           /* Onyx */
 }
-
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         html {
-            background: #313533;                /* Onyx */
-            color: #f9e0d9;                     /* Misty Rose */
+            background: #313533;                              /* Onyx */
+            color: #f9e0d9;                             /* Misty Rose */
             }
         }
 
 
-/*
- *  Change text-selection colour to "Vivid Tangerine" from Onion Blush.
- *  This probably doesn't work in Internet Explorer, but that's okay.
+::selection {
+/*  Change text-selection colour to "Vivid Tangerine" from Onion Blush.
  *  Source: https: //www.w3schools.com/cssref/sel_selection.asp
  */
-
-::selection {
-    background: #ffa69e;                       /* Vivid Tangerine */
+    background: #ffa69e;                           /* Vivid Tangerine */
 }
 
 ::-moz-selection {                           /* Firefox compatibility */
-    background: #ffa69e;                       /* Vivid Tangerine */
+    background: #ffa69e;                           /* Vivid Tangerine */
 }
 
 
