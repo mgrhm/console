@@ -72,6 +72,33 @@
 
 
 /*
+ *  ╦  ╦╔═╗╔╦╗╔═╗╦╦═╗╔═╗  ╔═╗╔╗╔╔═╗
+ *  ╚╗╔╝╠═╣║║║╠═╝║╠╦╝║ ║  ║ ║║║║║╣
+ *   ╚╝ ╩ ╩╩ ╩╩  ╩╩╚═╚═╝  ╚═╝╝╚╝╚═╝
+ *  Vampiro One is font used the site's logotype in dark mode.
+ *
+ *  This font was made by Riccardo De Franceschi for Sorkin Type.
+ *
+ *  It is licensed under the SIL Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+ *
+ *  This license does not extend to any other parts of this website.
+ */
+
+@font-face {
+    font-family: 'Vampiro One';
+    font-weight:  400;
+    font-style:   normal;
+    font-display: swap;
+    src: local('Vampiro One Regular'),
+         local('VampiroOne-Regular'),
+         url('https://onionsamson.com/fonts/vampiro-one/400.woff2') format('woff2'),
+         url('https://onionsamson.com/fonts/vampiro-one/400.woff')  format('woff'),
+         url('https://onionsamson.com/fonts/vampiro-one/400.ttf')   format('truetype'),
+         url('https://onionsamson.com/fonts/vampiro-one/400.eot')   format('embedded-opentype');
+         }
+
+/*
  *  ╦═╗╔═╗╔╦╗╦═╗╔═╗  ╔═╗╦ ╦╔═╗╔╦╗╔═╗╔╦╗╔═╗
  *  ╠╦╝║╣  ║ ╠╦╝║ ║  ╚═╗╚╦╝╚═╗ ║ ║╣ ║║║╚═╗
  *  ╩╚═╚═╝ ╩ ╩╚═╚═╝  ╚═╝ ╩ ╚═╝ ╩ ╚═╝╩ ╩╚═╝
