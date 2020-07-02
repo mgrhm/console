@@ -1,9 +1,9 @@
 body {
-    max-width: 80ch;
-    font-size: 14pt;
-    font-weight: 500;
+    max-width:    80ch;
+    font-size:    14pt;
+    font-weight:  500;
     font-family: 'IBM Plex Serif', serif;
-    line-height: 22pt;
+    line-height:  22pt;
 }
 
 
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
  *  in every single instance.  They'll be inherited from this. */
     font-family: 'IBM Plex Sans',
                   sans-serif;
-    font-weight: 700;
+    font-weight:  700;
 }
 
 /*  An explanation of the rationale behind the sizing and line-heights
@@ -39,27 +39,27 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 h1 {
-    font-size: 28pt;
+    font-size:   28pt;
     line-height: 34pt;
 }
 
 h2 {
-    font-size: 24pt;
+    font-size:   24pt;
     line-height: 30pt;
 }
 
 h3 {
-    font-size: 20pt;
+    font-size:   20pt;
     line-height: 26pt;
 }
 
 h4 {
-    font-size: 16pt;
+    font-size:   16pt;
     line-height: 22pt;
 }
 
 h5 {
-    font-size: 14pt;
+    font-size:   14pt;
     line-height: 20pt;
 }
 
@@ -72,11 +72,11 @@ h5 {
  */
 
 blockquote {
-    font-style: italic;
-    padding-left: 24pt;
-    margin-right: 48pt;
-    border-left: 10pt solid #9a8f97;               /* Heliotrope Grey */
-    border-radius: 5px;
+    font-style:     italic;
+    padding-left:   24pt;
+    margin-right:   48pt;
+    border-left:    10pt solid #9a8f97;            /* Heliotrope Grey */
+    border-radius:   5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the blockquote is 40% opacity of the
  *  border colour "Heliotrope Grey" #9a8f97.  There's no way to do this
@@ -84,13 +84,13 @@ blockquote {
  *  border colour, we'll need to manually update this RGB value.  I got
  *  this from Stack Overflow here: https://stackoverflow.com/a/5135033
  */
-    padding-right: 12pt;
-    padding-top: 2pt;
-    padding-bottom: 2pt;
+    padding-right:  12pt;
+    padding-top:     2pt;
+    padding-bottom:  2pt;
     }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         blockquote {
-            color: #fef9f5;
+            color:  #fef9f5;
             }
         }
 
@@ -122,12 +122,12 @@ p + p {
  */
 
 ol {
-    margin-left: 10pt;
+    margin-left:  10pt;
     margin-right: 10pt;
 }
 
 ul {
-    margin-left: 10pt;
+    margin-left:  10pt;
     margin-right: 10pt;
 }
 
@@ -152,8 +152,13 @@ code {
  *  from Stack Overflow here: https://stackoverflow.com/a/5135033
  */
     padding-right: 4pt;            /* Adds a little 'breathing room'. */
-    padding-left: 4pt;             /* Adds a little 'breathing room'. */
+    padding-left:  4pt;            /* Adds a little 'breathing room'. */
 }
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        code {
+            color: #fef9f5;                         /* Lavender Blush */
+            }
+        }
 
 pre {
 /*  This is a tighter version of the styling used for blockquotes.  I
@@ -223,7 +228,7 @@ code.retro-green {
  *  uses a different, slightly chunkier font called "November" to add a
  *  little difference between it and the standard retro style.
  *
- *  The colour scheme is the same "Eerie Black" background with a ,
+ *  The colour scheme is the same "Eerie Black" background with a
  *  slightly muted, nearly turquoise green called "Medium Aquamarine".
  *  It lacks the 'pop' of a real green-on-black CRT, but suggests a
  *  certain age to the machine instead.
@@ -265,16 +270,16 @@ code.amiga {
 pre.amiga {
     font-family: 'Amiga Topaz',
                   monospace;
-    font-size: 14pt;
-    line-height: 18pt;                        /* Too crushed at 14pt. */
+    font-size:    14pt;
+    line-height:  18pt;                       /* Too crushed at 14pt. */
 /*  Colours used for Amiga code are taken from this image on Wikipedia:
  *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
  *  Rather than use true #ffffff white, I chose one of the very slightly
  *  blended blue/whites from the screenshot for the text colour.  This
  *  reduces contrast a little and gives it a more 'authentic' feel.
  */
-    color: #e5ecf5;
-    background: #0255aa;
+    color:        #e5ecf5;
+    background:   #0255aa;
 }
 
 code.dos {
@@ -316,5 +321,5 @@ pre.dos {
 
 abbr {
     text-decoration: none;
-    border-bottom: 1px dotted #9a8f97;
+    border-bottom:   1px dotted #9a8f97;
 }
