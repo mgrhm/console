@@ -4,7 +4,7 @@ a {
                   sans-serif;
     text-decoration: none;             /* This removes underlining... */
     border-bottom: 2px solid #ff7b00;      /* ...this does it better. */
-    padding-left: 2pt;          /* Just a tiny bit of breathing room. */
+    padding-left:  2pt;         /* Just a tiny bit of breathing room. */
     padding-right: 2pt;         /* Just a tiny bit of breathing room. */
 }
 
@@ -134,8 +134,8 @@ a.home-link::before{
 }
     .post-header h1 {
         color: white;
-        margin-bottom: 5pt;
-        padding-left: 22px;
+        margin-bottom:  5pt;
+        padding-left:  22px;
         padding-right: 22px;
         /* A black text shadow makes the white text legible against the
          * black-and-white image beneath.
@@ -162,10 +162,10 @@ a.home-link::before{
      *  than the post title to increase legibility.
      */
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
-        padding-top: 6pt;
-        padding-bottom: 6pt;
-        padding-left: 44px;
-        padding-right: 44px;
+        padding-top:     6pt;
+        padding-bottom:  6pt;
+        padding-left:   44px;
+        padding-right:  44px;
     }
 
     a.category-link {
@@ -181,7 +181,7 @@ a.home-link::before{
         border: 2px solid #ff7b00;
         border-radius: 5px;
         border-bottom: none;
-        padding-left: 3pt;
+        padding-left:  3pt;
         padding-right: 3pt;
     }
         a.category-link:hover {
@@ -202,8 +202,8 @@ a.home-link::before{
         border: 2px solid #ff7b00;
         border-radius: 5px;
         border-bottom: none;
-        margin-left: 4pt;                 /* Space them out a little. */
-        padding-left: 3pt;
+        margin-left:   4pt;               /* Space them out a little. */
+        padding-left:  3pt;
         padding-right: 3pt;
 
     } a.tag-link:hover {
@@ -234,8 +234,8 @@ a.home-link::before{
         /* This border is a cheat to stop it squirming on hover. */
         border: 2px solid #ff7b00;
         border-radius: 5px;
-        margin-right: 3pt;
-        padding-left: 3pt;
+        margin-right:  3pt;
+        padding-left:  3pt;
         padding-right: 3pt;
     }
         a.permalink-link:hover {
