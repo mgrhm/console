@@ -22,7 +22,7 @@
                 A warm daytime theme built upon the colour "Orange Samson".
 
                         Background:  #fef9f5  "Lavender Blush"
-                        Text:        #130303  "Xiketic"
+                        Text:        #313533  "Onyx"
                         Links:       #ff7b00  "Orange Samson"
                         Hover:       #d64045  "English Vermillion"
                         Highlight:   #ffa69e  "Vivid Tangerine"

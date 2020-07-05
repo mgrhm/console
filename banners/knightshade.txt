@@ -19,7 +19,7 @@
        A sensuous night-time theme derived from the daytime
         theme "Onion Blush" and the colour "Orange Samson".
 
-            Background:  #130303  "Xiketic"
+            Background:  #313533  "Onyx"
             Text:        #f9e0d9  "Misty Rose"
             Links:       #ff7b00  "Orange Samson"
             Hover:       #ffa69e  "Vivid Tangerine"
