@@ -96,54 +96,51 @@ a.home-link::before{
     padding: 0;                           /* Tightens this up nicely. */
 }
     a.home-link:hover::before {
-    /*  And this is the pipe’s hover effect: an glowing, illuminated
+    /*  And this is the pipe’s hover effect: a glowing, illuminated
      *  entrance to the pipe.  It replaces the pipe with an identically
      *  sized animated PNG (APNG) file that appears to shimmer.  It's a
      *  subtle effect and not very noticeable unless you're zoomed in on
-     *  the icon.  This *does not* work in any version of Internet
-     *  Explorer or the pre-Chromium versions of Microsoft Edge.  It
-     *  does fall back gracefully to the original PNG image in those, so
-     *  there's no ugly failure state with this.  Win-win!
+     *  the icon; it's a little more noticeable in dark mode.  This
+     *  *does not* work in any version of Internet Explorer or the
+     *  pre-Chromium versions of Microsoft Edge.  It falls back
+     *  gracefully to the original PNG image in those, so there's no
+     *  ugly failure state with this.  Win-win!
      */
         content: url(https://onionsamson.com/elements/pipe-shine.png);
     }
 
 .post-header-wrapper {
     background-image: url("https://onionsamson.com/featured/sor_title.png");
-    background-size: cover; /* Stretch to fit */
+    background-size: cover;                         /* Stretch to fit */
     padding-top: 144px;
 }
 .post-header {
-    /* Linear black gradient for metadata legibility */
-    background: -moz-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, .75) 100%
-      ); /* FF3.6-15 */
-    background: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, .75) 100%
-      ); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, .75) 100%
-      ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#c6000000', GradientType=0); /* IE6-9 */
+/*  This code applies a linear black gradient to the post header section
+ *  to increase legibility of the post title and metadata.  This is the
+ *  W3C compliant version that's compatible with browsers newer than
+ *  Internet Explorer 10, Firefox 16, Chrome 26, and Safari 7.  The
+ *  oldest of these -- Safari 7 -- came out in 2013, meaning any browser
+ *  newer than this will support it.  For clarity and maintainability,
+ *  I've stripped out the code to support older browsers.
+ */
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, .75) 100%);
 }
     .post-header h1 {
-        color: white;
+        color: #ffffff;
         margin-bottom:  5pt;
         padding-left:  22px;
         padding-right: 22px;
-        /* A black text shadow makes the white text legible against the
-         * black-and-white image beneath.
-         */
+    /*  A black text shadow makes the white text legible against the
+     *  black-and-white image beneath.
+     */
         text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
     }
         .post-header h1 a {
-            color: white;   /* Header title link should be white too. */
+            color: #ffffff; /* Header title link should be white too. */
             border: 0;         /* And it shouldn't have an underline. */
         }
 
@@ -156,10 +153,10 @@ a.home-link::before{
         font-family: 'IBM Plex Sans',
                       sans-serif;
         font-size: 12pt;
-        color: white;       /* As with title, this text is white too. */
+        color: #ffffff;     /* As with title, this text is white too. */
     /*  A black text shadow makes the white text legible against the
      *  black-and-white image beneath.  This has a tighter shadow
-     *  than the post title to increase legibility.
+     *  than the post title to increase legibility on the smaller text.
      */
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
         padding-top:     6pt;
@@ -227,7 +224,7 @@ a.home-link::before{
      */
         font-family: 'IBM Plex Mono',
                       monospace;
-        color: #313533;                             /* Onyx */
+        color: #313533;                                       /* Onyx */
         /* You need to explicitly specify no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
         background: #ff7b00;
@@ -252,7 +249,6 @@ a.home-link::before{
         }
 
 a.external-link::after {
-
 /*  This link class pops a little sign with an arrow pointing toward the
  *  right immediately after a link that uses the "external-link" class.
  *  It is, as the name suggests, intended to signify a link that takes
