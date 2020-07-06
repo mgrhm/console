@@ -258,3 +258,12 @@ a.external-link::after {
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
+
+a.copyright-link::after {
+/*  This adds text *after* the copyright link.  The intention with this
+ *  code is to have a CSS @query to select a shorter wording when
+ *  visiting the site on mobile.
+ */
+    content: " © Onion Samson 2011–2020";
+    color: #313533;                                          /* Onyx. */¬
+}
