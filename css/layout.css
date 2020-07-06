@@ -16,6 +16,35 @@ html {
         border-bottom: 0;
     }
 
+.emoji-header {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 24pt;
+    line-height: 30pt;
+}
+
+    .emoji-header a {
+        border-bottom: none;     /* Removes bottom border from emoji. */
+        color: #313533;       /* Changes font = and + to text colour. */
+        padding-left: 8pt;
+        padding-right: 8pt;
+        border-radius: 5px;
+    }
+
+    .emoji-header img {
+        margin-left: -2px;              /* Tightens up emoji spacing. */
+        margin-right: -2px;             /* Tightens up emoji spacing. */
+    }
+
+nav {
+    background: #f9e0d9;                               /* Misty Rose. */
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid #9a8f97;                 /* Heliotrope Gray */
+    border-bottom: 2px solid #9a8f97;              /* Heliotrope Gray */
+}
+
 .onion-search {
     display: block;
     margin-left: auto;
@@ -45,30 +74,11 @@ html {
             }
    }
 
-.emoji-header {
-    font-family: 'IBM Plex Sans';
-    font-weight: 700;
-    font-size: 24pt;
-    line-height: 30pt;
-}
-
-    .emoji-header a {
-        border-bottom: none;     /* Removes bottom border from emoji. */
-        color: #313533;       /* Changes font = and + to text colour. */
-        padding-left: 8pt;
-        padding-right: 8pt;
-        border-radius: 5px;
-    }
-
-    .emoji-header img {
-        margin-left: -2px;              /* Tightens up emoji spacing. */
-        margin-right: -2px;             /* Tightens up emoji spacing. */
-    }
-
-.footer {
+footer {
     font-family: 'IBM Plex Sans',
                   sans-serif;
     text-align: center;
+    background: #f9e0d9;                               /* Misty Rose. */
     margin-left: -24pt;                 /* Extends divider past text. */
     margin-right: -24pt;                /* Extends divider past text. */
     margin-top: 24pt;
