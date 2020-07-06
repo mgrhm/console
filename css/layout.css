@@ -3,16 +3,14 @@ html {
     margin-right: 10%;
 }
 
-.header {
+header {
     text-align: center;
     margin-left: -24pt;                 /* Extends divider past text. */
     margin-right: -24pt;                /* Extends divider past text. */
     padding-bottom: 10pt;
     padding-top: 24pt;
-    border-bottom: 2px solid #9a8f97;              /* Heliotrope Gray */
 }
-
-    .header a {
+    header a {
         border-bottom: 0;
     }
 
@@ -36,14 +34,27 @@ html {
         margin-right: -2px;             /* Tightens up emoji spacing. */
     }
 
+/*  ╔╗╔╔═╗╦  ╦╦╔═╗╔═╗╔╦╗╦╔═╗╔╗╔
+ *  ║║║╠═╣╚╗╔╝║║ ╦╠═╣ ║ ║║ ║║║║
+ *  ╝╚╝╩ ╩ ╚╝ ╩╚═╝╩ ╩ ╩ ╩╚═╝╝╚╝
+ *  dfsdf
+ */
+
 nav {
     background: #f9e0d9;                               /* Misty Rose. */
-    padding-top: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-left: -24pt;                 /* Extends divider past text. */
+    margin-right: -24pt;                /* Extends divider past text. */
+    padding-top: 10pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
     border-top: 2px solid #9a8f97;                 /* Heliotrope Gray */
     border-bottom: 2px solid #9a8f97;              /* Heliotrope Gray */
 }
+    nav a {
+        border-bottom: none;             /* Get rid of the underline. */
+    }
+
 
 .onion-search {
     display: block;
