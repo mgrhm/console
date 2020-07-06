@@ -16,11 +16,6 @@ a:hover {
     transition-property: background-color;
     transition-timing-function: ease;
 }
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
-        a:hover {
-            color: #f9e0d9;                             /* Misty Rose */
-        }
-    }
 
 a:active {
 /*  I think an :active state is actually quite useful from a usability
