@@ -22,6 +22,19 @@ a:hover {
         }
     }
 
+a:active {
+/*  I think an :active state is actually quite useful from a usability
+ *  point of view, and improves the (desktop) experience of using the
+ *  website.  The "Minion Yellow" colour is the :hover colour used on
+ *  KORALATOV.COM, but actually works quite well here; it has good
+ *  contrast with Orange Samson while still blending in with the theme.
+ */
+    background: #ffe74c;                            /* Minion Yellow. */
+/*  The !important flag is needed to override the transition; without
+ *  it, it uses the same transition as the main hover. */
+    transition: none !important;
+}
+
 a.site_title_text {
     font-family: 'OnionSams-Regular',
                   cursive;              /* There's a generic cursive! */
