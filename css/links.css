@@ -260,10 +260,19 @@ a.external-link::after {
 }
 
 a.copyright-link::after {
-/*  This adds text *after* the copyright link.  The intention with this
- *  code is to have a CSS @query to select a shorter wording when
- *  visiting the site on mobile.
+/*  This adds the longer Copyright statement as a default.  It will
+ *  display the full version *unless* the criteria of the @media query
+ *  immediately below is met, in which case it uses that text instead.
  */
     content: " © Onion Samson 2011–2020";
     color: #313533;                                          /* Onyx. */¬
 }
+    @media screen and (max-width: 768px) {
+    /*  This @media query shortens the Copyright text when displaying on
+     *  device with a width of less than 769px.  It works dynamically
+     *  and can be tested by shrinking the browser's window width.  It
+     *  inherits its colour information from the regular ::after code.
+     */
+        a.copyright-link::after {
+            content: " © 2020";
+        }
