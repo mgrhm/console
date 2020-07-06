@@ -22,12 +22,15 @@ header {
 }
 
     .emoji-header a {
-        border-bottom: 0;        /* Removes bottom border from emoji. */
         color: #313533;       /* Changes font = and + to text colour. */
+        border-bottom: 0;        /* Removes bottom border from emoji. */
         padding-left: 8pt;
         padding-right: 8pt;
-        border-radius: 5px;
     }
+        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+            .emoji-header a {
+                color: #f9e0d9;                         /* Misty Rose */
+            }
 
     .emoji-header img {
         margin-left: -2px;              /* Tightens up emoji spacing. */
