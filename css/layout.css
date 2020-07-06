@@ -22,7 +22,7 @@ header {
 }
 
     .emoji-header a {
-        border-bottom: none;     /* Removes bottom border from emoji. */
+        border-bottom: 0;        /* Removes bottom border from emoji. */
         color: #313533;       /* Changes font = and + to text colour. */
         padding-left: 8pt;
         padding-right: 8pt;
@@ -52,7 +52,7 @@ nav {
     border-bottom: 2px solid #9a8f97;              /* Heliotrope Gray */
 }
     nav a {
-        border-bottom: none;             /* Get rid of the underline. */
+        border-bottom: 0;                /* Get rid of the underline. */
     }
 
 
@@ -97,8 +97,7 @@ footer {
     padding-top: 12pt;
     border-top: 2px solid #9a8f97;                 /* Heliotrope Gray */
 }
-
-    .footer a {
+    footer a {
         border-bottom: 0;
     }
 
@@ -160,7 +159,7 @@ footer {
     }
 
     .infobox code {
-        background: none;    /* No background colour on infobox code. */
+        background: 0;       /* No background colour on infobox code. */
     }
 
 video {
