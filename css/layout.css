@@ -31,6 +31,7 @@ header {
             .emoji-header a {
                 color: #f9e0d9;                         /* Misty Rose */
             }
+        }
 
     .emoji-header img {
         margin-left: -2px;              /* Tightens up emoji spacing. */

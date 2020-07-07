@@ -211,7 +211,9 @@ a.home-link::before{
         padding-left:  3pt;
         padding-right: 3pt;
 
-    } a.tag-link:hover {
+    } 
+    
+    a.tag-link:hover {
       /*  To increase legibility on hover against the dark background,
        *  these hover with a Misty Rose background colour.  It inherits
        *  the transition effect of the main links and has an interesting
@@ -273,7 +275,7 @@ a.copyright-link::after {
  *  immediately below is met, in which case it uses that text instead.
  */
     content: " © Onion Samson 2011–2020";
-    color: #313533;                                          /* Onyx. */¬
+    color: #313533;                                          /* Onyx. */
 }
     @media screen and (max-width: 768px) {
     /*  This @media query shortens the Copyright text when displaying on
@@ -284,3 +286,4 @@ a.copyright-link::after {
         a.copyright-link::after {
             content: " © 2020";
         }
+    }
