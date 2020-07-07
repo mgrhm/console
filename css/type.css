@@ -320,6 +320,20 @@ pre.dos {
 
 
 abbr {
+/*  This removes the default underlining for an <abbr> then adds a 1px
+ *  dotted underline in Heliotrope grey to the abbreviation.
+ */
     text-decoration: none;
-    border-bottom:   1px dotted #9a8f97;
+    border-bottom:   1px dotted #9a8f97;           /* Heliotrope Grey */
 }
+
+/*  Change text-selection colour to "Vivid Tangerine" from Onion Blush.
+ *  This is the same colour in both light and dark modes.
+ *  Source: https: //www.w3schools.com/cssref/sel_selection.asp
+ */
+::selection {
+    background: #ffa69e;                           /* Vivid Tangerine */
+}
+    ::-moz-selection {                       /* Firefox compatibility */
+        background: #ffa69e;                       /* Vivid Tangerine */
+    }

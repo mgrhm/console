@@ -1,7 +1,16 @@
 html {
+    color: #313533;                                           /* Onyx */
+    background: #fef9f5;                            /* Lavender Blush */
     margin-left: 10%;
     margin-right: 10%;
 }
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        html {
+            background: #313533;                              /* Onyx */
+            color: #f9e0d9;                             /* Misty Rose */
+            }
+        }
+
 
 header {
     text-align: center;
