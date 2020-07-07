@@ -2,7 +2,8 @@ body {
     max-width:    60ch;
     font-size:    14pt;
     font-weight:  500;
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'IBM Plex Serif',
+                  serif;
     line-height:  22pt;
 }
 
@@ -87,7 +88,7 @@ blockquote {
     padding-right:  12pt;
     padding-top:     2pt;
     padding-bottom:  2pt;
-    }
+}
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         blockquote {
             color:  #fef9f5;
@@ -95,7 +96,7 @@ blockquote {
         }
 
     blockquote em {
-    /* This makes an <em> inside a blockquote into roman. */
+    /*  This makes an <em> inside a blockquote into roman. */
         font-style: normal;
     }
 
@@ -184,10 +185,7 @@ pre {
  *  this from Stack Overflow here: https://stackoverflow.com/a/5135033
  */
     margin-right: 24pt;
-    padding-left: 12pt;
-    padding-right: 12pt;
-    padding-top: 12pt;
-    padding-bottom: 12pt;
+    padding:      12pt;          /* All four padding values are 12pt. */
 }
 
 code.retro {
