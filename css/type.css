@@ -91,7 +91,7 @@ blockquote {
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         blockquote {
-            color:  var(--Lavender-Blush);
+            color:  var(--Isabelline);
             }
         }
 
@@ -157,7 +157,7 @@ code {
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         code {
-            color: var(--Lavender-Blush);
+            color: var(--Isabelline);
             }
         }
 
@@ -168,11 +168,11 @@ pre {
  */
     font-family: 'IBM Plex Mono',
                   monospace;
-    font-weight: 500;
+    font-weight:  500;
 /*  I shrunk the font a bit and tightened line spacing because
  *  monospaced fonts are super legible at smaller sizes.
  */
-    font-size: 12pt;
+    font-size:   12pt;
     line-height: 16pt;
     font-variant-ligatures: none;         /* Ligatures can ruin code. */
     border-left: 10pt solid var(--Heliotrope-Gray);                     
@@ -325,13 +325,13 @@ abbr {
     border-bottom:   1px dotted var(--Heliotrope-Gray);
 }
 
-/*  Change text-selection colour to "Vivid Tangerine" from Onion Blush.
- *  This is the same colour in both light and dark modes.
+/*  Change text-selection colour to "Melon" from Sunlit Shallot and
+ *  Knighshade.  It's the same colour in both light and dark modes.
  *  Source: https: //www.w3schools.com/cssref/sel_selection.asp
  */
 ::selection {
-    background: var(--Vivid-Tangerine);
+    background: var(--Melon);
 }
     ::-moz-selection {                       /* Firefox compatibility */
-        background: var(--Vivid-Tangerine);
+        background: var(--Melon);
     }

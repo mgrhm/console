@@ -14,7 +14,7 @@
     --Onyx:            #313533;     /* Sunlit text; Knightshade BG. */
         --light-text:  #313533;
         --dark-bg:     #313533;
-    --Lavender-Blush:  #fef9f5;     /* Background in Sunlit Shallot. */
+    --Isabelline:      #fef9f5;     /* Background in Sunlit Shallot. */
         --light-bg:    #fef9f5;
     --Misty-Rose:      #f9e0d9;     /* Text in Knightshade; some BGs. */
         --dark-text:   #f9e0d9;
@@ -23,6 +23,6 @@
     --Heliotrope-Gray: #9a8f97;     /* Backgrounds and borders. */
         --border:      #9a8f97;
         --grey-bg:     #9a8f97;
-    --Vivid-Tangerine: #ffa69e;     /* Text highlight colour. */
+    --Melon:           #ffa69e;     /* Text highlight colour. */
         --highlight:   #ffa69e;
 }

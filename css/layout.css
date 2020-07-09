@@ -1,23 +1,23 @@
 html {
-    color: #313533;                                           /* Onyx */
-    background: #fef9f5;                            /* Lavender Blush */
-    margin-left: 10%;
+    color: var(--Onyx);
+    background: var(--Isabelline);
+    margin-left:  10%;
     margin-right: 10%;
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         html {
-            background: #313533;                              /* Onyx */
-            color: #f9e0d9;                             /* Misty Rose */
+            background: var(--Onyx);
+            color: var(--Misty-Rose);
             }
         }
 
 
 header {
     text-align: center;
-    margin-left: -24pt;                 /* Extends divider past text. */
-    margin-right: -24pt;                /* Extends divider past text. */
+    margin-left:   -24pt;               /* Extends divider past text. */
+    margin-right:  -24pt;               /* Extends divider past text. */
     padding-bottom: 10pt;
-    padding-top: 24pt;
+    padding-top:    24pt;
 }
     header a {
         border-bottom: 0;
@@ -26,24 +26,24 @@ header {
 .emoji-header {
     font-family: 'IBM Plex Sans';
     font-weight: 700;
-    font-size: 24pt;
-    line-height: 30pt;
+    font-size:    24pt;
+    line-height:  30pt;
 }
 
     .emoji-header a {
-        color: #313533;       /* Changes font = and + to text colour. */
+        color: var(--Onyx);   /* Changes font = and + to text colour. */
         border-bottom: 0;        /* Removes bottom border from emoji. */
-        padding-left: 8pt;
+        padding-left:  8pt;
         padding-right: 8pt;
     }
         @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
             .emoji-header a {
-                color: #f9e0d9;                         /* Misty Rose */
+                color: var(--Misty-Rose);
             }
         }
 
     .emoji-header img {
-        margin-left: -2px;              /* Tightens up emoji spacing. */
+        margin-left:  -2px;             /* Tightens up emoji spacing. */
         margin-right: -2px;             /* Tightens up emoji spacing. */
     }
 
@@ -54,15 +54,15 @@ header {
  */
 
 nav {
-    background: #f9e0d9;                               /* Misty Rose. */
+    background: var(--Misty-Rose);
     text-align: center;
-    margin-left: -24pt;                 /* Extends divider past text. */
+    margin-left:  -24pt;                /* Extends divider past text. */
     margin-right: -24pt;                /* Extends divider past text. */
-    padding-top: 10pt;
-    margin-top: 10pt;
+    padding-top:   10pt;
+    margin-top:    10pt;
     margin-bottom: 10pt;
-    border-top: 2px solid #9a8f97;                 /* Heliotrope Gray */
-    border-bottom: 2px solid #9a8f97;              /* Heliotrope Gray */
+    border-top:     2px solid var(--Heliotrope-Gray);
+    border-bottom:  2px solid var(--Heliotrope-Gray);
 }
     nav a {
         border-bottom: 0;                /* Get rid of the underline. */
@@ -74,27 +74,26 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-
     .onion-search input {
         font-size: 12pt;
         font-weight: 500;
         font-family: 'IBM Plex Mono',
                       serif;
-        color: #313533;                                       /* Onyx */
-        background-color: #f9e0d9;                      /* Misty Rose */
-        border: 2px solid #313533;                            /* Onyx */
+        color: var(--Onyx);
+        background-color: var(--Misty-Rose);
+        border: 2px solid var(--Onyx);
         border-radius: 5px;
-        padding-left: 5px;         /* So query text doesn't hit edge. */
+        padding-left:  5px;        /* So query text doesn't hit edge. */
         padding-right: 5px;        /* So query text doesn't hit edge. */
         display: block;                     /* Do we need this again? */
-        margin-left: auto;                  /* Do we need this again? */
+        margin-left:  auto;                 /* Do we need this again? */
         margin-right: auto;                 /* Do we need this again? */
     }
         @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
             .onion-search input {
-                color: #f9e0d9;                         /* Misty Rose */
-                background: #313533;                          /* Onyx */
-                border: 2px solid #f9e0d9;              /* Misty Rose */
+                color: var(--Misty-Rose);
+                background: var(--Onyx);                               /
+                border: 2px solid var(--Misty-Rose);
             }
    }
 
@@ -102,13 +101,13 @@ footer {
     font-family: 'IBM Plex Sans',
                   sans-serif;
     text-align: center;
-    background: #f9e0d9;                               /* Misty Rose. */
-    margin-left: -24pt;                 /* Extends divider past text. */
-    margin-right: -24pt;                /* Extends divider past text. */
-    margin-top: 24pt;
+    background: var(--Misty-Rose);
+    margin-left:   -24pt;               /* Extends divider past text. */
+    margin-right:  -24pt;               /* Extends divider past text. */
+    margin-top:     24pt;
     padding-bottom: 24pt;
-    padding-top: 12pt;
-    border-top: 2px solid #9a8f97;                 /* Heliotrope Gray */
+    padding-top:    12pt;
+    border-top: 2px solid var(--Heliotrope-Gray);
 }
     footer a {
         border-bottom: 0;
@@ -121,17 +120,17 @@ footer {
  *  rather than actual blockquotes.
  */
     font-style: italic;
-    background: #f9e0d9;
-    border-left: 10pt solid #9a8f97;               /* Heliotrope Grey */
-    border-radius: 5px;
-    padding: 12pt;                 /* 12pt padding on all four sides. */
+    background: var(--Misty-Rose);
+    border-left: 10pt solid var(--Heliotrope-Gray);
+    border-radius:  5px;
     margin-bottom: 28pt;        /* Keep a nice gap after the infobox. */
+    padding:       12pt;           /* 12pt padding on all four sides. */
 }
     @media (prefers-color-scheme: dark) {       /* Code for Dark Mode */
         .infobox {
-            color: #fef9f5;
+            color: var(--Isabelline);
             background: rgba(154, 143, 151, 0.4);
-            border-left: 10pt solid #ff7b00;        /* Orange Samson! */
+            border-left: 10pt solid var(--Orange-Samson);
         }
     }
 
@@ -176,6 +175,6 @@ footer {
     }
 
 video {
-    border: 20px ridge #ff7b00;                     /* Orange Samson! */
+    border: 20px ridge var(--Orange-Samson);
     border-radius: 20px;
 }
