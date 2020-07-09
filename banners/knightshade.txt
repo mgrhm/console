@@ -24,4 +24,4 @@
             Links:       #ff7b00  "Orange Samson"
             Active:      #ffe74c  "Minion Yellow"
             Secondary:   #9a8f97  "Heliotrope Gray"
-            Highlight:   #d64045  "English Vermillion"
+            Highlight:   #ffa693  "Melon"

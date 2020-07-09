@@ -18,9 +18,9 @@
                               ▀
          A warm daytime theme built upon the colour "Orange Samson".
 
-                  Background:  #fef9f5  "Lavender Blush"
+                  Background:  #fef9f5  "Isabelline"
                   Text:        #313533  "Onyx"
                   Links:       #ff7b00  "Orange Samson"
                   Active:      #dffe74  "Minion Yellow"
                   Secondary:   #9a8f97  "Heliotrope Gray"
-                  Highlight:   #d64045  "English Vermillion"
+                  Highlight:   #ffa69e  "Melon"
