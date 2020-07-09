@@ -2,8 +2,8 @@
      ███ ▄███▀ ███▀▀▀██▄ ███ ███  ▀███  ███   ███     ███
      ███▐██▀   ███   ███ ███▌███   █▀   ███   ███ ▄█████████▄
     ▄█████▀    ███   ███ ███▌███       ▄███▄▄▄███ ▀   ███   ▀
-   ▀▀█████▄    ███   ███ ███▌███ ███▄ ▀▀███▀▀▀███     ███   Version 1.0
-     ███▐██▄   ███   ███ ███ ███   ███  ███   ███     ███    2020-05-22
+   ▀▀█████▄    ███   ███ ███▌███ ███▄ ▀▀███▀▀▀███     ███   Version 1.1
+     ███▐██▄   ███   ███ ███ ███   ███  ███   ███     ███    2020-07-22
      ███ ▀███▄ ███   ███ ███ ███   ███  ███   ███     ███
      ███   ▀█▀  ▀█   █▀  █▀  ▀██████▀   ███   █▀      ███
                                                       ▀█▀
@@ -22,6 +22,6 @@
             Background:  #313533  "Onyx"
             Text:        #f9e0d9  "Misty Rose"
             Links:       #ff7b00  "Orange Samson"
-            Hover:       #ffa69e  "Vivid Tangerine"
-            Highlight:   #9a8f97  "Heliotrope Gray"
-            Subheds:     #d64045  "English Vermillion"
+            Active:      #ffe74c  "Minion Yellow"
+            Secondary:   #9a8f97  "Heliotrope Gray"
+            Highlight:   #d64045  "English Vermillion"
