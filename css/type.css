@@ -76,7 +76,7 @@ blockquote {
     font-style:     italic;
     padding-left:   24pt;
     margin-right:   48pt;
-    border-left:    10pt solid #9a8f97;            /* Heliotrope Grey */
+    border-left:    10pt solid var(--Heliotrope-Gray);
     border-radius:   5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the blockquote is 40% opacity of the
@@ -91,7 +91,7 @@ blockquote {
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         blockquote {
-            color:  #fef9f5;
+            color:  var(--Lavender-Blush);
             }
         }
 
@@ -157,7 +157,7 @@ code {
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         code {
-            color: #fef9f5;                         /* Lavender Blush */
+            color: var(--Lavender-Blush);
             }
         }
 
@@ -175,7 +175,7 @@ pre {
     font-size: 12pt;
     line-height: 16pt;
     font-variant-ligatures: none;         /* Ligatures can ruin code. */
-    border-left: 10pt solid #9a8f97;               /* Heliotrope Grey */
+    border-left: 10pt solid var(--Heliotrope-Gray);                     
     border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the blockquote is 40% opacity of the
@@ -205,8 +205,8 @@ code.retro {
     font-family:  'VT323',
                    monospace;
     font-size:     18pt;         /* Needs enlarged or it's too small. */
-    color:         #ffbf00;
-    background:    #242424;
+    color:        #ffbf00;                                  /* Amber. */
+    background:   #242424;                            /* Eerie Black. */
     padding-right: 4pt;            /* Adds a little 'breathing room'. */
     padding-left:  4pt;            /* Adds a little 'breathing room'. */
 }
@@ -216,8 +216,8 @@ pre.retro {
                   monospace;
     font-size:    18pt;
     line-height:  18pt;
-    color:        #ffbf00;
-    background:   #242424;
+    color:       #ffbf00;                                   /* Amber. */
+    background:  #242424;                             /* Eerie Black. */
 }
 
 code.retro-green {
@@ -234,8 +234,8 @@ code.retro-green {
     font-family:  'November',
                    monospace;
     font-size:     14pt;
-    color:         #87e6b8;
-    background:    #242424;
+    color:        #87e6b8;                      /* Medium Aquamarine. */
+    background:   #242424;                            /* Eerie Black. */
     padding-right: 4pt;            /* Adds a little 'breathing room'. */
     padding-left:  4pt;            /* Adds a little 'breathing room'. */
 }
@@ -244,8 +244,8 @@ pre.retro-green {
     font-family:  'November',
                    monospace;
     font-size:     14pt;
-    color:         #87e6b8;
-    background:    #242424;
+    color:        #87e6b8;                      /* Medium Aquamarine. */
+    background:   #242424;                            /* Eerie Black. */
 }
 
 code.amiga {
@@ -257,8 +257,8 @@ code.amiga {
  *  blended blue/whites from the screenshot for the text colour.  This
  *  reduces contrast a little and gives it a more 'authentic' feel.
  */
-    color:          #e5ecf5;
-    background:     #0255aa;
+    color:         #e5ecf5;
+    background:    #0255aa;
     padding-top:    4pt;              /* Needs it or text meets edge. */
     padding-bottom: 4pt;              /* Needs it or text meets edge. */
     padding-right:  4pt;           /* Adds a little 'breathing room'. */
@@ -291,8 +291,8 @@ code.dos {
  *  screenshot I sourced them from.  Maybe, as a DOS refugee, a latent
  *  sense of nostalgia stopped me from tampering?
  */
-    color:          #a8a8a8;
-    background:     #000000;
+    color:         #a8a8a8;
+    background:    #000000;
     padding-top:    4pt;              /* Needs it or text meets edge. */
     padding-bottom: 4pt;              /* Needs it or text meets edge. */
     padding-right:  4pt;           /* Adds a little 'breathing room'. */
@@ -312,8 +312,8 @@ pre.dos {
  *  screenshot I sourced them from.  Maybe, as a DOS refugee, a latent
  *  sense of nostalgia stopped me from tampering?
  */
-    color:        #a8a8a8;
-    background:   #000000;
+    color:       #a8a8a8;
+    background:  #000000;
 }
 
 
@@ -322,7 +322,7 @@ abbr {
  *  dotted underline in Heliotrope grey to the abbreviation.
  */
     text-decoration: none;
-    border-bottom:   1px dotted #9a8f97;           /* Heliotrope Grey */
+    border-bottom:   1px dotted var(--Heliotrope-Gray);
 }
 
 /*  Change text-selection colour to "Vivid Tangerine" from Onion Blush.
@@ -330,8 +330,8 @@ abbr {
  *  Source: https: //www.w3schools.com/cssref/sel_selection.asp
  */
 ::selection {
-    background: #ffa69e;                           /* Vivid Tangerine */
+    background: var(--Vivid-Tangerine);
 }
     ::-moz-selection {                       /* Firefox compatibility */
-        background: #ffa69e;                       /* Vivid Tangerine */
+        background: var(--Vivid-Tangerine);
     }
