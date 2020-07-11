@@ -1,10 +1,14 @@
 body {
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     max-width:    60ch;
     font-size:    14pt;
     font-weight:  500;
     font-family: 'IBM Plex Serif',
                   serif;
     line-height:  22pt;
+    
 }
 
 
@@ -203,7 +207,10 @@ pre {
  *  dark mode perk by accident: https://stackoverflow.com/a/5135033
  */
     margin-right: 24pt;
-    padding:      12pt;          /* All four padding values are 12pt. */
+    padding-top: 12pt;
+    padding-bottom: 12pt;
+    padding-left: 12pt;
+    padding-right: 12pt;
 }
 
 code.retro {
