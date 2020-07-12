@@ -1,7 +1,7 @@
 html {
     color: var(--Onyx);
     background: var(--Isabelline);
-    margin-top: 0;
+    margin-top:    0;
     margin-bottom: 0;
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
@@ -51,20 +51,19 @@ header {
 /*  ╔╗╔╔═╗╦  ╦╦╔═╗╔═╗╔╦╗╦╔═╗╔╗╔
  *  ║║║╠═╣╚╗╔╝║║ ╦╠═╣ ║ ║║ ║║║║
  *  ╝╚╝╩ ╩ ╚╝ ╩╚═╝╩ ╩ ╩ ╩╚═╝╝╚╝
- *  dfsdf
+ *  Caramelised Nav Bar: sticks to the top of the page while scrolling.
  */
 
 nav {
     position: fixed;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+    z-index:  10;
+    display:  flex;
+    align-items: center;                       /* Vertical alignment. */
+    justify-content: center;                 /* Horizontal alignment. */
     flex-wrap: wrap;
     background: var(--Misty-Rose);
-    text-align: center;
     width: 100% !important;
-    margin-left: -10% !important; /*Extends divider past text. */
+    margin-left: -10% !important;       /* Extends divider past text. */
     /* margin-right: ?; Extends divider past text. */
     border-top:     2px solid var(--Heliotrope-Gray);
     border-bottom:  2px solid var(--Heliotrope-Gray);
