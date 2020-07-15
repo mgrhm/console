@@ -189,6 +189,13 @@ pre {
     font-size:   12pt;
     line-height: 16pt;
     font-variant-ligatures: none;         /* Ligatures can ruin code. */
+/*  This next line wraps the text within <pre> tags so that it stays 
+ *  within the container.  The downside is that this can change the
+ *  appearance of the code, and it may appear that there are more lines
+ *  of code than intended.  The text *does* copy and paste correctly.
+ *  This is inherited by all the <pre> substyles below.
+ */
+    white-space: pre-wrap;
     border-left: 10pt solid var(--Heliotrope-Gray);
     border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
