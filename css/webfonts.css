@@ -35,10 +35,10 @@
     font-style:   normal;
     font-display: swap;
     src: local('OnionSams-Regular'),
-         url('https://onionsamson.com/fonts/onionsams/regular.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/onionsams/regular.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/onionsams/regular.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/onionsams/regular.eot')   format('embedded-opentype');
+         url('https://files.koralatov.com/os/fonts/onionsams/regular.woff2') format('woff2'),
+         url('https://files.koralatov.com/os/fonts/onionsams/regular.woff')  format('woff'),
+         url('https://files.koralatov.com/os/fonts/onionsams/regular.ttf')   format('truetype'),
+         url('https://files.koralatov.com/os/fonts/onionsams/regular.eot')   format('embedded-opentype');
          }
 
 
@@ -65,10 +65,10 @@
     font-style:   normal;
     font-display: swap;
     src: local('OnionVamp-Regular'),
-         url('https://onionsamson.com/fonts/onionvamp/regular.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/onionvamp/regular.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/onionvamp/regular.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/onionvamp/regular.eot')   format('embedded-opentype');
+         url('https://files.koralatov.com/os/fonts/onionvamp/regular.woff2') format('woff2'),
+         url('https://files.koralatov.com/os/fonts/onionvamp/regular.woff')  format('woff'),
+         url('https://files.koralatov.com/os/fonts/onionvamp/regular.ttf')   format('truetype'),
+         url('https://files.koralatov.com/os/fonts/onionvamp/regular.eot')   format('embedded-opentype');
          }
 
 
@@ -99,10 +99,10 @@
     font-display: swap;
     src: local('IBM Plex Mono'),
          local('IBMPlexMono'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -116,10 +116,10 @@
     font-display: swap;
     src: local('IBM Plex Mono'),
          local('IBMPlexMono'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -132,10 +132,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Italic'),
          local('IBMPlexMono-Italic'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -149,10 +149,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Italic'),
          local('IBMPlexMono-Italic'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/400-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/400-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -165,10 +165,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Medium'),
          local('IBMPlexMono-Medium'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -182,10 +182,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Medium'),
          local('IBMPlexMono-Medium'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -198,10 +198,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Medium Italic'),
          local('IBMPlexMono-MediumItalic'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -215,10 +215,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Medium Italic'),
          local('IBMPlexMono-MediumItalic'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/500-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/500-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -231,10 +231,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Bold'),
          local('IBMPlexMono-Bold'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -248,10 +248,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Bold'),
          local('IBMPlexMono-Bold'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -264,10 +264,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Bold Italic'),
          local('IBMPlexMono-BoldItalic'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -281,10 +281,10 @@
     font-display: swap;
     src: local('IBM Plex Mono Bold Italic'),
          local('IBMPlexMono-BoldItalic'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-mono/700-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-mono/700-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -317,10 +317,10 @@
     font-display: swap;
     src: local('IBM Plex Sans'),
          local('IBMPlexSans'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -334,10 +334,10 @@
     font-display: swap;
     src: local('IBM Plex Sans'),
          local('IBMPlexSans'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -350,10 +350,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Italic'),
          local('IBMPlexSans-Italic'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -367,10 +367,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Italic'),
          local('IBMPlexSans-Italic'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/400-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/400-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -383,10 +383,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Medium'),
          local('IBMPlexSans-Medium'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -400,10 +400,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Medium'),
          local('IBMPlexSans-Medium'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -416,10 +416,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Medium Italic'),
          local('IBMPlexSans-MediumItalic'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -433,10 +433,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Medium Italic'),
          local('IBMPlexSans-MediumItalic'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/500-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/500-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -449,10 +449,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Bold'),
          local('IBMPlexSans-Bold'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -466,10 +466,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Bold'),
          local('IBMPlexSans-Bold'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -482,10 +482,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Bold Italic'),
          local('IBMPlexSans-BoldItalic'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -499,10 +499,10 @@
     font-display: swap;
     src: local('IBM Plex Sans Bold Italic'),
          local('IBMPlexSans-BoldItalic'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-sans/700-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-sans/700-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -535,10 +535,10 @@
     font-display: swap;
     src: local('IBM Plex Serif'),
          local('IBMPlexSerif'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -552,10 +552,10 @@
     font-display: swap;
     src: local('IBM Plex Serif'),
          local('IBMPlexSerif'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -568,10 +568,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Italic'),
          local('IBMPlexSerif-Italic'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -585,10 +585,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Italic'),
          local('IBMPlexSerif-Italic'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/400-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/400-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -601,10 +601,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Medium'),
          local('IBMPlexSerif-Medium'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -618,10 +618,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Medium'),
          local('IBMPlexSerif-Medium'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -634,10 +634,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Medium Italic'),
          local('IBMPlexSerif-MediumItalic'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -651,10 +651,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Medium Italic'),
          local('IBMPlexSerif-MediumItalic'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/500-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/500-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -667,10 +667,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Bold'),
          local('IBMPlexSerif-Bold'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -684,10 +684,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Bold'),
          local('IBMPlexSerif-Bold'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -700,10 +700,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Bold Italic'),
          local('IBMPlexSerif-BoldItalic'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-italic.eot)   format('embedded-opentype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
                    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -717,10 +717,10 @@
     font-display: swap;
     src: local('IBM Plex Serif Bold Italic'),
          local('IBMPlexSerif-BoldItalic'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext-italic.woff2) format('woff2'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext-italic.woff)  format('woff'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext-italic.ttf)   format('truetype'),
-         url(https://onionsamson.com/fonts/plex-serif/700-latin-ext-italic.eot)   format('embedded-opentype');
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext-italic.woff2) format('woff2'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext-italic.woff)  format('woff'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext-italic.ttf)   format('truetype'),
+         url(https://files.koralatov.com/os/fonts/plex-serif/700-latin-ext-italic.eot)   format('embedded-opentype');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -754,10 +754,10 @@
     font-style:   normal;
     font-display: swap;
     src: local('Amiga Topaz'),
-         url('https://onionsamson.com/fonts/systems/amiga.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/systems/amiga.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/systems/amiga.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/systems/amiga.eot')   format('embedded-opentype');
+         url('https://files.koralatov.com/os/fonts/systems/amiga.woff2') format('woff2'),
+         url('https://files.koralatov.com/os/fonts/systems/amiga.woff')  format('woff'),
+         url('https://files.koralatov.com/os/fonts/systems/amiga.ttf')   format('truetype'),
+         url('https://files.koralatov.com/os/fonts/systems/amiga.eot')   format('embedded-opentype');
 }
 
 /*
@@ -781,10 +781,10 @@
     font-style:   normal;
     font-display: swap;
     src: local('PxPlusIBMVGA8'),
-         url('https://onionsamson.com/fonts/systems/dos.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/systems/dos.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/systems/dos.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/systems/dos.eot')   format('embedded-opentype');
+         url('https://files.koralatov.com/os/fonts/systems/dos.woff2') format('woff2'),
+         url('https://files.koralatov.com/os/fonts/systems/dos.woff')  format('woff'),
+         url('https://files.koralatov.com/os/fonts/systems/dos.ttf')   format('truetype'),
+         url('https://files.koralatov.com/os/fonts/systems/dos.eot')   format('embedded-opentype');
 }
 
 /*
@@ -811,10 +811,10 @@
     font-display: swap;
     src: local('VT323 Regular'),
          local('VT323-Regular'),
-         url('https://onionsamson.com/fonts/systems/retro.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/systems/retro.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/systems/retro.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/systems/retro.eot')   format('embedded-opentype');
+         url('https://files.koralatov.com/os/fonts/systems/retro.woff2') format('woff2'),
+         url('https://files.koralatov.com/os/fonts/systems/retro.woff')  format('woff'),
+         url('https://files.koralatov.com/os/fonts/systems/retro.ttf')   format('truetype'),
+         url('https://files.koralatov.com/os/fonts/systems/retro.eot')   format('embedded-opentype');
 }
 
 /*
@@ -838,8 +838,8 @@
     font-style:   normal;
     font-display: swap;
     src: local('November'),
-         url('https://onionsamson.com/fonts/systems/november.woff2') format('woff2'),
-         url('https://onionsamson.com/fonts/systems/november.woff')  format('woff'),
-         url('https://onionsamson.com/fonts/systems/november.ttf')   format('truetype'),
-         url('https://onionsamson.com/fonts/systems/november.eot')   format('embedded-opentype');
+         url('https://files.koralatov.com/os/fonts/systems/november.woff2') format('woff2'),
+         url('https://files.koralatov.com/os/fonts/systems/november.woff')  format('woff'),
+         url('https://files.koralatov.com/os/fonts/systems/november.ttf')   format('truetype'),
+         url('https://files.koralatov.com/os/fonts/systems/november.eot')   format('embedded-opentype');
 }

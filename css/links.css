@@ -76,7 +76,7 @@ a.onion-dollars::after {
  *  to be explicitly used by adding the code 'class="onion-dollars"'
  *  to the <a> tag.
  */
-    content: url(https://onionsamson.com/elements/onion-coin.png);
+    content: url(https://files.koralatov.com/os/elements/onion-coin.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
@@ -89,7 +89,7 @@ a.onion-dollars::after {
      *  Edge.  It does fall back gracefully to the original PNG image in
      *  those, so there's no ugly failure state with this.  Win-win!
      */
-        content: url(https://onionsamson.com/elements/onion-coin-shimmer.png);
+        content: url(https://files.koralatov.com/os/elements/onion-coin-shimmer.png);
     }
 
 a.home-link::before{
@@ -99,7 +99,7 @@ a.home-link::before{
  *  image itself.  The customer hover state is handled by the subsequent
  *  CSS.  It's invoked using the "home-link" class.
  */
-    content: url(https://onionsamson.com/elements/pipe.png);
+    content: url(https://files.koralatov.com/os/elements/pipe.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
@@ -114,11 +114,11 @@ a.home-link::before{
      *  gracefully to the original PNG image in those, so there's no
      *  ugly failure state with this.  Win-win!
      */
-        content: url(https://onionsamson.com/elements/pipe-shine.png);
+        content: url(https://files.koralatov.com/os/elements/pipe-shine.png);
     }
 
 .post-header-wrapper {
-    background-image: url("https://onionsamson.com/featured/sor_title.png");
+    background-image: url("https://files.koralatov.com/os/featured/sor_title.png");
     background-size: cover;                         /* Stretch to fit */
     padding-top: 144px;
 }
@@ -223,7 +223,7 @@ a.home-link::before{
             border: 2px solid var(--Misty-Rose);
         }
         a.tag-link::before {
-            content: url(https://onionsamson.com/elements/feather.png);
+            content: url(https://files.koralatov.com/os/elements/feather.png);
         }
 
     a.permalink-link {
@@ -255,7 +255,7 @@ a.home-link::before{
             border: 2px solid var(--Misty-Rose);
         }
         a.permalink-link::before {
-            content: url(https://onionsamson.com/elements/key.png);
+            content: url(https://files.koralatov.com/os/elements/key.png);
         }
 
 a.external-link::after {
@@ -264,7 +264,7 @@ a.external-link::after {
  *  It is, as the name suggests, intended to signify a link that takes
  *  you away from onionsamson.com.
  */
-    content: url(https://onionsamson.com/elements/sign.png);
+    content: url(https://files.koralatov.com/os/elements/sign.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
