@@ -75,7 +75,7 @@ a.onion-dollars::after {
  *  is set by the image's transparent pixels.  This link style needs
  *  to be explicitly used by adding the code 'class="onion-dollars"'
  *  to the <a> tag.
- * /
+ */
     content: url(https://files.koralatov.com/os/elements/onion-coin.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
