@@ -75,7 +75,7 @@ a.onion-dollars::after {
  *  is set by the image's transparent pixels.  This link style needs
  *  to be explicitly used by adding the code 'class="onion-dollars"'
  *  to the <a> tag.
- */
+ * /
     content: url(https://files.koralatov.com/os/elements/onion-coin.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
@@ -98,8 +98,12 @@ a.home-link::before{
  *  the Onion dollar, spacing is handled by transparent pixels in the
  *  image itself.  The customer hover state is handled by the subsequent
  *  CSS.  It's invoked using the "home-link" class.
+ *
+ *  The image is encoded in base64 and included inline in the CSS.  This
+ *  reduces the number of requests by one, and means it'll be cached
+ *  when the CSS file is cached.
  */
-    content: url(https://files.koralatov.com/os/elements/pipe.png);
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVBAMAAABS0hjfAAAAElBMVEUAAAAPDw/3uQD3dQD3RQAAAABfNzNeAAAAAXRSTlMAQObYZgAAAFlJREFUCNedzrENgDAMRNFkAy5kAUxYALOAUSZA8v6r4AtNan715MK6NIdoIbJEG1EOdxeETo8eo3hrQxL1oV31phIo45sVqlaHBKj9k17tp0AZlUsI0+apF+ZCFGfRjfViAAAAAElFTkSuQmCC);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
@@ -113,8 +117,12 @@ a.home-link::before{
      *  pre-Chromium versions of Microsoft Edge.  It falls back
      *  gracefully to the original PNG image in those, so there's no
      *  ugly failure state with this.  Win-win!
+     *
+     *  The image is encoded in base64 and included inline in the CSS.
+     *  This reduces the number of requests by one, and means it'll be
+     *  cached when the CSS file is cached.
      */
-        content: url(https://files.koralatov.com/os/elements/pipe-shine.png);
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVBAMAAABS0hjfAAAACGFjVEwAAAAGAAAAAAYNNbAAAAAeUExURQAAAA0NDfOsCfJfCPItB///3P//p///f///Zv//AGcYKnsAAAABdFJOUwBA5thmAAAAGmZjVEwAAAAAAAAAEQAAABUAAAAAAAAAAAAUAGQAAG1qDy4AAABXSURBVAjXncixFYAgDEVR2MCPTBBpbI0L4GFCu2xrfii09lX3vPQtA5goIoLAbmZkPsy7O8XXQuKN0KZ6UQlUX1wrVHsNCVDHlJ7tp0B1KhcXEoPn6+0Bm6gXF3MzfdUAAAAaZmNUTAAAAAEAAAAJAAAAAwAAAAQAAAADABQAZAABfFTRQQAAABhmZEFUAAAAAgjXY2AvLy9nYCgHggIIGwAugAUlj3+1JAAAABpmY1RMAAAAAwAAAAkAAAADAAAABAAAAAMAFABkAAGRwgKoAAAAGGZkQVQAAAAECNdjYEtLS2NgSAOCBAgbACfeBGnrs3TJAAAAGmZjVEwAAAAFAAAACQAAAAMAAAAEAAAAAwAUAGQCAU4+ElAAAAAYZmRBVAAAAAYI12NgDQ0NZWAIBYIACBsAITwDrYBeipEAAAAaZmNUTAAAAAcAAAABAAAAAQAAAAAAAAAAABQAZAAAxo9WpgAAAA5mZEFUAAAACAjXY2AAAAACAAFyka9nAAAAGmZjVEwAAAAJAAAACQAAAAMAAAAEAAAAAwAUAGQAAXztkmcAAAAYZmRBVAAAAAoI12Pg6OjoYGDoAIIGCBsANSIF4VygwlwAAAAASUVORK5CYII=);
     }
 
 .post-header-wrapper {
@@ -223,7 +231,12 @@ a.home-link::before{
             border: 2px solid var(--Misty-Rose);
         }
         a.tag-link::before {
-            content: url(https://files.koralatov.com/os/elements/feather.png);
+          /*  This is 'feather.png' image is encoded in base64 and
+           *  included inline in the CSS.  This reduces the number of
+           *  requests by one, and means it'll be cached when the CSS
+           *  file is cached.
+           */
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQBAMAAADkNkIoAAAAElBMVEUAAAD4+PgAAwD4eAD4wAD4+ADBvoCJAAAAAXRSTlMAQObYZgAAAFFJREFUCNc9zsERwCAIRFGHDlYswKAVSAVJB+m/mRjZgdObvxfKObFeqLGMHOqkqPoKXkmBvugR0dx7RNyo3BtyZ9z8I5mxTFRGefKVucGz1AfjmgfM5yT9RgAAAABJRU5ErkJggg==);
         }
 
     a.permalink-link {
@@ -255,7 +268,11 @@ a.home-link::before{
             border: 2px solid var(--Misty-Rose);
         }
         a.permalink-link::before {
-            content: url(https://files.koralatov.com/os/elements/key.png);
+        /*  This is 'key.png' encoded in base64 and included inline in
+         *  the CSS.  This reduces the number of requests by one, and
+         *  means it'll be cached when the CSS file is cached.
+         */
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQBAMAAAD+CqKmAAAAElBMVEUAAAAAAADYoDiIWBf42HH4+PiO5pG2AAAAAXRSTlMAQObYZgAAAF1JREFUCNdVz8ENwCAIBVDdQFIdQHCBygQ2TtDU/VcpB0H9J96BH3AOIDiNH70Z0osUDFgXIl0bsieQGMb4mqH0vlARs4GZ762AZkFJFPxsj/gIWIEywTxUlyXHCz8Z0ww5LEPIFQAAAABJRU5ErkJggg==);
         }
 
 a.external-link::after {
@@ -263,8 +280,12 @@ a.external-link::after {
  *  right immediately after a link that uses the "external-link" class.
  *  It is, as the name suggests, intended to signify a link that takes
  *  you away from onionsamson.com.
+ *
+ *  The image is encoded in base64 and included inline in the CSS.  This
+ *  reduces the number of requests by one, and means it'll be cached
+ *  when the CSS file is cached.
  */
-    content: url(https://files.koralatov.com/os/elements/sign.png);
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAYBAMAAAAfR1CMAAAAIVBMVEUAAADo8PgAAAD4LICAgMhoZ7BHSIgCyAAA+AABgAC4HFADhU5xAAAAAXRSTlMAQObYZgAAAKpJREFUGNNd0D0KwzAMBWCRqRlF3aVT8vqzB/cExblAwD1AT+Cta7ekJygZC516yjoStiFvkPh4AoNJUyEOgFLaKwC+5xYHZt6pgZZ5a5l7ddRiy+bWZLO1NjmWmpUv6irZJLOwK45ID4p/He8/xmUb59y3914dC78EgLj3A6AQAw2d5bTktPJx0F0+RNacXJkmzjoIgrqmN6ln7cOD5GgM6tco9WYi9fSkPy++Jrqs78dLAAAAAElFTkSuQmCC);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
