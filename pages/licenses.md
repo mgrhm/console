@@ -1,22 +1,22 @@
 ---
 title: "Font Licensing Information"
-lastmod: 2020-06-21
+lastmod: 2021-02-12
 draft: false
 slug: licenses
 ---
 
-Onion Samson uses a variety of webfonts in its design.  These fonts are
+Iain Plays uses a variety of webfonts in its design.  These fonts are
 used in accordance with their published licenses which are outlined and
 linked to below.
 
 These licenses cover _only the fonts themselves_, and do not extend to
 cover any of the content of the website itself.  The site's contents
-remains the copyright of Onion Samson and is covered by [this site's
-copyright](https://onionsamson.com/copyright).
+remains the copyright of Iain B. Simpson and is covered by [this site's
+copyright](https://iainplays.com/copyright).
 
 ### SIL Open Font License
 
-The following webfonts used on `onionsamson.com` are licensed under the
+The following webfonts used on `iainplays.com` are licensed under the
 [SIL Open Font
 License](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web):
 
@@ -31,14 +31,14 @@ License](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web):
 
 ### Creative Commons Licenses
 
-The following webfont used on `onionsamson.com` is licensed under a
+The following webfont used on `iainplays.com` is licensed under a
 [Creative Commons Attribution-Unported 3.0
 License](http://creativecommons.org/licenses/by/3.0/):
 
 * [Amiga Topaz](http://fontstruct.com/fontstructions/show/675155) by
    Patrick Lauke (redux)
 
-The following webfont used on `onionsamson.com` is licensed under a
+The following webfont used on `iainplays.com` is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International
 License](https://creativecommons.org/licenses/by-sa/4.0/):
 

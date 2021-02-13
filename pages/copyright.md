@@ -1,15 +1,15 @@
 ---
 title: "Copyright"
-lastmod: 2020-06-21
+lastmod: 2021-02-13
 slug: copyright
 draft: false
 ---
 
-All contents of `onionsamson.com` are copyright © 2011–2020 Onion
-Samson.  All rights reserved.
+All contents of `iainplays.com` are copyright © 2011–2021 Iain B.
+Simpson.  All rights reserved.
 
 You can freely link to, reblog, or quote anything on this site.  Please
-contact me [by email](mailto:hi@onionsamson.com?subject=Republication)
+contact me [by email](mailto:hello@iainplays.com?subject=Republication)
 to discuss republication in other media.
 
 This site is not licensed under any form of Creative Commons license.
