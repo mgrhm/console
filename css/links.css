@@ -31,7 +31,7 @@ a:active {
 }
 
 a.site_title_text {
-    font-family: 'OnionSams-Regular',
+    font-family: 'Pacifico',
                   cursive;              /* There's a generic cursive! */
     font-size: 69pt;
     color: var(--Onyx);
@@ -42,7 +42,7 @@ a.site_title_text {
 }
     @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
         a.site_title_text {
-            font-family: 'OnionVamp',
+            font-family: 'Vampiro One',
                           cursive;
             color: var(--Misty-Rose);
             }
@@ -279,7 +279,7 @@ a.external-link::after {
 /*  This link class pops a little sign with an arrow pointing toward the
  *  right immediately after a link that uses the "external-link" class.
  *  It is, as the name suggests, intended to signify a link that takes
- *  you away from onionsamson.com.
+ *  you away from iainplays.com.
  *
  *  The image is encoded in base64 and included inline in the CSS.  This
  *  reduces the number of requests by one, and means it'll be cached

@@ -7,70 +7,10 @@
  *  ╚███╔███╔╝███████╗██████╔╝    ██║     ╚██████╔╝██║ ╚████║   ██║   ███████║
  *   ╚══╝╚══╝ ╚══════╝╚═════╝     ╚═╝      ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝
  *
- *                 ONIONSAMSON.COM serves all its own webfonts.
+ *                  IAINPLAYS.COM serves all its own webfonts.
  *              These are used in accordance with their licenses.
  *                License details are included in this CSS file.
  */
-
-/*
- *  ╔═╗╔╗╔╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╔═╗
- *  ║ ║║║║║║ ║║║║  ╚═╗╠═╣║║║╚═╗
- *  ╚═╝╝╚╝╩╚═╝╝╚╝  ╚═╝╩ ╩╩ ╩╚═╝
- *  Onion Sams is font used for the site's logotype.
- *
- *  This is a limited character-set derivation of the font Pacifico,
- *  which was made by Vernon Adams in 2011.  This derivation was made by
- *  Mike Graham using FontLab VI and converted into webfont format using
- *  https://www.font-converter.net/en
- *
- *  OnionSams is licensed under the SIL Open Font License:
- *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
- *
- *  This license does not extend to any other parts of this website.
- */
-
-@font-face {
-    font-family: 'OnionSams-Regular';
-    font-weight:  400;
-    font-style:   normal;
-    font-display: swap;
-    src: local('OnionSams-Regular'),
-         url('../fonts/onionsams/regular.woff2') format('woff2'),
-         url('../fonts/onionsams/regular.woff')  format('woff'),
-         url('../fonts/onionsams/regular.ttf')   format('truetype'),
-         url('../fonts/onionsams/regular.eot')   format('embedded-opentype');
-         }
-
-
-/*
- *  ╔═╗╔╗╔╦╔═╗╔╗╔  ╦  ╦╔═╗╔╦╗╔═╗
- *  ║ ║║║║║║ ║║║║  ╚╗╔╝╠═╣║║║╠═╝
- *  ╚═╝╝╚╝╩╚═╝╝╚╝   ╚╝ ╩ ╩╩ ╩╩
- *  Onion Vamp is font used for the site's logotype in dark mode.
- *
- *  This is a limited character-set derivation of the font Vampiro One,
- *  which was made by Riccardo De Franceschi for Sorkin Type Co.  This
- *  derivation was made by Mike Graham using FontLab VI and converted 
- *  into webfont format using https://www.font-converter.net/en
- *
- *  Onion Vamp is licensed under the SIL Open Font License:
- *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
- *
- *  This license does not extend to any other parts of this website.
- */
-
-@font-face {
-    font-family: 'OnionVamp';
-    font-weight:  400;
-    font-style:   normal;
-    font-display: swap;
-    src: local('OnionVamp-Regular'),
-         url('../fonts/onionvamp/regular.woff2') format('woff2'),
-         url('../fonts/onionvamp/regular.woff')  format('woff'),
-         url('../fonts/onionvamp/regular.ttf')   format('truetype'),
-         url('../fonts/onionvamp/regular.eot')   format('embedded-opentype');
-         }
-
 
 /*
  *  ╦╔╗ ╔╦╗  ╔═╗╦  ╔═╗═╗ ╦  ╔╦╗╔═╗╔╗╔╔═╗
@@ -724,6 +664,59 @@
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
                    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
+
+/*
+ *  ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╔═╗ 
+ *  ╠═╝╠═╣║  ║╠╣ ║║  ║ ║ 
+ *  ╩  ╩ ╩╚═╝╩╚  ╩╚═╝╚═╝
+ *  Pacifico is font used for the site's logotype.
+ *
+ *  This was made by Vernon Adams in 2011, and is licensed under the SIL
+ *  Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+ *
+ *  This license does not extend to any other parts of this website.
+ */
+
+@font-face {
+    font-family: 'Pacifico';
+    font-weight:  400;
+    font-style:   normal;
+    font-display: swap;
+    src: local('Pacifico'),
+         url('../fonts/pacifico/regular.woff2') format('woff2'),
+         url('../fonts/pacifico/regular.woff')  format('woff'),
+         url('../fonts/pacifico/regular.ttf')   format('truetype'),
+         url('../fonts/pacifico/regular.eot')   format('embedded-opentype');
+         }
+
+
+/*
+ *  ╦  ╦╔═╗╔╦╗╔═╗╦╦═╗╔═╗
+ *  ╚╗╔╝╠═╣║║║╠═╝║╠╦╝║ ║
+ *   ╚╝ ╩ ╩╩ ╩╩  ╩╩╚═╚═╝
+ *  Vampiro is font used for the site's logotype in dark mode.
+ *
+ *
+ *  This font was made by Riccardo De Franceschi for Sorkin Type Co.,
+ *  and  is licensed under the SIL Open Font License:
+ *  https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+ *
+ *  This license does not extend to any other parts of this website.
+ */
+
+@font-face {
+    font-family: 'Vampiro One';
+    font-weight:  400;
+    font-style:   normal;
+    font-display: swap;
+    src: local('Vampiro One'),
+         url('../fonts/vampiro-one/regular.woff2') format('woff2'),
+         url('../fonts/vampiro-one/regular.woff')  format('woff'),
+         url('../fonts/vampiro-one/regular.ttf')   format('truetype'),
+         url('../fonts/vampiro-one/regular.eot')   format('embedded-opentype');
+         }
 
 
 /*
