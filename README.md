@@ -1,7 +1,7 @@
-# Pickled Onion Theme
+# Ludology Theme
 
-Pickled Onion is a Hugo theme, built from scratch, for [Onion
-Samson](https://onionsamson.com).
+Ludology is a website theme, built from scratch, for [Iain B.
+Simpson](https://iainplays.com).
 
 It has three primary design goals:
 
