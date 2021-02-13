@@ -20,9 +20,9 @@ a:hover {
 a:active {
 /*  I think an :active state is actually quite useful from a usability
  *  point of view, and improves the (desktop) experience of using the
- *  website.  The "Minion Yellow" colour is the :hover colour used on
- *  KORALATOV.COM, but actually works quite well here; it has good
- *  contrast with Orange Samson while still blending in with the theme.
+ *  website.  The "Minion Yellow" colour is actually works quite well
+ *  here; it has good contrast with Orange Samson while still blending
+ *  in with the theme.
  */
     background: var(--Minion-Yellow);
 /*  The !important flag is needed to override the transition; without
@@ -76,7 +76,7 @@ a.onion-dollars::after {
  *  to be explicitly used by adding the code 'class="onion-dollars"'
  *  to the <a> tag.
  */
-    content: url(https://files.koralatov.com/os/elements/onion-coin.png);
+    content: url(../elements/onion-coin.png);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
@@ -89,7 +89,7 @@ a.onion-dollars::after {
      *  Edge.  It does fall back gracefully to the original PNG image in
      *  those, so there's no ugly failure state with this.  Win-win!
      */
-        content: url(https://files.koralatov.com/os/elements/onion-coin-shimmer.png);
+        content: url(../elements/onion-coin-shimmer.png);
     }
 
 a.home-link::before{
@@ -126,7 +126,7 @@ a.home-link::before{
     }
 
 .post-header-wrapper {
-    background-image: url("https://files.koralatov.com/os/featured/sor_title.png");
+    background-image: url("../featured/sor_title.png");
     background-size: cover;                         /* Stretch to fit */
     padding-top: 144px;
 }
