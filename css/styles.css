@@ -1,0 +1,885 @@
+/*
+ *   ▄███████▄  ▄█████▄  ███▄▄▄▄     ▄██████▄  ▄█████▄   ▄█        ▄████████
+ *  ███    ███ ███   ███ ███▀▀▀██▄  ███    ██ ███   ███ ███       ███     █▀
+ *  ███    █▀  ███   ███ ███   ███  ███       ███   ███ ███       ███
+ *  ███        ███   ███ ███   ███ ▀████████▄ ███   ███ ███      ▄███▄▄▄
+ *  ███        ███   ███ ███   ███        ███ ███   ███ ███     ▀▀███▀▀▀
+ *  ███    █▄  ███   ███ ███   ███  ▄█    ███ ███   ███ ███▌    ▄ ███
+ *  ███    ███  ▀█████▀   ▀█   █▀ ▄████████▀   ▀█████▀  █████▄▄██ ███    █▄
+ *  ███    ███                                          ▀         ███    ███
+ *  ▀███████▀     A theme that's FAST, SIMPLE, and BEAUTIFUL.     ██████████
+ *                       Version X.XX + 202X-XX-XX
+ */
+
+
+html {
+    color: var(--Onyx);
+    background: var(--Isabelline);
+    margin: 0;
+}
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        html {
+            background: var(--Onyx);
+            color: var(--Misty-Rose);
+            }
+        }
+
+
+header {
+    text-align: center;
+    padding-top: 112px;
+    /* margin-left:   -24pt; */               /* Extends divider past text. */
+    /* margin-right:  -24pt; */               /* Extends divider past text. */
+    /* padding-bottom: 10pt; */
+    /* padding-top:    24pt; */
+}
+    header a {
+        border-bottom: 0;
+    }
+
+.emoji-header {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size:    24pt;
+    line-height:  30pt;
+}
+
+    .emoji-header a {
+        color: var(--Onyx);   /* Changes font = and + to text colour. */
+        border-bottom: 0;        /* Removes bottom border from emoji. */
+        padding-left:  8pt;
+        padding-right: 8pt;
+    }
+        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+            .emoji-header a {
+                color: var(--Misty-Rose);
+            }
+        }
+
+    .emoji-header img {
+        margin-left:  -2px;             /* Tightens up emoji spacing. */
+        margin-right: -2px;             /* Tightens up emoji spacing. */
+    }
+
+/*  ╔╗╔╔═╗╦  ╦╦╔═╗╔═╗╔╦╗╦╔═╗╔╗╔
+ *  ║║║╠═╣╚╗╔╝║║ ╦╠═╣ ║ ║║ ║║║║
+ *  ╝╚╝╩ ╩ ╚╝ ╩╚═╝╩ ╩ ╩ ╩╚═╝╝╚╝
+ *  Caramelised Nav Bar: sticks to the top of the page while scrolling.
+ */
+
+nav {
+    position: fixed;
+    z-index:  10;
+    display:  flex;
+    align-items: center;                       /* Vertical alignment. */
+    justify-content: center;                 /* Horizontal alignment. */
+    flex-wrap: wrap;
+    background: var(--Misty-Rose);
+    width: 100% !important;
+    margin-left: -10% !important;       /* Extends divider past text. */
+    /* margin-right: ?; Extends divider past text. */
+    border-top:     2px solid var(--Heliotrope-Gray);
+    border-bottom:  2px solid var(--Heliotrope-Gray);
+}
+    nav a {
+        border-bottom: 0;                /* Get rid of the underline. */
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+        list-style: none;
+        font-size: 18pt;
+        font-weight: 500;
+        font-family: 'IBM Plex Sans',
+                      sans-serif;
+    }
+
+
+.onion-search {
+    display: flex;
+    margin-top: 18px;
+}
+    .onion-search input {
+        font-size: 12pt;
+        font-weight: 500;
+        font-family: 'IBM Plex Mono',
+                      serif;
+        color: var(--Onyx);
+        background-color: var(--Misty-Rose);
+        border: 2px solid var(--Onyx);
+        border-radius: 5px;
+        padding-left:  5px;        /* So query text doesn't hit edge. */
+        padding-right: 5px;        /* So query text doesn't hit edge. */
+        display: block;                     /* Do we need this again? */
+        margin-left:  auto;                 /* Do we need this again? */
+        margin-right: auto;                 /* Do we need this again? */
+    }
+        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+            .onion-search input {
+                color: var(--Misty-Rose);
+                background: var(--Onyx);                               
+                border: 2px solid var(--Misty-Rose);
+            }
+   }
+
+footer {
+    font-family: 'IBM Plex Sans',
+                  sans-serif;
+    text-align: center;
+    background: var(--Misty-Rose);
+    margin-left:   -24pt;               /* Extends divider past text. */
+    margin-right:  -24pt;               /* Extends divider past text. */
+    margin-top:     24pt;
+    padding-bottom: 24pt;
+    padding-top:    12pt;
+    border-top: 2px solid var(--Heliotrope-Gray);
+}
+    footer a {
+        border-bottom: 0;
+    }
+
+.infobox {
+/*  This is a special paragraph class that produces a Misty Rose
+ *  coloured paragraph with a Heliotrope border on the left.  It's
+ *  similar to a blockquote, but used for authorial and editorial notes
+ *  rather than actual blockquotes.
+ */
+    font-style: italic;
+    background: var(--Misty-Rose);
+    border-left: 10pt solid var(--Heliotrope-Gray);
+    border-radius:  5px;
+    margin-bottom: 28pt;        /* Keep a nice gap after the infobox. */
+    padding:       12pt;           /* 12pt padding on all four sides. */
+}
+    @media (prefers-color-scheme: dark) {       /* Code for Dark Mode */
+        .infobox {
+            color: var(--Isabelline);
+            background: rgba(154, 143, 151, 0.4);
+            border-left: 10pt solid var(--Orange-Samson);
+        }
+    }
+
+    .infobox + p {
+    /*  This code avoids indenting the first line of any paragraph that
+     *  immediately follows an infobox.  Without it, it's treated by the
+     *  browser as a normal p + p and indents the first line.
+     */
+        text-indent: 0;
+    }
+
+    p + .infobox {
+    /*  This code is for an infobox that comes *after* a standard
+     *  paragraph.  It serves two purposes: it removes the indent on the
+     *  first line of the infobox (nullifying the usual p+p rule); and
+     *  it ensures sufficient space between the bottom of the paragraph
+     *  and top of the infobox.  The value is 20pt rather than the 28pt
+     *  following an infobox because this gives a more even appearance
+     *  of spacing.
+     */
+        text-indent: 0;
+        margin-top: 20pt;
+    }
+
+    .infobox strong {
+    /* I intended this mostly to be used for the word "Note" leading a
+     * paragraph in the infobox.  The hanging indent is designed
+     * specifically for that use case.
+     */
+        font-family: 'IBM Plex Sans',
+                      sans-serif;
+        font-weight: 700;
+    }
+
+    .infobox em {
+    /* This makes an <em> inside an infobox into roman. */
+        font-style: normal;
+    }
+
+    .infobox code {
+        background: 0;       /* No background colour on infobox code. */
+    }
+
+video {
+    border: 20px ridge var(--Orange-Samson);
+    border-radius: 20px;
+}
+
+
+body {
+    margin-top:    0;
+    margin-left:  10%;
+    margin-right: 10%;
+    max-width:    64ch;
+    font-size:    16pt;
+    font-weight:  400;
+    font-family: 'IBM Plex Serif',
+                  serif;
+    line-height:  24pt;
+}
+
+
+/*
+ *  ╦ ╦╔═╗╔═╗╔╦╗╦╔╗╔╔═╗╔═╗
+ *  ╠═╣║╣ ╠═╣ ║║║║║║║ ╦╚═╗
+ *  ╩ ╩╚═╝╩ ╩═╩╝╩╝╚╝╚═╝╚═╝
+ *  Styling for heading elements <h1>, <h2>, and so on.
+ */
+
+h1, h2, h3, h4, h5, h6 {
+/*  Since they all use the same font and weight, there no need to repeat
+ *  in every single instance.  They'll be inherited from this. */
+    font-family: 'IBM Plex Sans',
+                  sans-serif;
+    font-weight:  700;
+}
+
+/*  An explanation of the rationale behind the sizing and line-heights
+ *  used for the headings:
+ *
+ *  h1 is exactly twice the point size of body text (28pt to 14pt).
+ *  Until h5, each subsequent step down in h2 is 4pt smaller than the
+ *  previous one (h1 = 28pt, h2 = 24pt, and so on).
+ *
+ *  h5 is 14pt -- only 2pt smaller than h4 and the same size as body
+ *  text.  The use of bold IBM Plex Sans differentiates it from body.
+ *
+ *  The line-height is the point-size +6pt (h1: 28 + 6 = 34pt).  This is
+ *  also true for h5.
+ *
+ *  I haven't defined h6 because it's almost never used.
+ */
+
+h1 {
+    font-size:   28pt;
+    line-height: 34pt;
+}
+
+h2 {
+    font-size:   24pt;
+    line-height: 30pt;
+}
+
+h3 {
+    font-size:   20pt;
+    line-height: 26pt;
+}
+
+h4 {
+    font-size:   16pt;
+    line-height: 22pt;
+}
+
+h5 {
+    font-size:   14pt;
+    line-height: 20pt;
+}
+
+
+/*
+ *  ╔╗ ╦  ╔═╗╔═╗╦╔═╔═╗ ╦ ╦╔═╗╔╦╗╔═╗╔═╗
+ *  ╠╩╗║  ║ ║║  ╠╩╗║═╬╗║ ║║ ║ ║ ║╣ ╚═╗
+ *  ╚═╝╩═╝╚═╝╚═╝╩ ╩╚═╝╚╚═╝╚═╝ ╩ ╚═╝╚═╝
+ *  Styling for the blockquote element.
+ */
+
+blockquote {
+    font-style:   italic;
+    padding-left: 24pt;
+    margin-right: 48pt;
+    border-left:  10pt solid var(--Heliotrope-Gray);
+    border-radius: 5px;
+    background: rgba(154, 143, 151, 0.4);
+/*  This background colour for the blockquote is the border colour
+ *  "Heliotrope Grey" #9a8f97 at 40% opacity.  There's no way to add an
+ *  opacity filter to the hex value, so we'll need to update this if we
+ *  change the border colour from Heliotrope Grey.
+ *
+ *  I chose to use the opacity value instead of finding the equivalent
+ *  Hex value of the partial transparency because it works in dark mode
+ *  too with no changes: it applies a 40% opacity of Heliotrope Grey on
+ *  top of the dark background, leading to a darker background.
+ *
+ *  I got this technique from Stack Overflow here, but discovered the
+ *  dark mode perk by accident: https://stackoverflow.com/a/5135033
+ */
+    padding-right: 12pt;
+    padding-top:    2pt;
+    padding-bottom: 2pt;
+}
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        blockquote {
+            color:  var(--Isabelline);
+        }
+    }
+
+    blockquote em {
+    /*  This makes an <em> inside a blockquote into roman. */
+        font-style: normal;
+    }
+
+
+/*
+ *  ╔═╗╔═╗╦═╗╔═╗╔═╗╦═╗╔═╗╔═╗╦ ╦╔═╗
+ *  ╠═╝╠═╣╠╦╝╠═╣║ ╦╠╦╝╠═╣╠═╝╠═╣╚═╗
+ *  ╩  ╩ ╩╩╚═╩ ╩╚═╝╩╚═╩ ╩╩  ╩ ╩╚═╝
+ *  Styling to control <p> elements, especially stacked.
+ */
+
+p + p {
+/*  This does two things: it indents the first line of subsequent
+ *  paragraphs by twice the body font height, and then tightens up the
+ *  spacing between paragraphs so that there's about a half lineheight
+ *  space between them.
+ */
+    text-indent: 28pt;
+    margin-top: -10pt;
+}
+
+
+/*
+ *  ╦  ╦╔═╗╔╦╗╔═╗
+ *  ║  ║╚═╗ ║ ╚═╗
+ *  ╩═╝╩╚═╝ ╩ ╚═╝
+ *  Styling for lists.
+ */
+
+ol {
+    margin-left:  10pt;
+    margin-right: 10pt;
+}
+
+ul {
+    margin-left:  10pt;
+    margin-right: 10pt;
+}
+
+/*
+ *  ╔═╗╔═╗╔╦╗╔═╗
+ *  ║  ║ ║ ║║║╣
+ *  ╚═╝╚═╝═╩╝╚═╝
+ *  Styling for code blocks.
+ */
+
+code {
+    font-family: 'IBM Plex Mono',
+                  monospace;
+    font-weight: 400;
+    font-variant-ligatures: none;         /* Ligatures can ruin code. */
+    border-radius: 5px;
+    background: rgba(154, 143, 151, 0.4);
+/*  This background colour for the inline code is 40% opacity of the
+ *  colour "Heliotrope Grey" #9a8f97.  There's no way to do this with a
+ *  40% filter on the HEX value, so if we make a change to the border
+ *  colour, we'll need to manually update this RGB value.  I got this
+ *  from Stack Overflow here: https://stackoverflow.com/a/5135033
+ */
+    padding-right: 4pt;            /* Adds a little 'breathing room'. */
+    padding-left:  4pt;            /* Adds a little 'breathing room'. */
+}
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        code {
+            color: var(--Isabelline);
+            }
+        }
+
+pre {
+/*  This is a tighter version of the styling used for blockquotes.  I
+ *  think we should probably work to differentiate them somehow, but I'm
+ *  not sure how?
+ */
+    font-family: 'IBM Plex Mono',
+                  monospace;
+    font-weight:  400;
+/*  I shrunk the font a bit and tightened line spacing because
+ *  monospaced fonts are super legible at smaller sizes.
+ */
+    font-size:   12pt;
+    line-height: 16pt;
+    font-variant-ligatures: none;         /* Ligatures can ruin code. */
+/*  This next line wraps the text within <pre> tags so that it stays
+ *  within the container.  The downside is that this can change the
+ *  appearance of the code, and it may appear that there are more lines
+ *  of code than intended.  The text *does* copy and paste correctly.
+ *  This is inherited by all the <pre> substyles below.
+ */
+    white-space: pre-wrap;
+    border-left: 10pt solid var(--Heliotrope-Gray);
+    border-radius: 5px;
+    background: rgba(154, 143, 151, 0.4);
+/*  This background colour for the blockquote is the border colour
+ *  "Heliotrope Grey" #9a8f97 at 40% opacity.  There's no way to add an
+ *  opacity filter to the hex value, so we'll need to update this if we
+ *  change the border colour from Heliotrope Grey.
+ *
+ *  I chose to use the opacity value instead of finding the equivalent
+ *  Hex value of the partial transparency because it works in dark mode
+ *  too with no changes: it applies a 40% opacity of Heliotrope Grey on
+ *  top of the dark background, leading to a darker background.
+ *
+ *  I got this technique from Stack Overflow here, but discovered the
+ *  dark mode perk by accident: https://stackoverflow.com/a/5135033
+ */
+    margin-right: 24pt;
+    padding:      12pt;          /* All four padding values are 12pt. */
+}
+
+code.retro {
+/*  This isn't intended to emulate a specific system so much as evoke a
+ *  kind of generic 'retro' aesthetic.  The font used, VT323, made by
+ *  Peter Hull, "was created from the glyphs of the DEC VT320 text
+ *  terminal, which I used in college, and for which I have retained an
+ *  unaccountable nostalgia."
+ *
+ *  The colour scheme is a slightly off-black background with a warm,
+ *  slightly electric amber text; COOLORS.CO calls these "Eerie Black"
+ *  and "Amber", respectively.  Hope appropriate!
+ *
+ *  Alas, I tested Orange Samson and it was too dark to capture the
+ *  slightly overdriven feel of a vintage CRT.
+ */
+    font-family:  'VT323',
+                   monospace;
+    font-size:     18pt;         /* Needs enlarged or it's too small. */
+    color:        #ffbf00;                                  /* Amber. */
+    background:   #242424;                            /* Eerie Black. */
+    padding-right: 4pt;            /* Adds a little 'breathing room'. */
+    padding-left:  4pt;            /* Adds a little 'breathing room'. */
+}
+
+pre.retro {
+    font-family: 'VT323',
+                  monospace;
+    font-size:    18pt;
+    line-height:  18pt;
+    color:       #ffbf00;                                   /* Amber. */
+    background:  #242424;                             /* Eerie Black. */
+}
+
+code.retro-green {
+/*  Like the amber retro style, isn't intended to emulate a specific
+ *  system so much as suggest a 'Fallout'-esque 'retro' aesthetic.  It
+ *  uses a different, slightly chunkier font called "November" to add a
+ *  little difference between it and the standard retro style.
+ *
+ *  The colour scheme is the same "Eerie Black" background with a
+ *  slightly muted, nearly turquoise green called "Medium Aquamarine".
+ *  It lacks the 'pop' of a real green-on-black CRT, but suggests a
+ *  certain age to the machine instead.
+ */
+    font-family:  'November',
+                   monospace;
+    font-size:     14pt;
+    color:        #87e6b8;                      /* Medium Aquamarine. */
+    background:   #242424;                            /* Eerie Black. */
+    padding-right: 4pt;            /* Adds a little 'breathing room'. */
+    padding-left:  4pt;            /* Adds a little 'breathing room'. */
+}
+
+pre.retro-green {
+    font-family:  'November',
+                   monospace;
+    font-size:     14pt;
+    color:        #87e6b8;                      /* Medium Aquamarine. */
+    background:   #242424;                            /* Eerie Black. */
+}
+
+code.amiga {
+    font-family:  'Amiga Topaz',
+                   monospace;
+/*  Colours used for Amiga code are taken from this image on Wikipedia:
+ *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
+ *  Rather than use true #ffffff white, I chose one of the very slightly
+ *  blended blue/whites from the screenshot for the text colour.  This
+ *  reduces contrast a little and gives it a more 'authentic' feel.
+ */
+    color:         #e5ecf5;
+    background:    #0255aa;
+    padding-top:    4pt;              /* Needs it or text meets edge. */
+    padding-bottom: 4pt;              /* Needs it or text meets edge. */
+    padding-right:  4pt;           /* Adds a little 'breathing room'. */
+    padding-left:   4pt;           /* Adds a little 'breathing room'. */
+}
+
+pre.amiga {
+    font-family: 'Amiga Topaz',
+                  monospace;
+    font-size:    14pt;
+    line-height:  18pt;                       /* Too crushed at 14pt. */
+/*  Colours used for Amiga code are taken from this image on Wikipedia:
+ *  https://upload.wikimedia.org/wikipedia/en/b/b3/Amiga_Workbench_1_0.png
+ *  Rather than use true #ffffff white, I chose one of the very slightly
+ *  blended blue/whites from the screenshot for the text colour.  This
+ *  reduces contrast a little and gives it a more 'authentic' feel.
+ */
+    color:        #e5ecf5;
+    background:   #0255aa;
+}
+
+code.dos {
+    font-family:   'PxPlusIBMVGA8',
+                    monospace;
+/*  Colours used for DOS code are taken from this image on Wikipedia:
+ *  https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png
+ *  Unlike the Amiga code, where I changed the text colour to give it a
+ *  bit more inauthentic 'authenticity', I haven't changed the text or
+ *  background colour here: they're both exactly as they are in the
+ *  screenshot I sourced them from.  Maybe, as a DOS refugee, a latent
+ *  sense of nostalgia stopped me from tampering?
+ */
+    color:         #a8a8a8;
+    background:    #000000;
+    padding-top:    4pt;              /* Needs it or text meets edge. */
+    padding-bottom: 4pt;              /* Needs it or text meets edge. */
+    padding-right:  4pt;           /* Adds a little 'breathing room'. */
+    padding-left:   4pt;           /* Adds a little 'breathing room'. */
+}
+
+pre.dos {
+    font-family: 'PxPlusIBMVGA8',
+                  monospace;
+    font-size:    14pt;
+    line-height:  18pt;
+/*  Colours used for DOS code are taken from this image on Wikipedia:
+ *  https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png
+ *  Unlike the Amiga code, where I changed the text colour to give it a
+ *  bit more inauthentic 'authenticity', I haven't changed the text or
+ *  background colour here: they're both exactly as they are in the
+ *  screenshot I sourced them from.  Maybe, as a DOS refugee, a latent
+ *  sense of nostalgia stopped me from tampering?
+ */
+    color:       #a8a8a8;
+    background:  #000000;
+}
+
+
+abbr {
+/*  This removes the default underlining for an <abbr> then adds a 1px
+ *  dotted underline in Heliotrope grey to the abbreviation.
+ */
+    text-decoration: none;
+    border-bottom:   1px dotted var(--Heliotrope-Gray);
+}
+
+/*  Change text-selection colour to "Melon" from Sunlit Shallot and
+ *  Knightshade.  It's the same colour in both light and dark modes.
+ *  This works in pretty much every browser since 2011 or so, except
+ *  Firefox, which used a vendor prefixed version until 2018.  I removed
+ *  the Firefox compatibility from this, even though that's a more
+ *  change than our standard "four years' compatibility" rule of thumb.
+ *  Source: https://www.w3schools.com/cssref/sel_selection.asp
+ */
+::selection {
+    background: var(--Melon);
+}
+
+a {
+    color: var(--Orange-Samson);                    /* Orange Samson! */
+    font-family: 'IBM Plex Sans',
+                  sans-serif;
+    font-weight:   500;
+    text-decoration: none;             /* This removes underlining... */
+    border-bottom: 2px solid var(--Orange-Samson); /* This is better. */
+    padding-left:  2pt;         /* Just a tiny bit of breathing room. */
+    padding-right: 2pt;         /* Just a tiny bit of breathing room. */
+}
+
+a:hover {
+    color: var(--Onyx);
+    background: var(--Orange-Samson);     /* ...Orange Samson ground. */
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: ease;
+}
+
+a:active {
+/*  I think an :active state is actually quite useful from a usability
+ *  point of view, and improves the (desktop) experience of using the
+ *  website.  The "Minion Yellow" colour is actually works quite well
+ *  here; it has good contrast with Orange Samson while still blending
+ *  in with the theme.
+ */
+    background: var(--Minion-Yellow);
+/*  The !important flag is needed to override the transition; without
+ *  it, it uses the same transition as the main hover. */
+    transition: none !important;
+}
+
+a.site_title_text {
+    font-family: 'Pacifico',
+                  cursive;              /* There's a generic cursive! */
+    font-size: 69pt;
+    color: var(--Onyx);
+    border-bottom: none;                 /* Get rid of the underline. */
+    transition-duration: 0.5s;
+    transition-property: color;
+    transition-timing-function: linear;
+}
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        a.site_title_text {
+            font-family: 'Vampiro One',
+                          cursive;
+            color: var(--Misty-Rose);
+            }
+        }
+
+a.site_title_text:hover {
+    color: var(--Orange-Samson);    /* Change hover to Orange Samson. */
+    background: none;       /* And remove background colour on hover. */
+}
+
+a.site_title_emoji {
+    font-size: 24pt;
+    color: var(--Onyx);
+    border-bottom: none;                 /* Get rid of the underline. */
+}
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        a.site_title_emoji {
+            color: var(--Misty-Rose);
+            }
+        }
+
+a.site_title_emoji:hover {
+    color: var(--Orange-Samson);    /* Change hover to Orange Samson. */
+    background: none;       /* And remove background colour on hover. */
+}
+
+a.onion-dollars::after {
+/*  This is the code for affiliate links.  It appends the Onion coin
+ *  image after the link.  Spacing between the coin and the link text
+ *  is set by the image's transparent pixels.  This link style needs
+ *  to be explicitly used by adding the code 'class="onion-dollars"'
+ *  to the <a> tag.
+ */
+    content: url(../elements/onion-coin.png);
+    margin:  0;                           /* Tightens this up nicely. */
+    padding: 0;                           /* Tightens this up nicely. */
+}
+    a.onion-dollars:hover::after {
+    /*  Hover effect for affiliate links.  It replaces the coin with an
+     *  identically sized animated PNG (APNG) file that shimmers like
+     *  the Yoshi Coin in 'Super Mario World'; it uses exactly the same
+     *  colour sequence.  This *does not* work in any version of
+     *  Internet Explorer or the pre-Chromium versions of Microsoft
+     *  Edge.  It does fall back gracefully to the original PNG image in
+     *  those, so there's no ugly failure state with this.  Win-win!
+     */
+        content: url(../elements/onion-coin-shimmer.png);
+    }
+
+a.home-link::before{
+/*  This is a one-off style for the 'Home' link at the bottom of the
+ *  page.  It adds a custom orange warp-pipe before the text.  As with
+ *  the Onion dollar, spacing is handled by transparent pixels in the
+ *  image itself.  The customer hover state is handled by the subsequent
+ *  CSS.  It's invoked using the "home-link" class.
+ *
+ *  The image is encoded in base64 and included inline in the CSS.  This
+ *  reduces the number of requests by one, and means it'll be cached
+ *  when the CSS file is cached.
+ */
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVBAMAAABS0hjfAAAAElBMVEUAAAAPDw/3uQD3dQD3RQAAAABfNzNeAAAAAXRSTlMAQObYZgAAAFlJREFUCNedzrENgDAMRNFkAy5kAUxYALOAUSZA8v6r4AtNan715MK6NIdoIbJEG1EOdxeETo8eo3hrQxL1oV31phIo45sVqlaHBKj9k17tp0AZlUsI0+apF+ZCFGfRjfViAAAAAElFTkSuQmCC);
+    margin:  0;                           /* Tightens this up nicely. */
+    padding: 0;                           /* Tightens this up nicely. */
+}
+    a.home-link:hover::before {
+    /*  And this is the pipe’s hover effect: a glowing, illuminated
+     *  entrance to the pipe.  It replaces the pipe with an identically
+     *  sized animated PNG (APNG) file that appears to shimmer.  It's a
+     *  subtle effect and not very noticeable unless you're zoomed in on
+     *  the icon; it's a little more noticeable in dark mode.  This
+     *  *does not* work in any version of Internet Explorer or the
+     *  pre-Chromium versions of Microsoft Edge.  It falls back
+     *  gracefully to the original PNG image in those, so there's no
+     *  ugly failure state with this.  Win-win!
+     *
+     *  The image is encoded in base64 and included inline in the CSS.
+     *  This reduces the number of requests by one, and means it'll be
+     *  cached when the CSS file is cached.
+     */
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVBAMAAABS0hjfAAAACGFjVEwAAAAGAAAAAAYNNbAAAAAeUExURQAAAA0NDfOsCfJfCPItB///3P//p///f///Zv//AGcYKnsAAAABdFJOUwBA5thmAAAAGmZjVEwAAAAAAAAAEQAAABUAAAAAAAAAAAAUAGQAAG1qDy4AAABXSURBVAjXncixFYAgDEVR2MCPTBBpbI0L4GFCu2xrfii09lX3vPQtA5goIoLAbmZkPsy7O8XXQuKN0KZ6UQlUX1wrVHsNCVDHlJ7tp0B1KhcXEoPn6+0Bm6gXF3MzfdUAAAAaZmNUTAAAAAEAAAAJAAAAAwAAAAQAAAADABQAZAABfFTRQQAAABhmZEFUAAAAAgjXY2AvLy9nYCgHggIIGwAugAUlj3+1JAAAABpmY1RMAAAAAwAAAAkAAAADAAAABAAAAAMAFABkAAGRwgKoAAAAGGZkQVQAAAAECNdjYEtLS2NgSAOCBAgbACfeBGnrs3TJAAAAGmZjVEwAAAAFAAAACQAAAAMAAAAEAAAAAwAUAGQCAU4+ElAAAAAYZmRBVAAAAAYI12NgDQ0NZWAIBYIACBsAITwDrYBeipEAAAAaZmNUTAAAAAcAAAABAAAAAQAAAAAAAAAAABQAZAAAxo9WpgAAAA5mZEFUAAAACAjXY2AAAAACAAFyka9nAAAAGmZjVEwAAAAJAAAACQAAAAMAAAAEAAAAAwAUAGQAAXztkmcAAAAYZmRBVAAAAAoI12Pg6OjoYGDoAIIGCBsANSIF4VygwlwAAAAASUVORK5CYII=);
+    }
+
+.post-header-wrapper {
+    background-image: url("../featured/sor_title.png");
+    background-size: cover;                         /* Stretch to fit */
+    padding-top: 144px;
+}
+.post-header {
+/*  This code applies a linear black gradient to the post header section
+ *  to increase legibility of the post title and metadata.  This is the
+ *  W3C compliant version that's compatible with browsers newer than
+ *  Internet Explorer 10, Firefox 16, Chrome 26, and Safari 7.  The
+ *  oldest of these -- Safari 7 -- came out in 2013, meaning any browser
+ *  newer than this will support it.  For clarity and maintainability,
+ *  I've stripped out the code to support older browsers.
+ */
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, .75) 100%);
+}
+    .post-header h1 {
+        color: #ffffff;
+        margin-bottom:  5pt;
+        padding-left:  22px;
+        padding-right: 22px;
+    /*  A black text shadow makes the white text legible against the
+     *  black-and-white image beneath.
+     */
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+    }
+        .post-header h1 a {
+            color: #ffffff; /* Header title link should be white too. */
+            border: 0;         /* And it shouldn't have an underline. */
+        }
+
+    .post-metadata {
+    /*  This code styles the post's metadata that sits on top of the
+     *  header image.  To visually reinforce that this information is
+     *  secondary to the body text, it's smaller.  To differentiate
+     *  further, it's in Plex Sans.
+     */
+        font-family: 'IBM Plex Sans',
+                      sans-serif;
+        font-size: 12pt;
+        color: #ffffff;     /* As with title, this text is white too. */
+    /*  A black text shadow makes the white text legible against the
+     *  black-and-white image beneath.  This has a tighter shadow
+     *  than the post title to increase legibility on the smaller text.
+     */
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+        padding-top:     6pt;
+        padding-bottom:  6pt;
+        padding-left:   44px;
+        padding-right:  44px;
+    }
+
+    a.category-link {
+    /*  Just a lazy clone of the code for tag link for the time being.
+     *  We should probably try to improve this... somehow.  I'm drawing
+     *  a bit of a blank just now.
+     */
+        color: var(--Onyx);
+        /* You need to specify exactly no shadow to remove it. */
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        background: var(--Orange-Samson);
+        /* This border is a cheat to stop it moving on hover. */
+        border: 2px solid var(--Orange-Samson);
+        border-radius: 5px;
+        border-bottom: none;
+        padding-left:  3pt;
+        padding-right: 3pt;
+    }
+        a.category-link:hover {
+            background: var(--Misty-Rose);
+            border: 2px solid var(--Misty-Rose);
+        }
+
+    a.tag-link {
+    /*  This link style is for tags.  It adds a Cape Feather icon before
+     *  link text itself.  This link style needs to be explicitly used
+     *  by adding the code 'class="tag-link"' to the <a> tag.
+     */
+        color: var(--Onyx);
+        /* You need to explicitly specify no shadow to remove it. */
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        background: var(--Orange-Samson);
+        /* This border is a cheat to stop it squirming on hover. */
+        border: 2px solid var(--Orange-Samson);
+        border-radius: 5px;
+        border-bottom: none;
+        margin-left:   4pt;               /* Space them out a little. */
+        padding-left:  3pt;
+        padding-right: 3pt;
+
+    }
+
+    a.tag-link:hover {
+      /*  To increase legibility on hover against the dark background,
+       *  these hover with a Misty Rose background colour.  It inherits
+       *  the transition effect of the main links and has an interesting
+       *  slow border transition.
+       */
+            background: var(--Misty-Rose);
+            border: 2px solid var(--Misty-Rose);
+        }
+        a.tag-link::before {
+          /*  This is 'feather.png' image is encoded in base64 and
+           *  included inline in the CSS.  This reduces the number of
+           *  requests by one, and means it'll be cached when the CSS
+           *  file is cached.
+           */
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQBAMAAADkNkIoAAAAElBMVEUAAAD4+PgAAwD4eAD4wAD4+ADBvoCJAAAAAXRSTlMAQObYZgAAAFFJREFUCNc9zsERwCAIRFGHDlYswKAVSAVJB+m/mRjZgdObvxfKObFeqLGMHOqkqPoKXkmBvugR0dx7RNyo3BtyZ9z8I5mxTFRGefKVucGz1AfjmgfM5yT9RgAAAABJRU5ErkJggg==);
+        }
+
+    a.permalink-link {
+    /*  This class is badly/confusingly named, so we should probably
+     *  clear it up by giving it a better name.  It's used to style the
+     *  full permalink in the metadata section in monospaced, and preend
+     *  a key icon before the link itself.
+     */
+        font-family: 'IBM Plex Mono',
+                      monospace;
+        color: var(--Onyx);
+        /* You need to explicitly specify no shadow to remove it. */
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        background: var(--Orange-Samson);
+        /* This border is a cheat to stop it squirming on hover. */
+        border: 2px solid var(--Orange-Samson);
+        border-radius: 5px;
+        margin-right:  3pt;
+        padding-left:  3pt;
+        padding-right: 3pt;
+    }
+        a.permalink-link:hover {
+        /*  To increase legibility on hover against the dark background,
+         *  these hover with a Misty Rose background colour.  It
+         *  inherits the transition effect of the main links and has an
+         *  interesting slow border transition.
+         */
+            background: var(--Misty-Rose);
+            border: 2px solid var(--Misty-Rose);
+        }
+        a.permalink-link::before {
+        /*  This is 'key.png' encoded in base64 and included inline in
+         *  the CSS.  This reduces the number of requests by one, and
+         *  means it'll be cached when the CSS file is cached.
+         */
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQBAMAAAD+CqKmAAAAElBMVEUAAAAAAADYoDiIWBf42HH4+PiO5pG2AAAAAXRSTlMAQObYZgAAAF1JREFUCNdVz8ENwCAIBVDdQFIdQHCBygQ2TtDU/VcpB0H9J96BH3AOIDiNH70Z0osUDFgXIl0bsieQGMb4mqH0vlARs4GZ762AZkFJFPxsj/gIWIEywTxUlyXHCz8Z0ww5LEPIFQAAAABJRU5ErkJggg==);
+        }
+
+a.external-link::after {
+/*  This link class pops a little sign with an arrow pointing toward the
+ *  right immediately after a link that uses the "external-link" class.
+ *  It is, as the name suggests, intended to signify a link that takes
+ *  you away from iainplays.com.
+ *
+ *  The image is encoded in base64 and included inline in the CSS.  This
+ *  reduces the number of requests by one, and means it'll be cached
+ *  when the CSS file is cached.
+ */
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAYBAMAAAAfR1CMAAAAIVBMVEUAAADo8PgAAAD4LICAgMhoZ7BHSIgCyAAA+AABgAC4HFADhU5xAAAAAXRSTlMAQObYZgAAAKpJREFUGNNd0D0KwzAMBWCRqRlF3aVT8vqzB/cExblAwD1AT+Cta7ekJygZC516yjoStiFvkPh4AoNJUyEOgFLaKwC+5xYHZt6pgZZ5a5l7ddRiy+bWZLO1NjmWmpUv6irZJLOwK45ID4p/He8/xmUb59y3914dC78EgLj3A6AQAw2d5bTktPJx0F0+RNacXJkmzjoIgrqmN6ln7cOD5GgM6tco9WYi9fSkPy++Jrqs78dLAAAAAElFTkSuQmCC);
+    margin:  0;                           /* Tightens this up nicely. */
+    padding: 0;                           /* Tightens this up nicely. */
+}
+
+a.copyright-link::after {
+/*  This adds the longer Copyright statement as a default.  It will
+ *  display the full version *unless* the criteria of the @media query
+ *  immediately below is met, in which case it uses that text instead.
+ */
+    content: " © Iain B. Simpson, 2011–2021";
+    color: var(--Onyx);
+}
+    @media screen and (max-width: 768px) {
+    /*  This @media query shortens the Copyright text when displaying on
+     *  device with a width of less than 769px.  It works dynamically
+     *  and can be tested by shrinking the browser's window width.  It
+     *  inherits its colour information from the regular ::after code.
+     */
+        a.copyright-link::after {
+            content: " © 2021";
+        }
+    }
