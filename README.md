@@ -1,6 +1,6 @@
-# Ludology Theme
+# Console Theme
 
-Ludology is a website theme, built from scratch, for [Iain B.
+Console is a website theme, built from scratch, for [Iain B.
 Simpson](https://iainplays.com).
 
 It has three primary design goals:
