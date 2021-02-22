@@ -1,11 +1,11 @@
 ---
 title: "Copyright"
-lastmod: 2021-02-13
+lastmod: 2021-02-22
 slug: copyright
 draft: false
 ---
 
-All contents of `iainplays.com` are copyright © 2011–2021 Iain B.
+The contents of `iainplays.com` are copyright © 2011–2021 Iain B.
 Simpson.  All rights reserved.
 
 You can freely link to, reblog, or quote anything on this site.  Please
@@ -16,10 +16,9 @@ This site is not licensed under any form of Creative Commons license.
 
 ### Font Licensing
 
-The fonts used on this site are used fonts are used in accordance with
-their published licenses which cover _only the fonts themselves_.  Their
-licenses do not extend to include any of the contents of the website
-itself presented using those fonts.
+The fonts on this site are used in accordance with their licenses.
+Their licenses cover _only the fonts themselves_ and do not extend to
+the contents of the website or materials on it.
 
 Information on the fonts used on this website, and their licenses, can
-be found on the [font licensing page](/licensing/).
+be found on the [font licensing page](/font-licenses).
