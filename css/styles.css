@@ -256,8 +256,8 @@ body {
     max-width:    64ch;
     font-size:    16pt;
     font-weight:  400;
-    font-family: 'IBM Plex Serif',
-                  serif;
+    font-family: 'IBM Plex Sans',
+                  sans-serif;
     line-height:  24pt;
 }
 
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
  *  previous one (h1 = 28pt, h2 = 24pt, and so on).
  *
  *  h5 is 14pt -- only 2pt smaller than h4 and the same size as body
- *  text.  The use of bold IBM Plex Sans differentiates it from body.
+ *  text.
  *
  *  The line-height is the point-size +6pt (h1: 28 + 6 = 34pt).  This is
  *  also true for h5.
@@ -782,8 +782,7 @@ a.home-link::before{
     .post-metadata {
     /*  This code styles the post's metadata that sits on top of the
      *  header image.  To visually reinforce that this information is
-     *  secondary to the body text, it's smaller.  To differentiate
-     *  further, it's in Plex Sans.
+     *  secondary to the body text, it's smaller.
      */
         font-family: 'IBM Plex Sans',
                       sans-serif;
