@@ -693,6 +693,33 @@
 
 
 /*
+ *  ╔═╗╔═╗╦═╗╔╦╗╔═╗╔╗╔╔═╗╔╗╔╔╦╗  ╔╦╗╔═╗╦═╗╦╔═╔═╗╦═╗
+ *  ╠═╝║╣ ╠╦╝║║║╠═╣║║║║╣ ║║║ ║   ║║║╠═╣╠╦╝╠╩╗║╣ ╠╦╝
+ *  ╩  ╚═╝╩╚═╩ ╩╩ ╩╝╚╝╚═╝╝╚╝ ╩   ╩ ╩╩ ╩╩╚═╩ ╩╚═╝╩╚═
+ *  Permanent Marker is the handwritten font used for some titles.
+ *
+ *  Permanent Marker is licensed under the Apache License, Version 2.0:
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  This license does not extend to any other part of this website.
+ */
+
+@font-face {
+/*  Latin subset of Permanent Marker. */
+    font-family: 'Permanent Marker';
+    font-style:   normal;
+    font-weight:  400;
+    font-display: swap;
+    src: local('Permanent Marker Regular'),
+         local('PermanentMarker-Regular'),
+         url(../fonts/permanent-marker/400.woff2) format('woff2'),
+         url(../fonts/permanent-marker/400.woff)  format('woff'),
+         url(../fonts/permanent-marker/400.ttf)   format('truetype'),
+         url(../fonts/permanent-marker/400.eot)   format('embedded-opentype');
+}
+
+
+/*
  *  ╦  ╦╔═╗╔╦╗╔═╗╦╦═╗╔═╗
  *  ╚╗╔╝╠═╣║║║╠═╝║╠╦╝║ ║
  *   ╚╝ ╩ ╩╩ ╩╩  ╩╩╚═╚═╝
