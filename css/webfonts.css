@@ -712,10 +712,10 @@
     font-style:   normal;
     font-display: swap;
     src: local('Vampiro One'),
-         url('../fonts/vampiro-one/regular.woff2') format('woff2'),
-         url('../fonts/vampiro-one/regular.woff')  format('woff'),
-         url('../fonts/vampiro-one/regular.ttf')   format('truetype'),
-         url('../fonts/vampiro-one/regular.eot')   format('embedded-opentype');
+         url('../fonts/vampiro-one/400.woff2') format('woff2'),
+         url('../fonts/vampiro-one/400.woff')  format('woff'),
+         url('../fonts/vampiro-one/400.ttf')   format('truetype'),
+         url('../fonts/vampiro-one/400.eot')   format('embedded-opentype');
          }
 
 
