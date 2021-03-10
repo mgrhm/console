@@ -19,34 +19,35 @@
  *  ╚██████╗╚██████╔╝███████╗╚██████╔╝╚██████╔╝██║  ██║███████║
  *   ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
  *
- *  Setting colour scheme variables for use in the CSS file.  Easier to
- *  call these by name using 'var(--Orange-Samson)' than to remember all
- *  the colour hex codes and try to decipher them while working on the
- *  CSS file itself.  It also means we can update entire colours with
- *  a few changes here.
+/*  Setting colour scheme variables for use in the CSS file.  I've given
+ *  these purely descriptive names, and left the previous 'fancy' names
+ *  as comments.  It means we can update entire colours with a few
+ *  changes here.
  *
- *  For simplicity, I've also added descriptive alternate names for each
- *  colour option.  We should probably stick to using the full colour
- *  name rather than the descriptive one, but it's an option.
+ *  I've included the dark-mode alternatives where they differ, which
+ *  has drastically reduced the number of lines of CSS.  Prior to this,
+ *  they were declared on a case-by-case basis as I didn't realise you
+ *  could do it in one central place like this.
  */
 
 :root {
-    --Orange-Samson:   #ff7b00;     /* Signature colour: links. */
-        --links:       #ff7b00;
-    --Onyx:            #313533;     /* Sunlit text; Knightshade BG. */
-        --light-text:  #313533;
-        --dark-bg:     #313533;
-    --Isabelline:      #fef9f5;     /* Background in Sunlit Shallot. */
-        --light-bg:    #fef9f5;
-    --Misty-Rose:      #f9e0d9;     /* Text in Knightshade; some BGs. */
-        --dark-text:   #f9e0d9;
-    --Minion-Yellow:   #ffe74c;     /* :active state for links. */
-        --link-active: #ffe74c;
-    --Heliotrope-Gray: #9a8f97;     /* Backgrounds and borders. */
-        --border:      #9a8f97;
-        --grey-bg:     #9a8f97;
-    --Melon:           #ffa69e;     /* Text highlight colour. */
-        --highlight:   #ffa69e;
+    --link:         #ff7b00;            /* Orange B. Simpson */
+    --orange:       #ff7b00;            /* Orange B. Simpson */
+    --link-active:  #ffe74c;            /* Minion Yellow */
+    --body-text:    #313533;            /* Onyx */
+    --body-bg:      #fef9f5;            /* Isabelline */
+    --warm-bg:      #f9e0d9;            /* Misty Rose */
+    --link-active:  #ffe74c;            /* Minion Yellow */
+    --border:       #9a8f97;            /* Heliotrope Grey */
+    --grey-bg:      #9a8f97;            /* Heliotrope Grey */
+    --highlight:    #ffa69e;            /* Melon */
+}
+@media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+    :root {
+        --body-bg:      #313533;        /* Onyx */
+        --body-text:    #f9e0d9;        /* Misty Rose */
+        --links:        #7b00ff;
+ }
 }
 
 /*  ██╗      █████╗ ██╗   ██╗ ██████╗ ██╗   ██╗████████╗
@@ -58,16 +59,10 @@
  */
 
 html {
-    color: var(--Onyx);
-    background: var(--Isabelline);
+    color: var(--body-text);
+    background: var(--body-bg);
     margin: 0;
 }
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
-        html {
-            background: var(--Onyx);
-            color: var(--Misty-Rose);
-            }
-        }
 
 header {
     text-align: center;
@@ -89,16 +84,11 @@ header {
 }
 
     .emoji-header a {
-        color: var(--Onyx);   /* Changes font = and + to text colour. */
+        color: var(--body-text);   /* Changes font = and + to text colour. */
         border-bottom: 0;        /* Removes bottom border from emoji. */
         padding-left:  8pt;
         padding-right: 8pt;
     }
-        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
-            .emoji-header a {
-                color: var(--Misty-Rose);
-            }
-        }
 
     .emoji-header img {
         margin-left:  -2px;             /* Tightens up emoji spacing. */
@@ -118,12 +108,12 @@ nav {
     align-items: center;                       /* Vertical alignment. */
     justify-content: center;                 /* Horizontal alignment. */
     flex-wrap: wrap;
-    background: var(--Misty-Rose);
+    background: var(--warm-bg);
     width: 100% !important;
     margin-left: -10% !important;       /* Extends divider past text. */
     /* margin-right: ?; Extends divider past text. */
-    border-top:     2px solid var(--Heliotrope-Gray);
-    border-bottom:  2px solid var(--Heliotrope-Gray);
+    border-top:     2px solid var(--border);
+    border-bottom:  2px solid var(--border);
 }
     nav a {
         border-bottom: 0;                /* Get rid of the underline. */
@@ -148,9 +138,9 @@ nav {
         font-weight: 500;
         font-family: 'IBM Plex Mono',
                       serif;
-        color: var(--Onyx);
-        background-color: var(--Misty-Rose);
-        border: 2px solid var(--Onyx);
+        color: var(--body-text);
+        background-color: var(--warm-bg);
+        border: 2px solid var(--body-text);
         border-radius: 5px;
         padding-left:  5px;        /* So query text doesn't hit edge. */
         padding-right: 5px;        /* So query text doesn't hit edge. */
@@ -160,9 +150,9 @@ nav {
     }
         @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
             .onion-search input {
-                color: var(--Misty-Rose);
-                background: var(--Onyx);
-                border: 2px solid var(--Misty-Rose);
+                color: var(--warm-bg);
+                background: var(--body-text);
+                border: 2px solid var(--warm-bg);
             }
    }
 
@@ -170,13 +160,13 @@ footer {
     font-family: 'IBM Plex Sans',
                   sans-serif;
     text-align: center;
-    background: var(--Misty-Rose);
+    background: var(--warm-bg);
     margin-left:   -24pt;               /* Extends divider past text. */
     margin-right:  -24pt;               /* Extends divider past text. */
     margin-top:     24pt;
     padding-bottom: 24pt;
     padding-top:    12pt;
-    border-top: 2px solid var(--Heliotrope-Gray);
+    border-top: 2px solid var(--border);
 }
     footer a {
         border-bottom: 0;
@@ -189,17 +179,16 @@ footer {
  *  rather than actual blockquotes.
  */
     font-style: italic;
-    background: var(--Misty-Rose);
-    border-left: 10pt solid var(--Heliotrope-Gray);
+    background: var(--warm-bg);
+    border-left: 10pt solid var(--border);
     border-radius:  5px;
     margin-bottom: 28pt;        /* Keep a nice gap after the infobox. */
     padding:       12pt;           /* 12pt padding on all four sides. */
 }
     @media (prefers-color-scheme: dark) {       /* Code for Dark Mode */
         .infobox {
-            color: var(--Isabelline);
             background: rgba(154, 143, 151, 0.4);
-            border-left: 10pt solid var(--Orange-Samson);
+            border-left: 10pt solid var(--links);
         }
     }
 
@@ -244,7 +233,7 @@ footer {
     }
 
 video {
-    border: 20px ridge var(--Orange-Samson);
+    border: 20px ridge var(--links);
     border-radius: 20px;
 }
 
@@ -330,7 +319,7 @@ blockquote {
     font-style:   italic;
     padding-left: 24pt;
     margin-right: 48pt;
-    border-left:  10pt solid var(--Heliotrope-Gray);
+    border-left:  10pt solid var(--border);
     border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the blockquote is the border colour
@@ -350,11 +339,6 @@ blockquote {
     padding-top:    2pt;
     padding-bottom: 2pt;
 }
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
-        blockquote {
-            color:  var(--Isabelline);
-        }
-    }
 
     blockquote em {
     /*  This makes an <em> inside a blockquote into roman. */
@@ -420,11 +404,6 @@ code {
     padding-right: 4pt;            /* Adds a little 'breathing room'. */
     padding-left:  4pt;            /* Adds a little 'breathing room'. */
 }
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
-        code {
-            color: var(--Isabelline);
-            }
-        }
 
 pre {
 /*  This is a tighter version of the styling used for blockquotes.  I
@@ -447,7 +426,7 @@ pre {
  *  This is inherited by all the <pre> substyles below.
  */
     white-space: pre-wrap;
-    border-left: 10pt solid var(--Heliotrope-Gray);
+    border-left: 10pt solid var(--border);
     border-radius: 5px;
     background: rgba(154, 143, 151, 0.4);
 /*  This background colour for the blockquote is the border colour
@@ -601,7 +580,7 @@ abbr {
  *  dotted underline in Heliotrope grey to the abbreviation.
  */
     text-decoration: none;
-    border-bottom:   1px dotted var(--Heliotrope-Gray);
+    border-bottom:   1px dotted var(--border);
 }
 
 /*  Change text-selection colour to "Melon" from Sunlit Shallot and
@@ -613,23 +592,23 @@ abbr {
  *  Source: https://www.w3schools.com/cssref/sel_selection.asp
  */
 ::selection {
-    background: var(--Melon);
+    background: var(--highlight);
 }
 
 a {
-    color: var(--Orange-Samson);                    /* Orange Samson! */
+    color: var(--links);                    /* Orange Samson! */
     font-family: 'IBM Plex Sans',
                   sans-serif;
     font-weight:   500;
     text-decoration: none;             /* This removes underlining... */
-    border-bottom: 2px solid var(--Orange-Samson); /* This is better. */
+    border-bottom: 2px solid var(--links); /* This is better. */
     padding-left:  2pt;         /* Just a tiny bit of breathing room. */
     padding-right: 2pt;         /* Just a tiny bit of breathing room. */
 }
 
 a:hover {
-    color: var(--Onyx);
-    background: var(--Orange-Samson);     /* ...Orange Samson ground. */
+    color: var(--body-text);
+    background: var(--links);     /* ...Orange Samson ground. */
     border-radius: 5px;
     transition-duration: 0.5s;
     transition-property: background-color;
@@ -643,7 +622,7 @@ a:active {
  *  here; it has good contrast with Orange Samson while still blending
  *  in with the theme.
  */
-    background: var(--Minion-Yellow);
+    background: var(--link-active);
 /*  The !important flag is needed to override the transition; without
  *  it, it uses the same transition as the main hover. */
     transition: none !important;
@@ -653,7 +632,7 @@ a.site_title_text {
     font-family: 'Pacifico',
                   cursive;              /* There's a generic cursive! */
     font-size: 69pt;
-    color: var(--Onyx);
+    color: var(--body-text);
     border-bottom: none;                 /* Get rid of the underline. */
     transition-duration: 0.5s;
     transition-property: color;
@@ -663,28 +642,22 @@ a.site_title_text {
         a.site_title_text {
             font-family: 'Vampiro One',
                           cursive;
-            color: var(--Misty-Rose);
             }
         }
 
 a.site_title_text:hover {
-    color: var(--Orange-Samson);    /* Change hover to Orange Samson. */
+    color: var(--links);    /* Change hover to Orange Samson. */
     background: none;       /* And remove background colour on hover. */
 }
 
 a.site_title_emoji {
     font-size: 24pt;
-    color: var(--Onyx);
+    color: var(--body-text);
     border-bottom: none;                 /* Get rid of the underline. */
 }
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
-        a.site_title_emoji {
-            color: var(--Misty-Rose);
-            }
-        }
 
 a.site_title_emoji:hover {
-    color: var(--Orange-Samson);    /* Change hover to Orange Samson. */
+    color: var(--links);    /* Change hover to Orange Samson. */
     background: none;       /* And remove background colour on hover. */
 }
 
@@ -818,20 +791,20 @@ a.home-link::before{
      *  We should probably try to improve this... somehow.  I'm drawing
      *  a bit of a blank just now.
      */
-        color: var(--Onyx);
+        color: var(--body-text);
         /* You need to specify exactly no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-        background: var(--Orange-Samson);
+        background: var(--links);
         /* This border is a cheat to stop it moving on hover. */
-        border: 2px solid var(--Orange-Samson);
+        border: 2px solid var(--links);
         border-radius: 5px;
         border-bottom: none;
         padding-left:  3pt;
         padding-right: 3pt;
     }
         a.category-link:hover {
-            background: var(--Misty-Rose);
-            border: 2px solid var(--Misty-Rose);
+            background: var(--warm-bg);
+            border: 2px solid var(--warm-bg);
         }
 
     a.tag-link {
@@ -839,12 +812,12 @@ a.home-link::before{
      *  link text itself.  This link style needs to be explicitly used
      *  by adding the code 'class="tag-link"' to the <a> tag.
      */
-        color: var(--Onyx);
+        color: var(--body-text);
         /* You need to explicitly specify no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-        background: var(--Orange-Samson);
+        background: var(--links);
         /* This border is a cheat to stop it squirming on hover. */
-        border: 2px solid var(--Orange-Samson);
+        border: 2px solid var(--links);
         border-radius: 5px;
         border-bottom: none;
         margin-left:   4pt;               /* Space them out a little. */
@@ -859,8 +832,8 @@ a.home-link::before{
        *  the transition effect of the main links and has an interesting
        *  slow border transition.
        */
-            background: var(--Misty-Rose);
-            border: 2px solid var(--Misty-Rose);
+            background: var(--warm-bg);
+            border: 2px solid var(--warm-bg);
         }
         a.tag-link::before {
           /*  This is 'feather.png' image is encoded in base64 and
@@ -879,12 +852,12 @@ a.home-link::before{
      */
         font-family: 'IBM Plex Mono',
                       monospace;
-        color: var(--Onyx);
+        color: var(--body-text);
         /* You need to explicitly specify no shadow to remove it. */
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-        background: var(--Orange-Samson);
+        background: var(--links);
         /* This border is a cheat to stop it squirming on hover. */
-        border: 2px solid var(--Orange-Samson);
+        border: 2px solid var(--links);
         border-radius: 5px;
         margin-right:  3pt;
         padding-left:  3pt;
@@ -896,8 +869,8 @@ a.home-link::before{
          *  inherits the transition effect of the main links and has an
          *  interesting slow border transition.
          */
-            background: var(--Misty-Rose);
-            border: 2px solid var(--Misty-Rose);
+            background: var(--warm-bg);
+            border: 2px solid var(--warm-bg);
         }
         a.permalink-link::before {
         /*  This is 'key.png' encoded in base64 and included inline in
@@ -926,7 +899,7 @@ a.copyright-link::after {
  *  immediately below is met, in which case it uses that text instead.
  */
     content: " © Iain B. Simpson, 2011–2021";
-    color: var(--Onyx);
+    color: var(--body-text);
 }
     @media screen and (max-width: 768px) {
     /*  This @media query shortens the Copyright text when displaying on
