@@ -27,16 +27,6 @@ may use cookies or other means of verifying your purchase.  This is
 covered by [Amazon's privacy
 policy](https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ).
 
-### Comments
-
-The comment system used on this site is
-[Staticman](https://staticman.net).  Any comments that you leave are
-passed through this software to Github as a commit, which is then
-published on this website.  The Github repo used is not publicly
-viewable, but the comment you leave will be.  I don't ask for email
-addresses, and you don't have to use your real name when leaving a
-comment.
-
 ### Search
 
 The search function on this site is provided by [Duck Duck
