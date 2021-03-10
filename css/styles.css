@@ -723,16 +723,18 @@ a.onion-dollars::after {
     }
 
 a.home-link::before{
+
 /*  This is a one-off style for the 'Home' link at the bottom of the
  *  page.  It adds a custom orange warp-pipe before the text.  As with
  *  the Onion dollar, spacing is handled by transparent pixels in the
  *  image itself.  The customer hover state is handled by the subsequent
  *  CSS.  It's invoked using the "home-link" class.
  *
- *  The image is encoded in base64 and included inline in the CSS.  This
- *  reduces the number of requests by one, and means it'll be cached
- *  when the CSS file is cached.
+ *  The image itself is base64-encoded in the below 'content:'
+ *  declaration.  I can't neatly wrap this based64-encoded image because
+ *  it doesn't work when wrapped.
  */
+
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVBAMAAABS0hjfAAAAElBMVEUAAAAPDw/3uQD3dQD3RQAAAABfNzNeAAAAAXRSTlMAQObYZgAAAFlJREFUCNedzrENgDAMRNFkAy5kAUxYALOAUSZA8v6r4AtNan715MK6NIdoIbJEG1EOdxeETo8eo3hrQxL1oV31phIo45sVqlaHBKj9k17tp0AZlUsI0+apF+ZCFGfRjfViAAAAAElFTkSuQmCC);
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
@@ -742,15 +744,16 @@ a.home-link::before{
      *  entrance to the pipe.  It replaces the pipe with an identically
      *  sized animated PNG (APNG) file that appears to shimmer.  It's a
      *  subtle effect and not very noticeable unless you're zoomed in on
-     *  the icon; it's a little more noticeable in dark mode.  This
-     *  *does not* work in any version of Internet Explorer or the
+     *  the icon; it's a little more noticeable in dark mode.
+     *
+     *  The image itself is base64-encoded in the below 'content:'
+     *  declaration.  I can't neatly wrap this based64-encoded image
+     *  because it doesn't work when wrapped.
+     *
+     *  This *does not* work in any version of Internet Explorer or the
      *  pre-Chromium versions of Microsoft Edge.  It falls back
      *  gracefully to the original PNG image in those, so there's no
      *  ugly failure state with this.  Win-win!
-     *
-     *  The image is encoded in base64 and included inline in the CSS.
-     *  This reduces the number of requests by one, and means it'll be
-     *  cached when the CSS file is cached.
      */
         content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVBAMAAABS0hjfAAAACGFjVEwAAAAGAAAAAAYNNbAAAAAeUExURQAAAA0NDfOsCfJfCPItB///3P//p///f///Zv//AGcYKnsAAAABdFJOUwBA5thmAAAAGmZjVEwAAAAAAAAAEQAAABUAAAAAAAAAAAAUAGQAAG1qDy4AAABXSURBVAjXncixFYAgDEVR2MCPTBBpbI0L4GFCu2xrfii09lX3vPQtA5goIoLAbmZkPsy7O8XXQuKN0KZ6UQlUX1wrVHsNCVDHlJ7tp0B1KhcXEoPn6+0Bm6gXF3MzfdUAAAAaZmNUTAAAAAEAAAAJAAAAAwAAAAQAAAADABQAZAABfFTRQQAAABhmZEFUAAAAAgjXY2AvLy9nYCgHggIIGwAugAUlj3+1JAAAABpmY1RMAAAAAwAAAAkAAAADAAAABAAAAAMAFABkAAGRwgKoAAAAGGZkQVQAAAAECNdjYEtLS2NgSAOCBAgbACfeBGnrs3TJAAAAGmZjVEwAAAAFAAAACQAAAAMAAAAEAAAAAwAUAGQCAU4+ElAAAAAYZmRBVAAAAAYI12NgDQ0NZWAIBYIACBsAITwDrYBeipEAAAAaZmNUTAAAAAcAAAABAAAAAQAAAAAAAAAAABQAZAAAxo9WpgAAAA5mZEFUAAAACAjXY2AAAAACAAFyka9nAAAAGmZjVEwAAAAJAAAACQAAAAMAAAAEAAAAAwAUAGQAAXztkmcAAAAYZmRBVAAAAAoI12Pg6OjoYGDoAIIGCBsANSIF4VygwlwAAAAASUVORK5CYII=);
     }
@@ -862,8 +865,7 @@ a.home-link::before{
         a.tag-link::before {
           /*  This is 'feather.png' image is encoded in base64 and
            *  included inline in the CSS.  This reduces the number of
-           *  requests by one, and means it'll be cached when the CSS
-           *  file is cached.
+           *  requests by one.
            */
             content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQBAMAAADkNkIoAAAAElBMVEUAAAD4+PgAAwD4eAD4wAD4+ADBvoCJAAAAAXRSTlMAQObYZgAAAFFJREFUCNc9zsERwCAIRFGHDlYswKAVSAVJB+m/mRjZgdObvxfKObFeqLGMHOqkqPoKXkmBvugR0dx7RNyo3BtyZ9z8I5mxTFRGefKVucGz1AfjmgfM5yT9RgAAAABJRU5ErkJggg==);
         }
@@ -871,8 +873,9 @@ a.home-link::before{
     a.permalink-link {
     /*  This class is badly/confusingly named, so we should probably
      *  clear it up by giving it a better name.  It's used to style the
-     *  full permalink in the metadata section in monospaced, and preend
-     *  a key icon before the link itself.
+     *  full permalink in the metadata section of the post.  It presents
+     *  the link monospaced text, and adds a key icon before the link
+     *  itself.
      */
         font-family: 'IBM Plex Mono',
                       monospace;
@@ -898,8 +901,7 @@ a.home-link::before{
         }
         a.permalink-link::before {
         /*  This is 'key.png' encoded in base64 and included inline in
-         *  the CSS.  This reduces the number of requests by one, and
-         *  means it'll be cached when the CSS file is cached.
+         *  the CSS.  This reduces the number of requests by one.
          */
             content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQBAMAAAD+CqKmAAAAElBMVEUAAAAAAADYoDiIWBf42HH4+PiO5pG2AAAAAXRSTlMAQObYZgAAAF1JREFUCNdVz8ENwCAIBVDdQFIdQHCBygQ2TtDU/VcpB0H9J96BH3AOIDiNH70Z0osUDFgXIl0bsieQGMb4mqH0vlARs4GZ762AZkFJFPxsj/gIWIEywTxUlyXHCz8Z0ww5LEPIFQAAAABJRU5ErkJggg==);
         }
@@ -911,8 +913,7 @@ a.external-link::after {
  *  you away from iainplays.com.
  *
  *  The image is encoded in base64 and included inline in the CSS.  This
- *  reduces the number of requests by one, and means it'll be cached
- *  when the CSS file is cached.
+ *  reduces the number of requests by one.
  */
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAYBAMAAAAfR1CMAAAAIVBMVEUAAADo8PgAAAD4LICAgMhoZ7BHSIgCyAAA+AABgAC4HFADhU5xAAAAAXRSTlMAQObYZgAAAKpJREFUGNNd0D0KwzAMBWCRqRlF3aVT8vqzB/cExblAwD1AT+Cta7ekJygZC516yjoStiFvkPh4AoNJUyEOgFLaKwC+5xYHZt6pgZZ5a5l7ddRiy+bWZLO1NjmWmpUv6irZJLOwK45ID4p/He8/xmUb59y3914dC78EgLj3A6AQAw2d5bTktPJx0F0+RNacXJkmzjoIgrqmN6ln7cOD5GgM6tco9WYi9fSkPy++Jrqs78dLAAAAAElFTkSuQmCC);
     margin:  0;                           /* Tightens this up nicely. */
