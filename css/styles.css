@@ -21,8 +21,8 @@
  *
 /*  Setting colour scheme variables for use in the CSS file.  I've given
  *  these purely descriptive names, and left the previous 'fancy' names
- *  as comments.  It means we can update entire colours with a few
- *  changes here.
+ *  as comments.  It means we can update the entire theme's colours with
+ *  a few changes here.
  *
  *  I've included the dark-mode alternatives where they differ, which
  *  has drastically reduced the number of lines of CSS.  Prior to this,
@@ -30,25 +30,30 @@
  *  could do it in one central place like this.
  */
 
-:root {
+:root {                                 /* PREVIOUS FANCY NAME: */
     --links:        #ff7b00;            /* Orange B. Simpson */
     --orange:       #ff7b00;            /* Orange B. Simpson */
     --link-active:  #ffe74c;            /* Minion Yellow */
     --body-text:    #313533;            /* Onyx */
     --body-bg:      #fef9f5;            /* Isabelline */
     --warm-bg:      #f9e0d9;            /* Misty Rose */
-    --link-active:  #ffe74c;            /* Minion Yellow */
     --border:       #9a8f97;            /* Heliotrope Grey */
     --grey-bg:      #9a8f97;            /* Heliotrope Grey */
     --highlight:    #ffa69e;            /* Melon */
 }
-@media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
-    :root {
+/*  The following code globally sets dark-mode colours using the same
+ *  variable names.  This method means that any element that uses one,
+ *  say, '--body-bg' will switch between light and dark mode as required
+ *  without having to specify it case-by-case.
+ */
+@media (prefers-color-scheme: dark) {
+    :root {                             /* PREVIOUS FANCY NAME: */
         --body-bg:      #313533;        /* Onyx */
         --body-text:    #f9e0d9;        /* Misty Rose */
         --links:        #7b00ff;
  }
 }
+
 
 /*  ██╗      █████╗ ██╗   ██╗ ██████╗ ██╗   ██╗████████╗
  *  ██║     ██╔══██╗╚██╗ ██╔╝██╔═══██╗██║   ██║╚══██╔══╝
@@ -627,6 +632,11 @@ a:active {
  *  it, it uses the same transition as the main hover. */
     transition: none !important;
 }
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        a:active {
+            color: var(--body-bg);    /* Needed to make text legible. */
+            }
+        }
 
 a.site_title_text {
     font-family: 'Pacifico',
@@ -905,9 +915,11 @@ a.copyright-link::after {
     /*  This @media query shortens the Copyright text when displaying on
      *  device with a width of less than 769px.  It works dynamically
      *  and can be tested by shrinking the browser's window width.  It
-     *  inherits its colour information from the regular ::after code.
+     *  doesn't appear to its colour information from the full width
+     *  ::after code, so I've had to explicitly specify the colour.
      */
         a.copyright-link::after {
             content: " © 2021";
+            color: var(--body-text);
         }
     }
