@@ -162,12 +162,8 @@ nav {
    }
 
 footer {
-    font-family: 'IBM Plex Sans',
-                  sans-serif;
     text-align: center;
-    background: var(--warm-bg);
-    margin-left:   -24pt;               /* Extends divider past text. */
-    margin-right:  -24pt;               /* Extends divider past text. */
+/*  background: var(--warm-bg); */
     margin-top:     24pt;
     padding-bottom: 24pt;
     padding-top:    12pt;
@@ -923,24 +919,3 @@ a.external-link::after {
     margin:  0;                           /* Tightens this up nicely. */
     padding: 0;                           /* Tightens this up nicely. */
 }
-
-a.copyright-link::after {
-/*  This adds the longer Copyright statement as a default.  It will
- *  display the full version *unless* the criteria of the @media query
- *  immediately below is met, in which case it uses that text instead.
- */
-    content: " © Iain B. Simpson, 2011–2021";
-    color: var(--body-text);
-}
-    @media screen and (max-width: 768px) {
-    /*  This @media query shortens the Copyright text when displaying on
-     *  device with a width of less than 769px.  It works dynamically
-     *  and can be tested by shrinking the browser's window width.  It
-     *  doesn't appear to its colour information from the full width
-     *  ::after code, so I've had to explicitly specify the colour.
-     */
-        a.copyright-link::after {
-            content: " © 2021";
-            color: var(--body-text);
-        }
-    }
