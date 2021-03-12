@@ -835,6 +835,13 @@ a.home-link::before{
         padding-right: 3pt;
 
     }
+        a.tag-link::before {
+          /*  This is 'feather.png' image is encoded in base64 and
+           *  included inline in the CSS.  This reduces the number of
+           *  requests by one.
+           */
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQBAMAAADkNkIoAAAAElBMVEUAAAD4+PgAAwD4eAD4wAD4+ADBvoCJAAAAAXRSTlMAQObYZgAAAFFJREFUCNc9zsERwCAIRFGHDlYswKAVSAVJB+m/mRjZgdObvxfKObFeqLGMHOqkqPoKXkmBvugR0dx7RNyo3BtyZ9z8I5mxTFRGefKVucGz1AfjmgfM5yT9RgAAAABJRU5ErkJggg==);
+        }
 
     a.tag-link:hover {
       /*  To increase legibility on hover against the dark background,
@@ -845,12 +852,10 @@ a.home-link::before{
             background: var(--warm-bg);
             border: 2px solid var(--warm-bg);
         }
-        a.tag-link::before {
-          /*  This is 'feather.png' image is encoded in base64 and
-           *  included inline in the CSS.  This reduces the number of
-           *  requests by one.
-           */
-            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQBAMAAADkNkIoAAAAElBMVEUAAAD4+PgAAwD4eAD4wAD4+ADBvoCJAAAAAXRSTlMAQObYZgAAAFFJREFUCNc9zsERwCAIRFGHDlYswKAVSAVJB+m/mRjZgdObvxfKObFeqLGMHOqkqPoKXkmBvugR0dx7RNyo3BtyZ9z8I5mxTFRGefKVucGz1AfjmgfM5yT9RgAAAABJRU5ErkJggg==);
+        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+            a.tag-link:hover {
+                color: var(--body-bg);
+            }
         }
 
     a.permalink-link {
@@ -873,6 +878,13 @@ a.home-link::before{
         padding-left:  3pt;
         padding-right: 3pt;
     }
+        a.permalink-link::before {
+        /*  This is 'key.png' encoded in base64 and included inline in
+         *  the CSS.  This reduces the number of requests by one.
+         */
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQBAMAAAD+CqKmAAAAElBMVEUAAAAAAADYoDiIWBf42HH4+PiO5pG2AAAAAXRSTlMAQObYZgAAAF1JREFUCNdVz8ENwCAIBVDdQFIdQHCBygQ2TtDU/VcpB0H9J96BH3AOIDiNH70Z0osUDFgXIl0bsieQGMb4mqH0vlARs4GZ762AZkFJFPxsj/gIWIEywTxUlyXHCz8Z0ww5LEPIFQAAAABJRU5ErkJggg==);
+        }
+
         a.permalink-link:hover {
         /*  To increase legibility on hover against the dark background,
          *  these hover with a Misty Rose background colour.  It
@@ -882,11 +894,10 @@ a.home-link::before{
             background: var(--warm-bg);
             border: 2px solid var(--warm-bg);
         }
-        a.permalink-link::before {
-        /*  This is 'key.png' encoded in base64 and included inline in
-         *  the CSS.  This reduces the number of requests by one.
-         */
-            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQBAMAAAD+CqKmAAAAElBMVEUAAAAAAADYoDiIWBf42HH4+PiO5pG2AAAAAXRSTlMAQObYZgAAAF1JREFUCNdVz8ENwCAIBVDdQFIdQHCBygQ2TtDU/VcpB0H9J96BH3AOIDiNH70Z0osUDFgXIl0bsieQGMb4mqH0vlARs4GZ762AZkFJFPxsj/gIWIEywTxUlyXHCz8Z0ww5LEPIFQAAAABJRU5ErkJggg==);
+        @media (prefers-color-scheme: dark) {   /* Code for Dark Mode */
+            a.permalink-link:hover {
+                color: var(--body-bg);
+            }
         }
 
 a.external-link::after {
