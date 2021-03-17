@@ -134,34 +134,6 @@ nav {
                       sans-serif;
     }
 
-
-.onion-search {
-    display: flex;
-    margin-top: 18px;
-}
-    .onion-search input {
-        font-size: 12pt;
-        font-weight: 500;
-        font-family: 'IBM Plex Mono',
-                      serif;
-        color: var(--body-text);
-        background-color: var(--warm-bg);
-        border: 2px solid var(--body-text);
-        border-radius: 5px;
-        padding-left:  5px;        /* So query text doesn't hit edge. */
-        padding-right: 5px;        /* So query text doesn't hit edge. */
-        display: block;                     /* Do we need this again? */
-        margin-left:  auto;                 /* Do we need this again? */
-        margin-right: auto;                 /* Do we need this again? */
-    }
-        @media (prefers-color-scheme: dark) {
-            .onion-search input {
-                color: var(--warm-bg);
-                background: var(--body-text);
-                border: 2px solid var(--warm-bg);
-            }
-   }
-
 footer {
     text-align: center;
 /*  background: var(--warm-bg); */
